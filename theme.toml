@@ -1,0 +1,17 @@
+name = "Mehraner Hugo"
+license = "MIT"
+licenselink = "https://github.com/mehranalam/ Medical-Engineering-Association/blob/master/LICENSE"
+description = "Medical-organ is an educational website template powered by Hugo. It can be used as an online teaching platform, school and university website."
+homepage = ""
+demosite = ""
+tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'education', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher", "gethugothemes"]
+features = ["blog", "company", "responsive", "seo-friendly"]
+min_version = "0.115.1"
+
+[author]
+  name = "Mehran Alam Beigi"
+  homepage = "https://github.com/mehranalam"
+
+[original]
+  name = "Educenter"
+  homepage = ""

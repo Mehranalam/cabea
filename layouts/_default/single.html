@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<!-- blog details -->
+<section class="section-sm">
+  <div class="container" align="right">
+    <div class="row" dir="rtl">
+      <div dir="rtl" class="col-lg-8 order-2 order-lg-1">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
+          </div>
+          <div class="col-12" align="right">
+            <ul class="list-inline" align="right">
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}
+                  :</span><a
+                  href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}
+                  :</span>{{ .Params.Dates }}</li>
+
+              <li style="margin: 10px;" class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "category" }}
+                  :</span>{{ range $index, $elements:= .Params.Categories }}<a
+                  href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
+                  {{ . | title }}</a> {{ end}}</li>
+            </ul>
+          </div>
+          <!-- border -->
+          <div class="col-12 my-4">
+            <div class="border-bottom"></div>
+          </div>
+          <!-- blog contect -->
+          <div class="col-12 mb-5" dir="rtl" align="right">
+            {{ .Content }}
+            <br>
+            <br>
+            <p style="font-weight: bold; border-right: 2px solid hsl(231, 33%, 25%); padding: 8px;" class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2"> در این صفحه <span style="color: black;">مشکلی</span> میبینید
+              : </span>تغییرات خود را در <span><a style="text-decoration-line: underline; color: red;" href="{{ .Params.edit }}">مخزن اصلی</a></span> اعمال کنید.</p>
+          
+            <br>
+            <br>
+              <p>این محتوا توسط جامعه نوشته شده و به تایید سردبیری رسیده که به صورت متن باز نگهداری میشود اگر دارای ایراد فنی - محتوایی است میتوانید این صفحه را درست کنید و به عنوان مشارکت کننده تغییرات خود را به شکل یک <a style="text-decoration-line: underline; color: red;" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">پول ریکوئست</a> برای ما بفرستید. همچنین برای مشارکت بهتر میتوانید به سورس کد سایت مراجعه کنید و فایل <a style="text-decoration-line: underline; color: red;" href="https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/Content-participation.md">Content-participation.md</a> را مطالعه کنید</p>
+            </div>
+          <!-- comments -->
+          <!--
+          {{ if site.DisqusShortname }}
+          <div class="col-12">
+            {{ template "_internal/disqus.html" . }}
+          </div>
+          {{ end }}
+          -->
+        </div>
+      </div>
+      {{ partial "blog-sidebar.html" . }}
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+{{ end }}

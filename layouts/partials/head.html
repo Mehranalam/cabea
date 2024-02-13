@@ -1,0 +1,76 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- theme meta -->
+  <meta name="theme-name" content="educenter-hugo" />
+  
+  {{ hugo.Generator }}
+  {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
+  {{ if .IsTranslated }}
+  {{ range .Page.AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ end }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/main.scss" | toCSS | fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+
+  <script>
+    const next = document.querySelector(".next");
+    const prev = document.querySelector(".previous");
+
+    const numImg = document.querySelectorAll("img").length;
+    let currImg = 1;
+
+    let timeoutID;
+
+    next.addEventListener("click", () => {
+      currImg++;
+      clearTimeout(timeoutID);
+      updateImage();
+    });
+
+    prev.addEventListener("click", () => {
+      currImg--;
+      clearTimeout(timeoutID);
+
+      updateImage();
+    });
+
+    const imgcontainer = document.querySelector(".img-container");
+
+    function updateImage() {
+      if (currImg > numImg) {
+        currImg = 1;
+      } else if (currImg < 1) {
+        currImg = numImg;
+      }
+      imgcontainer.style.transform = `translateX(-${(currImg - 1) * 800}px)`;
+
+      timeoutID = setTimeout(() => {
+        currImg++;
+        updateImage();
+      }, 2000);
+    }
+
+    updateImage();
+  </script>
+</head>

@@ -1,0 +1,145 @@
+{{ define "main" }}
+
+<!-- event single -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row" align="right">
+      <div class="col-12">
+        <h2 class="section-title">{{ .Title }}</h2>
+      </div>
+      <!-- event image -->
+      <div class="col-12 mb-4">
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- event info -->
+    <div class="row align-items-center mb-5" align="right">
+      <div class="col-lg-9">
+        <ul class="list-inline" align="right">
+          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 5px;" class="text-right">
+                <h6 class="mb-0">{{ i18n "location" | upper}}</h6>
+                <p class="mb-0">{{ .Params.Location | markdownify }}</p>
+              </div>
+              <i class="ti-location-pin text-primary icon-md mr-2"></i>
+            </div>
+          </li>
+          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 5px;" class="text-right">
+                <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
+                <p class="mb-0">{{ .Params.Daate }}</p>
+              </div>
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+            </div>
+          </li>
+          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 5px;" class="text-right">
+                <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Time }}</p>
+              </div>
+              <i class="ti-time text-primary icon-md mr-2"></i>
+            </div>
+          </li>
+          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 5px;" class="text-right">
+                <h6 class="mb-0">{{ i18n "entry_fee" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Fee | markdownify }}</p>
+              </div>
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+            </div>
+          </li>
+          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div class="text-right">
+                <h6 class="mb-0">وضعیت نشست:</h6>
+                <p style="font-weight: bolder; color: red;" class="mb-0">{{ .Params.Status | markdownify }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 text-lg-left text-right">
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- event details -->
+    <div class="row" align="right">
+      <div class="col-12 mb-50 content" dir="rtl">
+        {{ .Content }}
+        <br>
+        <div class="row">
+          <div dir="rtl" class="col-12">
+            <h3 class="mb-4">{{ i18n "event_speaker"}}</h3>
+          </div>
+
+      {{ range .Params.Speaker }}
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0"  dir="rtl" align="center">
+        <div style="float: right;" class="media" align="left">
+          <div style="margin-right: 5px;" class="media-body" dir="rtl">
+            <h4 dir="rtl" class="mt-0">{{ .name }}</h4>
+            {{ .designation }}
+          </div>
+         <!--{{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}-->
+        </div>
+      </div>
+      {{ end }}
+      </div>
+    </div>
+    <!-- event speakers -->
+    <!-- 
+    <div class="row" align="center">
+      <div dir="rtl" class="col-12">
+        <h3 class="mb-4">{{ i18n "event_speaker"}}</h3>
+      </div>
+    -->
+      <!-- speakers -->
+      <!-- {{ range .Params.Speaker }}
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0"  dir="rtl" align="center">
+        <div style="float: right;" class="media" align="left">
+          <div style="margin-right: 5px;" class="media-body" dir="rtl">
+            <h4 dir="rtl" class="mt-0">{{ .name }}</h4>
+            {{ .designation }}
+          </div>
+         {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}          
+        </div>
+      </div>
+      {{ end }} -->
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /event single -->
+
+<!-- more event -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row" align="right">
+      <div class="col-12">
+        <h2 class="section-title">{{ i18n "more_event" }}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- event -->
+      {{ $related := (where site.RegularPages "Type" "event") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        {{ .Render "event" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /more event -->
+
+{{ end }}

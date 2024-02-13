@@ -1,0 +1,110 @@
+- id: read_more
+  translation: مطالعه بیشتر
+
+- id: contact_form
+  translation: فرم ارتباطی
+
+- id: send
+  translation: ارسال پیام
+
+- id: contact_info
+  translation: اطلاعات تماس
+
+- id: subscribe_newsletter
+  translation: خبرنامه انجمن
+
+- id: subscribe
+  translation: مشترک شدن
+
+- id: contact_us
+  translation: ارتباط باما
+
+- id: latest_article
+  translation: مقالات جدید
+
+- id: categories
+  translation: دسته‌بندی ها
+
+- id: tags
+  translation: تگ ها
+
+- id: see_all
+  translation: دیدن همه
+
+- id: apply_now
+  translation: ثبت نام
+
+- id: posted_by
+  translation: منتشر شده توسط
+
+- id: date
+  translation: تاریخ
+
+- id: time
+  translation: زمان
+
+- id: category
+  translation: دسته‌بندی
+
+- id: related_course
+  translation: دوره مرتبط
+
+- id: duration
+  translation: مدت زمان
+
+- id: weekly
+  translation: هفته‌ای
+
+- id: fee
+  translation: هزینه
+
+- id: teacher
+  translation: استاد
+
+- id: location
+  translation: مکان
+
+- id: entry_fee
+  translation: هزینه ورود
+
+- id: event_speaker
+  translation: گوینده ها
+
+- id: more_event
+  translation: رویداد های بیشتر
+
+- id: join
+  translation: عضویت
+  
+- id: enter_email
+  translation: ایمیل خود را برای عضویت در خبرنامه وارد کنید
+
+- id: company
+  translation: انجمن
+
+- id: links
+  translation: لینک ها
+
+- id: courses
+  translation: دوره ها
+
+- id: new_notice
+  translation: اطلاعیه جدید
+
+- id: call
+  translation: تماس
+
+- id: email
+  translation: ایمیل
+
+- id: all
+  translation: همه
+
+- id: interest
+  translation: دستاورد ها
+
+- id: our_teachers
+  translation:  اساتید
+
+- id: download
+  translation: دانلود

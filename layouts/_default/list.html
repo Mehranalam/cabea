@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<!-- blogs -->
+<section class="section" dir="rtl">
+  <div class="container">
+    <div class="row">
+      <div align="right" class="col-lg-8 order-2 order-lg-1">
+        <div class="row" dir="rtl">
+          <!-- blog post -->
+          {{ $paginator := .Paginate ( where .Data.Pages "Type" "post") }}
+          {{ range $paginator.Pages }}
+          <div class="col-sm-6 mb-5">
+            <article
+              class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+              <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+              <div class="card-body">
+                <!-- post meta -->
+                <ul class="list-inline mb-3">
+                  <!-- post date -->
+                  <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i>
+                    {{ .Params.Dates }}</li>
+                  <!-- author -->
+                  <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a
+                      href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a>
+                  </li>
+                </ul>
+                <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                <p class="card-text">{{ .Summary | truncate 100 }}</p>
+                <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
+              </div>
+            </article>
+          </div>
+          {{ end }}
+          <div class="col-12 mt-4">
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </div>
+      </div>
+      {{ partial "blog-sidebar.html" . }}
+    </div>
+    
+    <div align="right">
+      <br>
+    <br>
+    <p style="border-right: 2px solid #7077A1; padding: 8px;" class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2"> در این صفحه <span style="color: black;">مشکلی</span> میبینید
+      : </span>تغییرات خود را در <span><a href="https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/_index.md"><img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg" width="20" alt=""></a></span> اعمال کنید.</p>
+  
+    <br>
+    <br>
+      <p>این محتوا توسط جامعه نوشته شده و به تایید سردبیری رسیده که به صورت متن باز نگهداری میشود اگر دارای ایراد فنی - محتوایی است میتوانید این صفحه را درست کنید و به عنوان مشارکت کننده تغییرات خود را به شکل یک <a style="color: red;" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">پول ریکوئست</a> برای ما بفرستید. همچنین برای مشارکت بهتر میتوانید به سورس کد سایت مراجعه کنید و فایل <a style="color: red;" href="https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/Content-participation.md">Content-participation.md</a> را مطالعه کنید</p>
+   
+    </div>
+  </div>
+</section>
+<!-- /blogs -->
+
+{{ end }}

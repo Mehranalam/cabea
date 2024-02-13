@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<!-- research -->
+<section class="section">
+  <div class="container">
+    <div align="center">
+      <h3>اطلاعاتی در دسترس نیست - داده ها به مرور توسط جامعه تکمیل خواهد شد</h3>
+      <p>میتونید به ما در تهیه مطالب دقیق کمک کنید <a style="color: red;" href="https://github.com/Mehranalam/Medical-Engineering-Association">مخزن</a> اصلی مارا بررسی کنید</p>
+    </div>
+    <div class="row">
+      {{ range .Data.Pages}}
+      <!-- recharch item -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "research" }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /research -->
+
+{{ end }}
