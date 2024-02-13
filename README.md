@@ -2,8 +2,7 @@
 
 <img src="EN-README.png"/>
 
-https://endearing-kashata-450931.netlify.app/
-
+https://medical-engineering-association.netlify.app/
 
 What is Medical-Engineering-Association Core?
 ---------------------
