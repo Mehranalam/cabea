@@ -7,6 +7,7 @@ https://endearing-kashata-450931.netlify.app/
 
 What is Medical-Engineering-Association Core?
 ---------------------
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5e98be6-f31f-4be4-ab4a-497f3549b5cb/deploy-status)](https://app.netlify.com/sites/medical-engineering-association/deploys)
 
 From now on, the Medical Engineering Association of Azad University, Tehran branch, has an independent platform to communicate with students, as well as the convenience of dear students to regularly receive academic information. 
 
