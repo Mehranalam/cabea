@@ -5,19 +5,34 @@
 <!-- hero slider -->
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
-<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
+<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}"> <!-- -->
   <div class="container">
     <div class="hero-slider">
       <!-- slider item -->
+      <!--
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div class="row" dir="rtl">
           <div class="col-md-8" align="right">
             <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="7" data-duration-in=".1"
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="7" data-duration-in=".1" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".2">{{ .content | markdownify }}</p>
+            <p class="text-muted mb-4"  data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="7" data-duration-in=".1" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".2">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
             <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="7" data-duration-in=".1" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      -->
+        {{ range .slider_item }}
+      <div class="hero-slider-item">
+        <div class="row" dir="rtl">
+          <div class="col-md-8" align="right">
+            <h1 class="text-white">{{ .title | markdownify }}</h1>
+            <p class="text-muted mb-4">{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
