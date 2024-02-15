@@ -10,6 +10,6 @@ description : "ارتباط ما انجمن  - صفحه ارتباط با انج
 
 **حساب پشتیبانی انجمن در تلگرام: [@Karshenas_BME](https://t.me/Karshenas_BME)**
 
-**ایمیل مشارکت محتوایی: [Mehraxxn@gmail.com](mailto:mehraxxn@gmail.com)**
+**ایمیل مشارکت محتوایی: [BME-TMU@hotmail.com](mailto:BME-TMU@hotmail.com)**
 
 ##### نکته: جهت ارتباط با هر استاد میتوانید از طریق ایمیل مشخص شده هر استاد از صفحه [اساتید](/teacher) با آنها در ارتباط باشید.
