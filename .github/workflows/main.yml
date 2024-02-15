@@ -1,0 +1,3 @@
+- name: Copyright Action
+- uses: VinnyBabuManjaly/copyright-action@v1.0.0
+            
