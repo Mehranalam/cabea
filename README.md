@@ -31,7 +31,31 @@ that repository unless it is for development reasons.
 
 **The contribution workflow is described in [CONTRIBUTING.md](Content-participation.md).**
 
-<!-- ### contributors -->
+<!-- ### contributors 
+
+<!--
+      <h3 align="right" dir="rtl">مشارکت کنندگان</h3>
+
+    {{ range .Params.Speaker }}
+    <div class="row">
+          <div style="display: flex; justify-content: space-between;" class="card-body">{{ .Permalink }} - for link to teacher
+            <img style="border-radius: 10px;" width="50" height="50" src="{{ .image }}" alt="عکس مشارکت کننده">
+            <div>
+              <h4 style="border-right: 3px solid rgb(255, 0, 34); padding: 9px" class="card-title"><a href="">{{.name}}</a></h4>
+              <p>{{ .designation }}</p>
+            </div>
+          </div>
+</div>
+  
+      <div class="row" align="right">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "scholarship" }}
+      </div>
+      {{ end }}
+    </div>
+    -->
+-->
 
 <!--
 <a href="https://github.com/mehranalam/Medical-Engineering-Association/graphs/contributors"><img src="https://contrib.rocks/image?repo=mehranalam/Medical-Engineering-Association" /></a>
