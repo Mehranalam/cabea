@@ -3,7 +3,7 @@
   <div class="card-body"><!-- {{ .Permalink }} - for link to teacher -->
     <h4 style="border-right: 3px solid yellow; padding: 5px" class="card-title"><a href="">{{ .Title }}</a></h4>
     <p>{{ .Params.Course }}</p>
-    <p>{{ .Params.Email }} :راه ارتباطی </p>
+    <p>:راه ارتباطی<br> {{ .Params.Email }}<br></p>
     <ul class="list-inline">
       {{ range .Params.Contact }}
       <!-- <li class="list-inline-item"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
