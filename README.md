@@ -55,7 +55,6 @@ that repository unless it is for development reasons.
       {{ end }}
     </div>
     -->
--->
 
 <!--
 <a href="https://github.com/mehranalam/Medical-Engineering-Association/graphs/contributors"><img src="https://contrib.rocks/image?repo=mehranalam/Medical-Engineering-Association" /></a>
