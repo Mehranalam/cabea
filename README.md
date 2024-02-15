@@ -54,6 +54,13 @@ that repository unless it is for development reasons.
       </div>
       {{ end }}
     </div>
+      <div class="col-md-5 text-md-left text-center">
+          <ul class="list-inline">
+            {{ site.Params.social }}
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"></li> {{ range site.Params.social }}
+              {{ end }}
+          </ul>
+        </div> 
     -->
 
 <!--

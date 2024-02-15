@@ -1,23 +1,16 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/educenter/site/"
+baseURL = ""
 title = "انجمن مهندسی پزشکی -  تهران مرکزی"
 theme = "Mehraner-hugo"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Asia/Tehran"
 # post pagination
-paginate = 6 # see https://gohugo.io/extras/pagination/
-# post excerpt
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-# disable language
+paginate = 6 
+summaryLength = 10 
+googleAnalytics = "UA-123456-78"
+disqusShortname = "mehraner-template"
 disableLanguages = [
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+] 
+hasCJKLanguage = false
 
-############################# Build ##############################
 [build]
 noJSConfigInAssets = false
 useResourceCacheWhen = 'fallback'
@@ -34,18 +27,13 @@ source = 'assets/.*\.(.*)$'
 target = '$1'
 
 
-############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS"]
 
-############################# Imaging ##############################
 [imaging]
-# See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
 quality = 90
 resampleFilter = "lanczos"
 
-############################# Caches ###############################
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
@@ -55,14 +43,11 @@ maxAge = "720h"
 dir = ":resourceDir/_gen"
 maxAge = "720h"
 
-############################# Markup ###############################
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
 
-############################# Plugins ##############################
 
-# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -89,21 +74,16 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/google-map/gmap.js"
 
 
-#################### default parameters ################################
 [params]
 logo = "images/bme.png"
 # Meta data
 description = "از این پس انجمن مهندسی پزشکی دانشگاه آزاد واحد تهران مرکز دارای یک پلتفرم مستقل برای ارتباط با دانشجو و همچنین راحتی دانشجویان عزیز برای دریافت منظم اطلاعات دانشگاهی است. وب‌سایت در مراحل ابتدایی توسعه قرار دارد. درنتیجه از شما سروران عزیز تقاضا میکنیم ایده - پیشنهاد و همچنین نقدی بر کارکرد وب‌سایت دارید با استفاده از صفحه ارتباط با انجمن و یا ایمیل درارتباط باشید تا بتونیم هرچه بهتر این بستر را توسعه بدیم همچنین اگر یک توسعه دهنده و فرد فنی هستید تمام این سورس کد های این وب‌سایت آزادانه در دسترس عموم قرار دارد با مراجعه به گیتهاب میتونید تغییرات مناسب را اعمال کنید. تمام درخواست های تغییر بررسی میشوند."
 author = "Mehran ALam Beigi"
-# contact info
 address = "تهران, پونک شمالی بلوار امام حسن دانشکده فنی مهندسی آزاد اسلامی - نیایش"
 mobile = "+989211756034"
 email = "BME-TMU@hotmail.com"
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
-# Google Analitycs
-google_analitycs_id = "" # your id
-# top header
+contact_form_action = "#"
+google_analitycs_id = ""
 top_header = true
 
 # Preloader
@@ -130,35 +110,14 @@ map_marker = "images/marker.png" # marker size 37*55 px
 [params.cookies]
 enable = true
 expire_days = 2
-  
-############################# social site ########################
-# [[params.social]]
-# title = "facebook"
-# icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
-# [[params.social]]
-# title = "twitter"
-# icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
-# [[params.social]]
-# title = "instagram"
-# icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-# link = "#"
 
 [[params.social]]
 title = "github"
 icon = "images/github-mark/github-mark.svg" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/Mehranalam/Medical-Engineering-Association"
 
-# [[params.social]]
-# title = "linkedin"
-# icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-# link = "#"
 
 
-################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
@@ -172,7 +131,6 @@ copyright = "This website was developed by [Mehran Alam Beigi](https://linkedin.
 
 
 
-################### English navigation ####################
 
 # main menu
 [[Languages.en.menu.main]]

@@ -1,4 +1,4 @@
-<!-- footer -->
+<!-- footer-->
 <footer>
   <!-- newsletter -->
   {{ if site.Params.subscription.enable }}
@@ -77,14 +77,15 @@
       </div>
     </div>
   </div>
-  <!-- copyright <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"></li> {{ range site.Params.social }}
-                
-            {{ end }}-->
+  <!-- copyright-->
   <div class="copyright py-4 bg-footer">
     <div class="container">
       <div class="row">
         <div class="col-md-5 text-md-left text-center">
           <ul class="list-inline">
+            {{ range site.Params.social }}
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark-white.svg" width="25"/></a></li>
+            {{ end }}
           </ul>
         </div>
         <div class="col-md-7 text-md-right text-center">
