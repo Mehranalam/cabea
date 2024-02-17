@@ -1,73 +1,118 @@
-### Official platform of Biomedical Organization Of Central Tehran Azad University 
-
-<img src="EN-README.png"/>
-
-https://medical-engineering-association.netlify.app/
-
-**Developer: [Mehran Alam Beigi](https://github.com/mehranalam)**
-
-What is Medical-Engineering-Association Core?
----------------------
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5e98be6-f31f-4be4-ab4a-497f3549b5cb/deploy-status)](https://app.netlify.com/sites/medical-engineering-association/deploys) [![Deploy Hugo site to Pages](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml/badge.svg)](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml)
-
-From now on, the Medical Engineering Association of Azad University, Tehran branch, has an independent platform to communicate with students, as well as the convenience of dear students to regularly receive academic information. 
-
-The website is in the early stages of development. As a result, we ask you, dear servers, if you have any ideas - suggestions, as well as criticisms on the functioning of the website, please contact us using the contact page with the forum or email so that we can develop this platform as best as possible. 
-
-Also, if you are a developer and a technical person, all of this source The codes of this website are freely available to the public, you can apply appropriate changes by referring to Github. All change requests are reviewed.
-
-### License
-
-Medical-Engineering-Association this  Core is released under the terms of the ```MIT license```. for more
-information or see https://opensource.org/licenses/MIT.
-
-### Development Process
-
-The `main` branch is regularly built (see `Content-participation.md` for instructions) and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/mehranalam/Medical-Engineering-Association/tags) are created regularly from release branches to indicate new official, stable release versions of Bitcoin Core.
-
-
-The https://github.com/mehranalam/Medical-Engineering-Association repository is used exclusively for the
-development of the GUI. Its master branch is identical in all monotree
-repositories. Release branches and tags do not exist, so please do not fork
-that repository unless it is for development reasons.
-
-`Medical-Engineering-Association Copyright (C) 2024  Mehran Alam Beigi`
-
-
-**The contribution workflow is described in [CONTRIBUTING.md](Content-participation.md).**
-
-<!-- ### contributors 
-
-<!--
-      <h3 align="right" dir="rtl">مشارکت کنندگان</h3>
-
-    {{ range .Params.Speaker }}
-    <div class="row">
-          <div style="display: flex; justify-content: space-between;" class="card-body">{{ .Permalink }} - for link to teacher
-            <img style="border-radius: 10px;" width="50" height="50" src="{{ .image }}" alt="عکس مشارکت کننده">
-            <div>
-              <h4 style="border-right: 3px solid rgb(255, 0, 34); padding: 9px" class="card-title"><a href="">{{.name}}</a></h4>
-              <p>{{ .designation }}</p>
-            </div>
-          </div>
+<div align="center">
+  <h1>Fermyon Spin</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/static/image/logo-dark.png">
+    <img alt="spin logo" src="./docs/static/image/logo.png" width="300" height="128">
+  </picture>
+  <p>Spin is a framework for building, deploying, and running fast, secure, and composable cloud microservices with WebAssembly.</p>
+      <a href="https://github.com/fermyon/spin/actions/workflows/build.yml"><img src="https://github.com/fermyon/spin/actions/workflows/build.yml/badge.svg" alt="build status" /></a>
+      <a href="https://discord.gg/eGN8saYqCk"><img alt="Discord" src="https://img.shields.io/discord/926888690310053918?label=Discord"></a>
 </div>
-  
-      <div class="row" align="right">
-      {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        {{ .Render "scholarship" }}
-      </div>
-      {{ end }}
-    </div>
-      <div class="col-md-5 text-md-left text-center">
-          <ul class="list-inline">
-            {{ site.Params.social }}
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"></li> {{ range site.Params.social }}
-              {{ end }}
-          </ul>
-        </div> 
-    -->
 
-<!--
-<a href="https://github.com/mehranalam/Medical-Engineering-Association/graphs/contributors"><img src="https://contrib.rocks/image?repo=mehranalam/Medical-Engineering-Association" /></a>
--->
+## What is Spin?
+
+Spin is an open source framework for building and running fast, secure, and
+composable cloud microservices with WebAssembly. It aims to be the easiest way
+to get started with WebAssembly microservices, and takes advantage of the latest
+developments in the
+[WebAssembly component model](https://github.com/WebAssembly/component-model)
+and [Wasmtime](https://wasmtime.dev/) runtime.
+
+Spin offers a simple CLI that helps you create, distribute, and execute
+applications, and in the next sections we will learn more about Spin
+applications and how to get started.
+
+## Getting started
+
+See the [Install Spin](https://developer.fermyon.com/spin/install) page of the [Spin documentation](https://developer.fermyon.com/spin/index) for a detailed
+guide on installing and configuring Spin, but in short run the following commands:
+```bash
+curl -fsSL https://developer.fermyon.com/downloads/install.sh | bash
+sudo mv ./spin /usr/local/bin/spin
+```
+
+Alternatively, you could [build Spin from source](https://developer.fermyon.com/spin/contributing/).
+
+To get started writing apps, follow the [quickstart guide](https://developer.fermyon.com/spin/quickstart/),
+and then follow the
+[Rust](https://developer.fermyon.com/spin/rust-components/), [JavaScript](https://developer.fermyon.com/spin/javascript-components), [Python](https://developer.fermyon.com/spin/python-components), or [Go](https://developer.fermyon.com/spin/go-components/)
+language guides, and the [guide on writing Spin applications](https://developer.fermyon.com/spin/configuration/).
+
+## Usage
+Below is an example of using the `spin` CLI to create a new Spin application.  To run the example you will need to install the `wasm32-wasi` target for Rust.
+
+```bash
+$ rustup target add wasm32-wasi
+```
+
+First, run the `spin new` command to create a Spin application from a template.
+```bash
+# Create a new Spin application named 'hello-rust' based on the Rust http template, accepting all defaults
+$ spin new --accept-defaults -t http-rust hello-rust
+```
+Running the `spin new` command created a `hello-rust` directory with all the necessary files for your application. Change to the `hello-rust` directory and build the application with `spin build`, then run it locally with `spin up`:
+
+```bash
+# Compile to Wasm by executing the `build` command.
+$ spin build
+Executing the build command for component hello-rust: cargo build --target wasm32-wasi --release
+    Finished release [optimized] target(s) in 0.03s
+Successfully ran the build command for the Spin components.
+
+# Run the application locally.
+$ spin up
+Logging component stdio to ".spin/logs/"
+
+Serving http://127.0.0.1:3000
+Available Routes:
+  hello-rust: http://127.0.0.1:3000 (wildcard)
+```
+
+That's it! Now that the application is running, use your browser or cURL in another shell to try it out:
+
+```bash
+# Send a request to the application.
+$ curl -i 127.0.0.1:3000
+HTTP/1.1 200 OK
+foo: bar
+content-length: 14
+date: Thu, 13 Apr 2023 17:47:24 GMT
+
+Hello, Fermyon         
+```
+You can make the app do more by editting the `src/lib.rs` file in the `hello-rust` directory using your favorite editor or IDE. To learn more about writing Spin applications see [Writing Applications](https://developer.fermyon.com/spin/writing-apps) in the Spin documentation.  To learn how to publish and distribute your application see the [Publishing and Distribution](https://developer.fermyon.com/spin/distributing-apps) guide in the Spin documentation.
+
+For more information on the cli commands and subcommands see the [CLI Reference](https://developer.fermyon.com/common/cli-reference).
+
+## Language Support for Spin Features
+
+The table below summarizes the [feature support](https://developer.fermyon.com/spin/language-support-overview) in each of the language SDKs.
+
+| Feature | Rust SDK Supported? | TypeScript SDK Supported? | Python SDK Supported? | Tiny Go SDK Supported? | C# SDK Supported? |
+|-----|-----|-----|-----|-----|-----|
+| **Triggers** |
+| [HTTP](https://developer.fermyon.com/spin/http-trigger) | Supported | Supported | Supported | Supported | Supported |
+| [Redis](https://developer.fermyon.com/spin/redis-trigger) | Supported | Not Supported | Not Supported | Supported | Not Supported |
+| **APIs** |
+| [Outbound HTTP](https://developer.fermyon.com/spin/rust-components.md#sending-outbound-http-requests) | Supported | Supported | Supported | Supported | Supported |
+| [Configuration Variables](https://developer.fermyon.com/spin/variables) | Supported | Supported | Supported | Supported | Supported |
+| [Key Value Storage](https://developer.fermyon.com/spin/kv-store-api-guide) | Supported | Supported | Supported | Supported | Not Supported |
+| [SQLite Storage](https://developer.fermyon.com/spin/sqlite-api-guide) | Supported | Supported | Supported | Supported | Not Supported |
+| [MySQL](https://developer.fermyon.com/spin/rdbms-storage#using-mysql-and-postgresql-from-applications) | Supported | Supported | Not Supported | Supported | Not Supported |
+| [PostgreSQL](https://developer.fermyon.com/spin/rdbms-storage#using-mysql-and-postgresql-from-applications) | Supported | Supported | Not Supported | Supported | Supported |
+| [Outbound Redis](https://developer.fermyon.com/spin/rust-components.md#storing-data-in-redis-from-rust-components) | Supported | Supported | Supported | Supported | Supported |
+| [Serverless AI](https://developer.fermyon.com/spin/serverless-ai-api-guide) | Supported | Supported | Supported | Supported | Not Supported |
+| **Extensibility** |
+| [Authoring Custom Triggers](https://developer.fermyon.com/spin/extending-and-embedding) | Supported | Not Supported | Not Supported | Not Supported | Not Supported |
+
+## Contributing
+
+We are delighted that you are interested in making Spin better! Thank you!
+Please follow the [contributing guide](https://developer.fermyon.com/spin/contributing).
+And join our [Discord server](https://discord.gg/eGN8saYqCk).
+
+## Stay in Touch
+Follow us on Twitter: [@spinframework](https://twitter.com/spinframework)
+
+You can join the Spin community in our [Discord server](https://discord.gg/eGN8saYqCk) where you can ask questions, get help, and show off the cool things you are doing with Spin!
+

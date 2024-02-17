@@ -34,22 +34,11 @@
           </div>
 
           <!-- comments -->
-          <!--
-            br>
-            <br>
-            <p style="font-weight: bold; border-right: 2px solid hsl(231, 33%, 25%); padding: 8px;" class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2"> در این صفحه <span style="color: black;">مشکلی</span> میبینید
-              : </span>تغییرات خود را در <span><a style="text-decoration-line: underline; color: red;" href="{{ .Params.edit }}">مخزن اصلی</a></span> اعمال کنید.</p>
-          
-            <br>
-            <br>
-              <p>این محتوا توسط جامعه نوشته شده و به تایید سردبیری رسیده که به صورت متن باز نگهداری میشود اگر دارای ایراد فنی - محتوایی است میتوانید این صفحه را درست کنید و به عنوان مشارکت کننده تغییرات خود را به شکل یک <a style="text-decoration-line: underline; color: red;" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">پول ریکوئست</a> برای ما بفرستید. همچنین برای مشارکت بهتر میتوانید به سورس کد سایت مراجعه کنید و فایل <a style="text-decoration-line: underline; color: red;" href="https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/Content-participation.md">Content-participation.md</a> را مطالعه کنید</p>
-            </div>
           {{ if site.DisqusShortname }}
           <div class="col-12">
             {{ template "_internal/disqus.html" . }}
           </div>
           {{ end }}
-          -->
         </div>
       </div>
       {{ partial "blog-sidebar.html" . }}
