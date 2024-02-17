@@ -6,7 +6,7 @@ timeZone = "Asia/Tehran"
 paginate = 6 
 summaryLength = 10 
 googleAnalytics = "UA-123456-78"
-disqusShortname = "mehraner-template"
+disqusShortname = "mehraner"
 disableLanguages = [
 ] 
 hasCJKLanguage = false
