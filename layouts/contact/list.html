@@ -9,19 +9,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-7 mb-4 mb-lg-0" dir="rtl">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="نام">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="ایمیل">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="موضوع">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="پیامتون"></textarea>
-          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
-        </form>
-      </div>
-      <div class="col-lg-5 content" align="right">
+      <div class="content" align="right">
         {{ .Content }}
         <!--        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
--->        <p>{{ site.Params.address | markdownify }}</p>
+-->        <p>آدرس: {{ site.Params.address | markdownify }}</p>
       </div>
     </div>
   </div>

@@ -40,3 +40,13 @@ that repository unless it is for development reasons.
 
 <!--
       <h3 align="right" dir="rtl">مشارکت کنندگان</h3>
+      <div class="col-lg-7 mb-4 mb-lg-0" dir="rtl">
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="نام">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="ایمیل">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="موضوع">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="پیامتون"></textarea>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+        </form>
+      </div>
+-->
