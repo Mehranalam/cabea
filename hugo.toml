@@ -129,15 +129,6 @@ home = "خانه"
 # copyright
 copyright = "This website was developed by [Mehran Alam Beigi](https://linkedin.com/in/mehranalam) and its source is available as open source."
 
-
-
-
-# main menu
-[[Languages.en.menu.main]]
-name = "درباره ما"
-url = "about/"
-weight = 1
-
 [[Languages.en.menu.main]]
 name = "دوره و کارگاه ها"
 url = "course/"
@@ -165,6 +156,11 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
+  name = "نشریه"
+  url = "journal/"
+
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
   name = "پژوهش ها و مقالات"
   url = "research/"
   
@@ -172,7 +168,7 @@ hasChildren = true
 name = "وبلاگ انجمن"
 url = "blog/"
 weight = 4
-  
+
 [[Languages.en.menu.main]]
 name = "ارتباط"
 url = "contact/"
@@ -183,6 +179,11 @@ weight = 5
   url = "scholarship/"
   weight = 6
 
+# main menu
+[[Languages.en.menu.main]]
+  name = "درباره ما"
+  url = "about/"
+  weight = 7
 
 # footer menu
 
