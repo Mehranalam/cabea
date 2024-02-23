@@ -31,7 +31,7 @@ development of the GUI. Its master branch is identical in all monotree
 repositories. Release branches and tags do not exist, so please do not fork
 that repository unless it is for development reasons.
 
-`Medical-Engineering-Association Copyright (C) 2024  Mehran Alam Beigi`
+`Medical-Engineering-Association Copyright (C) 2023  Mehran Alam Beigi`
 
 
 **The contribution workflow is described in [CONTRIBUTING.md](Content-participation.md).**
