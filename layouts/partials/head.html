@@ -34,43 +34,9 @@
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
   <script>
-    const next = document.querySelector(".next");
-    const prev = document.querySelector(".previous");
-
-    const numImg = document.querySelectorAll("img").length;
-    let currImg = 1;
-
-    let timeoutID;
-
-    next.addEventListener("click", () => {
-      currImg++;
-      clearTimeout(timeoutID);
-      updateImage();
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
-
-    prev.addEventListener("click", () => {
-      currImg--;
-      clearTimeout(timeoutID);
-
-      updateImage();
-    });
-
-    const imgcontainer = document.querySelector(".img-container");
-
-    function updateImage() {
-      if (currImg > numImg) {
-        currImg = 1;
-      } else if (currImg < 1) {
-        currImg = numImg;
-      }
-      imgcontainer.style.transform = `translateX(-${(currImg - 1) * 800}px)`;
-
-      timeoutID = setTimeout(() => {
-        currImg++;
-        updateImage();
-      }, 2000);
-    }
-
-    updateImage();
   </script>
 </head>

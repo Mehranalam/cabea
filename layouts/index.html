@@ -51,7 +51,7 @@
 <section class="bg-gray overflow-md-hidden">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      <div class="col-xl-4 col-lg-5 align-self-start">
+      <div align="center" class="col-xl-4 col-lg-5 align-self-start">
         <img class="img-fluid w-90" src="{{ .image | absURL }}" alt="banner-feature">
       </div>
       <div class="col-xl-8 col-lg-7">
@@ -101,7 +101,7 @@
 
 <!-- courses -->
 {{ if $data.homepage.course.enable }}
-<section class="section-sm">
+<section class="section-sm bg-gray">
   <div class="container" align="right">
     <div class="row" dir="rtl">
       <div class="col-12">
@@ -113,9 +113,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div align="center">
-      <img style="margin-top: 10px; margin-bottom: 20px; border-radius: 25px;" width="100%" height="10%" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7328.JPG"/>
     </div>
     <!-- course list -->
     <div class="column justify-content-center">      <!-- course item -->
@@ -180,9 +177,6 @@
         </div>
       </div>
     </div>
-    <div align="center">
-      <img style="margin-top: 10px; margin-bottom: 20px; border-radius: 25px;" width="100%" height="10%" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG"/>
-    </div>
     <div class="row justify-content-center">
       <!-- event -->
       {{ range first 3 (where site.RegularPages "Type" "event")}}
@@ -224,4 +218,22 @@
 {{ end }}
 <!-- /blog -->
 
+<div style="margin-bottom: 30px;" class="container">
+  <div class="row" dir="rtl">
+    <div class="col-12" align="right">
+      <h2 class="section-title">دسترسی سریع</h2>
+    </div>
+  </div>
+  <div style="padding-bottom: 20px;" class="row">
+    <a style="margin-bottom: 10px;" href="notice/" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7328.JPG" class="img-fluid rounded">
+    </a>
+    <a style="margin-bottom: 10px;" href="event/" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7329.JPG" class="img-fluid rounded">
+    </a>
+    <a style="margin-bottom: 10px;" href="course/" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG" class="img-fluid rounded">
+    </a>
+  </div>
+</div>
 {{ end }}
