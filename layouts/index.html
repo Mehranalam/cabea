@@ -28,8 +28,8 @@
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div id="section-intro" class="row sectionsy" dir="rtl">
+          <h1 class="text-white">{{ .title | markdownify }}</h1>
           <div id="intro-container" align="center">
-            <h1 class="text-white">{{ .title | markdownify }}</h1>
             <p class="text-muted mb-4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
             <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
