@@ -107,7 +107,6 @@
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">اطلاعیه ها</h2>
-          <img style="margin: 10px; border-radius: 25px;" width="100%" height="30%" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG"/>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
               <a href="{{ `notice` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
@@ -115,6 +114,7 @@
         </div>
       </div>
     </div>
+    <img style="margin: 10px; border-radius: 25px;" width="100%" height="30%" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG"/>
     <!-- course list -->
     <div class="column justify-content-center">      <!-- course item -->
       {{ range first 6 (where site.RegularPages "Type" "notice")}}
