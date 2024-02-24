@@ -106,6 +106,7 @@
     <div class="row" dir="rtl">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
+          <img width="100%" height="290" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG"/>
           <h2 class="mb-0 text-nowrap mr-3">اطلاعیه ها</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
@@ -115,9 +116,7 @@
       </div>
     </div>
     <!-- course list -->
-    <div class="column justify-content-center">
-      <img width="100%" height="290" src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/IMG_7330.JPG"/>
-      <!-- course item -->
+    <div class="column justify-content-center">      <!-- course item -->
       {{ range first 6 (where site.RegularPages "Type" "notice")}}
       <div dir="rtl"> <!-- col-lg-5 col-sm-4 mb-5 -->
         {{ .Render "notice" }}
