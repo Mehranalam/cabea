@@ -551,3 +551,26 @@ textarea.form-control{
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+.sectionsy {
+  float: right;
+  width: 100%;
+  padding: 24px 0 36px;
+}
+
+#section-intro #intro-container {
+  float: right;
+  width: 86%;
+  margin: 12px 7%;
+}
+#section-intro #intro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#section-intro #intro-container p {
+  float: right;
+  width: 100%;
+  font-size: 1.15rem;
+  line-height: 2;
+  text-align: justify;
+}
