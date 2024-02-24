@@ -25,10 +25,10 @@
       </div>
       {{ end }}
       -->
-        {{ range .slider_item }}
+      {{ range .slider_item }}
       <div class="hero-slider-item">
         <div id="section-intro" class="row sectionsy" dir="rtl">
-          <div id="intro-container"> class="col-md-8" align="right">
+          <div id="intro-container">
             <h1 class="text-white">{{ .title | markdownify }}</h1>
             <p class="text-muted mb-4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
