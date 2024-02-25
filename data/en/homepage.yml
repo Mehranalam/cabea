@@ -26,6 +26,7 @@ slider:
 banner_feature:
   enable : true
   image : "images/Banner-light-1.jpg"
+  image_s : "images/If-a.png"
   feature_item:
     # feature item loop
     - name : "اهداف انجمن"

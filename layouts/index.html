@@ -6,7 +6,7 @@
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}"> <!-- -->
-  <div class="container">
+  <div class="container" align="center">
     <div class="hero-slider">
       <!-- slider item -->
       <!--
@@ -26,8 +26,8 @@
       {{ end }}
       -->
       {{ range .slider_item }}
-      <div class="hero-slider-item">
-        <div id="section-intro" class="row sectionsy" align="center" dir="rtl">
+      <div class="hero-slider-item" align="center">
+        <div style="margin-right: 3.5px;" id="section-intro" class="row sectionsy" align="center">
           <h1 class="text-white">{{ .title | markdownify }}</h1>
           <div id="intro-container" align="center">
             <p class="text-muted mb-4">{{ .content | markdownify }}</p>
@@ -53,14 +53,17 @@
     <div class="row no-gutters">
       <div align="center" class="col-xl-4 col-lg-5 align-self-start">
         <img class="img-fluid w-90" src="{{ .image | absURL }}" alt="banner-feature">
+        <img class="img-fluid w-90" src="{{ .image_s | absURL }}" alt="I am mehran">
       </div>
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-gray justify-content-between">
           {{ range .feature_item }}
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-right">
-            <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
-            <p>{{ .content | markdownify }}</p>
+          <div id="section-intro" class="sectionsy col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-right">
+            <div id="intro-container" dir="rtl">
+              <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
+              <p>{{ .content | markdownify }}</p>
+            </div>
           </div>
           {{ end }}
         </div>
@@ -107,7 +110,7 @@
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">اطلاعیه ها</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
               <a href="{{ `notice` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
@@ -170,7 +173,7 @@
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
             <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
           </div>
@@ -194,15 +197,25 @@
   </div>
 </section>
 {{ end }}
-<!-- /events -->
+<!-- /events
+<div class="col-12" align="right">
+        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+      </div>
+-->
 
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="section">
   <div class="container" align="right">
     <div class="row" dir="rtl">
-      <div class="col-12" align="right">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.blog.title }}</h2>
+          <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{`blog` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center" dir="rtl">
@@ -213,14 +226,23 @@
       </article>
       {{ end }}
     </div>
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{`blog` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}
 
 <div style="margin-bottom: 30px;" class="container">
   <div class="row" dir="rtl">
-    <div class="col-12" align="right">
-      <h2 class="section-title">دسترسی سریع</h2>
+    <div class="col-12">
+      <div class="d-flex align-items-center section-title justify-content-between">
+        <h2 class="mb-0 text-nowrap mr-3">دسترسی سریع</h2>
+        <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
+      </div>
     </div>
   </div>
   <div style="padding-bottom: 20px;" class="row">

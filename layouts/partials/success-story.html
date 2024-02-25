@@ -4,8 +4,8 @@
 <section class="section bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="row" dir="rtl">
-      <div class="col-lg-6 col-sm-8" align="right">
-        <div class="bg-white p-5">
+      <div id="section-intro" class="sectionsy col-lg-6 col-sm-8" align="right">
+        <div id="intro-container"  class="bg-white p-5">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           <p>{{ .content | markdownify }}</p>
         </div>
