@@ -4,7 +4,7 @@ date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
 description : "توضیحات دقیقی برای این کارگاه در دسترس نیست"
-image: ""
+image: "images/IMG_20240226_224348_150.jpg"
 type: "journal"
 ---
 
