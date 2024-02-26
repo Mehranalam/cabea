@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm" align="right">
+  <div class="container" dir="rtl">
+    <div class="row">
+      <div align="right" class="col-12 mb-4">
+        <!-- course thumb -->
+        <p>{{.Title}}</p>
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"
+          class="img-fluid w-100" alt="{{.Title}}">
+      </div>
+    </div>
+    <!-- course info -->
+    <div align="right" dir="rtl" class="row align-items-right mb-5">
+      <div align="right" dir="rtl" class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h3>{{ .Title }}</h3>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 9px;" class="text-right">
+                <h6 class="mb-0">پلتفرم انتشار پادکست: </h6>
+                <p class="mb-0">تلگرام</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-timer text-primary icon-md mr-2"></i>
+              <div style="margin-right: 9px;" class="text-right">
+                <h6 class="mb-0">تاریخ برگزاری:</h6>
+                <p class="mb-0">{{ .Params.Weekly }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4 content" align="right">
+        {{ .Content }}
+      </div>
+      <!-- teacher -->
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">دیگر محصولات نشریه</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ $related := (where site.RegularPages "Type" "journal") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "journal"}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+-->
+<!-- /related course -->
+
+{{ end }}
