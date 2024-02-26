@@ -4,7 +4,7 @@
 
 https://medical-engineering-association.netlify.app/
 
-**Developer: [Mehran Alam Beigi](https://github.com/mehranalam)**
+**Developer: [Mehran Alam Beigi](https://github.com/mehranalam)** .
 
 What is Medical-Engineering-Association Core?
 ---------------------
