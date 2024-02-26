@@ -7,8 +7,7 @@ paginate = 6
 summaryLength = 10 
 googleAnalytics = "UA-123456-78"
 disqusShortname = "mehraner"
-disableLanguages = [
-] 
+disableLanguages = [] 
 hasCJKLanguage = false
 
 [build]
