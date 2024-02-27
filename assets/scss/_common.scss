@@ -375,17 +375,6 @@ textarea.form-control{
       padding-left: 20px;
       margin-bottom: 10px;
       list-style-type: none;
-
-      &::before {
-        position: absolute;
-        content: "\e65d";
-        font-family: $icon-font;
-        font-size: 14px;
-        left: 0;
-        top: 1px;
-        color: $primary-color;
-        transition: .3s ease;
-      }
     }
   }
 
@@ -573,4 +562,119 @@ textarea.form-control{
   font-size: 1.15rem;
   line-height: 2;
   text-align: justify;
+}
+
+.container_s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  padding: 5px 10px;
+  gap: 0px;
+}
+
+.info_s {
+  margin-left: 150px;
+  text-align: right;
+  font-size: 17px;
+}
+.info_s h1 {
+  color: #000000;
+}
+
+.info_s a:hover {
+  color: #f0f0f5;
+}
+
+.key {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 3px;
+  top: 21px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  width: auto;
+  position: relative;
+}
+.key .text {
+  font-family: "Vazirmatn";
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: auto;
+  width: 180px;
+  position: relative;
+  top: -1.5px;
+}
+.key .icon {
+  margin-left: 0px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+.key:hover .icon,
+.key:active .icon {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.buttons_s {
+  margin-top: 50px;
+  width: 630px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.button_s {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.button_s span {
+  position: relative;
+  z-index: 1;
+}
+.button_s i, .button svg , .system-icon {
+  font-size: 28px;
+  margin-right: 10px;
+
+}
+.button_s:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.button_s:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.icloud {
+  background-color: #000000;
+}
+.gmail {
+  background-color: #db4437;
+}
+.outlook {
+  background-color: #0072c6;
+}
+.local {
+  background-color: #3742db;
+}
+.whatsapp {
+  background-color: #2ebf33;
 }

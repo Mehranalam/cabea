@@ -112,7 +112,7 @@ expire_days = 2
 
 [[params.social]]
 title = "github"
-icon = "images/github-mark/github-mark.svg" # themify icon : https://themify.me/themify-icons
+icon = "images/github-mark/github-mark.svg"
 link = "https://github.com/Mehranalam/Medical-Engineering-Association"
 
 
