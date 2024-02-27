@@ -567,7 +567,6 @@ textarea.form-control {
   gap: 0px; }
 
 .info_s {
-  margin-left: 150px;
   text-align: right;
   font-size: 17px; }
 
