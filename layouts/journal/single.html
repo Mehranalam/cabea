@@ -6,7 +6,6 @@
     <div class="row">
       <div align="right" class="col-12 mb-4">
         <!-- course thumb -->
-        <p>{{.Title}}</p>
         <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"
           class="img-fluid w-100" alt="{{.Title}}">
       </div>
@@ -28,9 +27,8 @@
           </li>
           <li class="list-inline-item mr-4 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
-              <i class="ti-timer text-primary icon-md mr-2"></i>
               <div style="margin-right: 9px;" class="text-right">
-                <h6 class="mb-0">تاریخ برگزاری:</h6>
+                <h6 class="mb-0">تاریخ انتشار:</h6>
                 <p class="mb-0">{{ .Params.Weekly }}</p>
               </div>
             </div>
@@ -71,7 +69,6 @@
     </div>
   </div>
 </section>
--->
 <!-- /related course -->
 
 {{ end }}
