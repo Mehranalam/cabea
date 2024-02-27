@@ -6,7 +6,7 @@ bg_image: "images/IMG.jpg"
 description : "سومین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد."
 weekly: "مهرماه ۱۴۰۰"
 category: "سارا حسنی، آیسان خدایاری و نگین خسروی"
-url_dw: ""
+url_dw: "https://t.me/tehranmarkaz_bme/3686"
 image: "images/IMG_20240226_224348_150.jpg"
 type: "journal"
 ---
