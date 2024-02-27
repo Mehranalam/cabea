@@ -54,12 +54,12 @@
 
 <section class="section pt-0">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
+    <div class="row" align="right">
+      <div class="col-12" align="right">
         <h2 class="section-title">دیگر محصولات نشریه</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row" align="right">
       {{ $related := (where site.RegularPages "Type" "journal") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5">
