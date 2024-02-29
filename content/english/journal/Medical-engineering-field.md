@@ -7,7 +7,7 @@ description : "⭕️ دومین شماره ی رادیو BME پلاس به هم
 weekly: "مهرماه ۱۴۰۰"
 category: "سارا حسنی، آیسان خدایاری و نگین خسروی"
 url_dw: "https://t.me/tehranmarkaz_bme/3642"
-image: "images/IMG_20240226_224348_150.jpg"
+image: "images/IMG_20240229_085311_474.jpg"
 type: "journal"
 ---
 
