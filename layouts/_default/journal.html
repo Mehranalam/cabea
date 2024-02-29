@@ -1,4 +1,4 @@
-<div style="border-radius: 25px;" class="card p-0 border-primary rounded-9 shadow" align="right">
+<div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
   <img class="card-img-top rounded-9" src="{{ .Params.image | relURL }}" alt="">
   <div class="card-body" dir="rtl" align="right">
     <ul class="list-inline mb-2" align="right">
@@ -6,7 +6,7 @@
     </ul>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
-    <p style="color: red;"><i>{{.Params.Status}}</i></p>
+    <p>تاریخ انتشار پادکست : <b>{{ .Params.Weekly }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
   </div>
 </div>

@@ -1,7 +1,10 @@
-<li style="padding: 20px; border-radius: 25px;" class="d-md-table mb-4 w-100 border-bottom shadow">
-  <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+<li style="padding: 20px; border-radius: 15px;" class="d-md-table mb-4 w-100 border-bottom shadow">
+  <div style="margin-top: 50px;" class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
     <h4><a href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .Title }}</a></h4>
     <p class="mb-0">{{ .Summary | truncate 100 }}</p>
+   <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار اطلاعیه : <b>{{ .Params.Public }}</b> - لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
   </div>
-  <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "read_more"}}</a></div>
+  <div style="margin-top: 30px;">
+    <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "read_more"}}</a></div>
+  </div>
 </li>

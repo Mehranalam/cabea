@@ -3,6 +3,8 @@ title: "کلاس بندی تجهیزات پزشکی"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
+Linke: "https://cabea.ir/journal/classification-of-medical-equipment/"
+intro: "cabea.ir/journal/classification-of-medical-equipment"
 description : "سومین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد."
 weekly: "مهرماه ۱۴۰۰"
 category: "سارا حسنی، آیسان خدایاری و نگین خسروی"

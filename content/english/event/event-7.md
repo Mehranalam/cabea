@@ -6,6 +6,8 @@ time: "ساعت ۱۴ ظهر"
 status: "برگزار شده - منقضی"
 draft: false
 bg_image: "images/IMG.jpg"
+Linke: "https://cabea.ir/event/event-7/"
+intro: "cabea.ir/event/event-7"
 description : "این ایونت بخاطر برگزاری قبل از ایجاد پلتفرم مجموعه فاقد توضیحات دقیق است"
 image: ""
 location: "دانشکده علوم پایه - مجتمع دانشگاهی نیایش"

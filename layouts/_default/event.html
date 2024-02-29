@@ -1,4 +1,4 @@
-<div style="border-radius: 25px;" class="card border-0 rounded-9 shadow" align="right">
+<div style="border-radius: 15px;" class="card border-0 rounded-9 shadow" align="right">
   <div class="card-img position-relative" align="right">
     <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="">
     <!--    <div class="card-date"><span>{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}</div>
@@ -9,5 +9,6 @@
     <p><i class="ti-location-pin text-primary mr-2"></i>{{ .Params.Location | markdownify }}</p>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p>وضعیت: {{ .Params.Status }}</p>
+    <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Daate }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
   </div>
 </div>

@@ -5,12 +5,12 @@
   <div class="container" align="right">
     <div class="row" dir="rtl">
         <div class="col-12">
+          {{ range .Data.Pages }}
           <ul style="margin-left: 50px;" class="list-unstyled">
               <!-- notice item -->
-              {{ range .Data.Pages }}
               {{ .Render "notice" }}
-              {{ end }}
           </ul>
+          {{ end }}
       </div>
     </div>
   </div>

@@ -5,6 +5,8 @@ daate: "1400 بهار"
 time: "ساعت ۱۲ ظهر"
 status: "برگزار شده - منقضی"
 draft: false
+Linke: "https://cabea.ir/event/event-1/"
+intro: "cabea.ir/event/event-1/"
 bg_image: "images/IMG.jpg"
 description : "این ایونت بخاطر برگزاری قبل از ایجاد پلتفرم مجموعه فاقد توضیحات دقیق است"
 image: ""

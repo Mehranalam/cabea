@@ -13,6 +13,8 @@
             {{ .Content }}
             {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
             {{ end }}
+
+            <p dir="rtl"><i class="ti-bookmark-alt"></i>  تاریخ انتشار اطلاعیه : <b>{{ .Params.Public }}</b> - لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
           </div>
         </div>
       </div>

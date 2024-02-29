@@ -1,7 +1,10 @@
 ---
 title: "گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز"
 date: 2019-07-06T15:27:17+06:00
+public: "بهمن ۱۴۰۲"
 draft: false
+Linke: "https://cabea.ir/notice/notice-1/"
+intro: "cabea.ir/notice/notice-1"
 bg_image: "images/IMG.jpg"
 description : "گزارشی مختصر از بخشی از اقدامات انجمن مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی "
 download_link : "https://docs.google.com/presentation/d/1CZTOy043hgiIaFpNXiJ8wS2_E2AtgAjWqOqR5YrE1c0/edit?usp=sharing"

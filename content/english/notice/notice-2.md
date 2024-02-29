@@ -1,7 +1,10 @@
 ---
 title: "بستر ارتباطی جدید - وب‌سایت انجمن راه اندازی شد."
 date: 2019-07-06T15:27:17+06:00
+public: "خرداد ۱۴۰۲"
 draft: false
+Linke: "https://cabea.ir/notice/notice-2/"
+intro: "cabea.ir/notice/notice-2"
 bg_image: "images/IMG.jpg"
 description : "ز این پس انجمن مهندسی پزشکی دانشگاه آزاد واحد تهران مرکز دارای یک پلتفرم مستقل برای ارتباط با دانشجو و همچنین راحتی دانشجویان عزیز برای دریافت منظم اطلاعات دانشگاهی است"
 download_link : ""
