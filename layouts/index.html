@@ -117,7 +117,7 @@
       </div>
     </div>
     <!-- course list -->
-    <div style="list-style-type: none;" class="column justify-content-center">      <!-- course item -->
+    <div style="list-style-type: none; padding: 0px;" class="column justify-content-center">      <!-- course item -->
       {{ range first 6 (where site.RegularPages "Type" "notice")}}
       <div dir="rtl"> <!-- col-lg-5 col-sm-4 mb-5 -->
         {{ .Render "notice" }}
