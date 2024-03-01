@@ -5,7 +5,7 @@ draft: false
 bg_image: "images/IMG.jpg"
 description : "توضیحات دقیقی برای این کارگاه در دسترس نیست"
 image: ""
-Linke: "https://cabea.i/course/course-1/"
+Linke: "https://cabea.ir/course/course-1/"
 intro: "cabea.ir/course/course-1"
 category: "ورود به بازار کار"
 Contacty: "ایمیل دقیقی در دسترس نیست"
