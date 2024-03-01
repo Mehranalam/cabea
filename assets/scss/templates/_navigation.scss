@@ -11,21 +11,21 @@
 }
 
 .navigation {
-  background: linear-gradient(to right, transparent 50%, $primary-color 50%);
+  background: linear-gradient(to right, $primary-color 50%, $primary-color 60%);
   transition: .2s ease;
 
   @include desktop {
-    background: $secondary-color;
+    background: $primary-color;
 
     .navbar-brand {
-      padding: 12px 0;
+      padding: 15px 0;
     }
   }
 }
 
 .navbar-collapse{
   @include desktop {
-    background: $secondary-color;
+    background: $primary-color;
   }
 }
 
@@ -34,13 +34,15 @@
   background: $primary-color;
 
   @include desktop {
-    padding-left: 0;
-    background: $secondary-color;
+    padding-right: 50px;
+    background: $primary-color;
   }
+
+  justify-self: left;
 }
 
 .nav-bg {
-  background-color: $secondary-color;
+  background-color: $primary-color;
 }
 
 .nav-item {
@@ -49,7 +51,7 @@
     font-weight: 600;
   }
 
-  margin: 0 15px;
+  margin: 0px 15px;
   position: relative;
 
   &::before {
@@ -170,3 +172,4 @@ link:focus,
     }
   }
 }
+

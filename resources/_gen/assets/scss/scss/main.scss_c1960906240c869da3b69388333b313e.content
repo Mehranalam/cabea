@@ -146,7 +146,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFDC11;
+  background-color: #285943;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -674,6 +674,10 @@ textarea.form-control {
   -webkit-backdrop-filter: blur(4px);
   z-index: 1; }
 
+@media only screen and (max-width: 1200px) {
+  #jjklp23 {
+    display: none; } }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;
@@ -684,29 +688,30 @@ textarea.form-control {
     transform-origin: top; }
 
 .navigation {
-  background: linear-gradient(to right, transparent 50%, #7077A1 50%);
+  background: linear-gradient(to right, #7077A1 50%, #7077A1 60%);
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #1a1a37; }
+      background: #7077A1; }
       .navigation .navbar-brand {
-        padding: 12px 0; } }
+        padding: 15px 0; } }
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #1a1a37; } }
+    background: #7077A1; } }
 
 .navbar-nav {
   padding-left: 50px;
-  background: #7077A1; }
+  background: #7077A1;
+  justify-self: left; }
   @media (max-width: 991px) {
     .navbar-nav {
-      padding-left: 0;
-      background: #1a1a37; } }
+      padding-right: 50px;
+      background: #7077A1; } }
 .nav-bg {
-  background-color: #1a1a37; }
+  background-color: #7077A1; }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0px 15px;
   position: relative; }
   .nav-item .nav-link {
     text-transform: uppercase;

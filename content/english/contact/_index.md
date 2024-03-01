@@ -12,4 +12,6 @@ description : "ارتباط ما انجمن  - صفحه ارتباط با انج
 
 **ایمیل مشارکت محتوایی: [BME-TMU@hotmail.com](mailto:BME-TMU@hotmail.com)**
 
+**اینستاگرام انجمن: [@bme_tehranmarkaz](https://instagram.com/bme_tehranmarkaz)**
+
 ##### نکته: جهت ارتباط با هر استاد میتوانید از طریق ایمیل مشخص شده هر استاد از صفحه [اساتید](https://medical-engineering-association.netlify.app/teacher/) با آنها در ارتباط باشید.

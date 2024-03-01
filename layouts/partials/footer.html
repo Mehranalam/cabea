@@ -33,10 +33,9 @@
           <ul class="list-unstyled">
             <li class="mb-4">{{ site.Params.address | markdownify }}</li>
             <li class="mb-4">{{ site.Params.email | markdownify }}</li>
-            <!--<li class="mb-4">{{ site.Params.mobile | markdownify }}</li>-->
           </ul>
         </div>
-        <!-- company -->
+        <!-- company d-inline-block -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "company" }}</h4>
           <ul class="list-unstyled">
@@ -81,10 +80,10 @@
   <div class="copyright py-4 bg-footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-5 text-md-left text-center">
-          <ul style="margin-bottom: 8px;" class="list-inline">
+        <div style="margin-top: 10px;" class="col-md-5 text-md-left text-center">
+          <ul class="list-inline">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a style="background-color: blue; border-radius: 8px; color: white;" class="d-inline-block p-2" href="https://cabea.ir/about/"><b>درباره انجمن</b></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
             {{ end }}
           </ul>
         </div>

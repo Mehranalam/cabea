@@ -110,10 +110,31 @@ map_marker = "images/marker.png" # marker size 37*55 px
 enable = true
 expire_days = 2
 
+# [[params.social]]
+# title = "facebook"
+# icon = "ti-facebook"
+# link = "#"
+
+[[params.social]]
+title = "telegram"
+icon = "ti-telegram"
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" 
+link = "https://instagram.com/bme_tehranmarkaz"
+
 [[params.social]]
 title = "github"
-icon = "images/github-mark/github-mark.svg"
+icon = "ti-github"
 link = "https://github.com/Mehranalam/Medical-Engineering-Association"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin"
+link = "https://linkedin.com/in/mehranalam"
+
 
 
 
@@ -152,6 +173,11 @@ hasChildren = true
   parent = "صفحات تکنیکال"
   name = "سمینار ها"
   url = "event/"
+
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
+  name = "عضویت در انجمن"
+  url =  "https://docs.google.com/forms/d/e/1FAIpQLSdycg2dqSGpX38ASX-HSn6_r_vCvynWYm0csa4ls0UjyFoZIA/viewform"
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
