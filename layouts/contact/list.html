@@ -9,7 +9,17 @@
       </div>
     </div>
     <div class="row">
-      <div style="padding: 25px" class="content" align="right">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form align="right" dir="rtl" action="javascript:sendMail(this);" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="اسمتون">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="ایمیل">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="موضوع پیامتون">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="پیامتون"></textarea>
+          <p id="error" dir="rtl" style="color: red;"></p>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+        </form>
+      </div>
+      <div style="padding: 25px" class="col-lg-5 content" align="right">
         {{ .Content }}
         <!--        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
 -->        <p>آدرس: {{ site.Params.address | markdownify }}</p>
@@ -19,15 +29,13 @@
 </section>
 <!-- /contact -->
 
-<!-- gmap -->
+<!-- gmap 
 <section class="section pt-0">
-  <!-- Google Map -->
   <div id="map_canvas" 
   data-latitude="{{ site.Params.map.map_latitude }}"
   data-longitude="{{ site.Params.map.map_longitude }}" 
   data-marker="{{ site.Params.map.map_marker | absURL }}"
   data-marker-name="{{ site.Title }}"></div>
-</section>
-<!-- /gmap -->
+</section>-->
 
 {{ end }}

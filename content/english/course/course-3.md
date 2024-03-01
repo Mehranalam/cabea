@@ -5,6 +5,8 @@ draft: false
 bg_image: "images/IMG.jpg"
 description : "توضیحات دقیقی برای این کارگاه در دسترس نیست"
 image: ""
+Linke: "https://cabea.i/course/course-3/"
+intro: "cabea.ir/course/course-3"
 category: "مهارت محور"
 teacher: "حامد عزیز زاده"
 duration : "ساعت ۹:۰۰"

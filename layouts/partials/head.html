@@ -19,7 +19,6 @@
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
   {{ end }}
-
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }}">
@@ -32,69 +31,23 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <script>
-    document.querySelectorAll(".key .icon").forEach(function (icon) {
-      icon.addEventListener("click", function () {
-        var textToCopy = this.parentElement.querySelector(".text").textContent;
-        copyToClipboard(textToCopy);
-        alert("Text copied to clipboard!");
-      });
-    });
-    
-    function copyToClipboard(text) {
-      var input = document.createElement("textarea");
-      input.value = text;
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand("copy");
-      document.body.removeChild(input);
+    function sendMail(form) {
+      var nameValue = document.getElementById("name").value;
+      var mail = document.getElementById("mail").value;
+      var subject = document.getElementById("subject").value;
+      var masege = document.getElementById("message").value;
+
+
+    if (masege != "" && subject != "" && mail != "" && nameValue != "") {
+      var datas = 'https://mail.google.com/mail/?view=cm&fs=1&to=mehraxxn@gmail.com&cc='+ mail +'&su='+ subject +'&body=' + masege
+      window.open(datas);
     }
-    
-    document.querySelectorAll(".copyfield").forEach(function (input) {
-      input.addEventListener("click", function () {
-        this.select();
-      });
-    });
-    
-    // --------------------------------------------------------------------
-    
-    document.addEventListener('DOMContentLoaded', function() {
-      var systemIcon = document.querySelector('.system-icon');
-      function detectOS() {
-        var userAgent = window.navigator.userAgent,
-            platform = window.navigator.platform,
-            macPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-            windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-            iosPlatforms = ['iPhone', 'iPad', 'iPod'],
-            androidPlatforms = ['Android'],
-            os = null;
-    
-        if (macPlatforms.indexOf(platform) !== -1) os = 'MacOS';
-        else if (iosPlatforms.indexOf(platform) !== -1) os = 'iOS';
-        else if (windowsPlatforms.indexOf(platform) !== -1) os = 'Windows';
-        else if (androidPlatforms.indexOf(platform) !== -1) os = 'Android';
-        else if (!os && /Linux/.test(platform)) os = 'Linux';
-        else os = 'Unknown';
-    
-        return os;
-      }
-      function setSystemIcon() {
-        var os = detectOS(),
-            iconClass;
-    
-        switch (os) {
-          case 'MacOS': iconClass = 'fa-brands fa-apple'; break;
-          case 'Windows': iconClass = 'fa-brands fa-windows'; break;
-          case 'Linux': iconClass = 'fa-brands fa-linux'; break;
-          case 'Android': iconClass = 'fa-brands fa-android'; break;
-          default: iconClass = 'fas fa-envelope'; break;
-        }
-    systemIcon.classList.add(...iconClass.split(' '));
-        
-      }
-      setSystemIcon();
-    });
-    
+      alert("لطفا تمام اطلاعات را به دقت پرکنید")
+  }
   </script>
 </head>

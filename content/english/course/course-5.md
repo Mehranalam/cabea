@@ -5,6 +5,8 @@ draft: false
 bg_image: "images/IMG.jpg"
 description : "توضیحات دقیقی برای این کارگاه در دسترس نیست"
 image: ""
+Linke: "https://cabea.i/course/course-5/"
+intro: "cabea.ir/course/course-5"
 category: "مهارت محور"
 teacher: "مهدیار فخاری و سرکار خانم مهندس آنیتا ورشوی"
 Contacty: "ایمیل دقیقی در دسترس نیست"

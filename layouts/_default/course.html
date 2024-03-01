@@ -1,4 +1,4 @@
-<div class="card p-0 border-primary rounded-0 shadow" align="right">
+<div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
   <!--<img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="">
   <p>{{.Title}}</p>-->
   <div class="card-body" dir="rtl" align="right">
@@ -9,6 +9,7 @@
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
     <p style="color: red;"><i>{{.Params.Status}}</i></p>
+    <p><i class="ti-bookmark-alt"></i>  تاریخ برگزاری کارگاه : <b>{{ .Params.Weekly }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "apply_now"}}</a>
   </div>
 </div>

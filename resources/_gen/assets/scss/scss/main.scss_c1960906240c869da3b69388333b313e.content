@@ -665,6 +665,15 @@ textarea.form-control {
 .whatsapp {
   background-color: #2ebf33; }
 
+[x-cloak] {
+  display: none !important; }
+
+.glass {
+  background: #00000010;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1; }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;

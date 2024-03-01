@@ -5,6 +5,8 @@ draft: false
 bg_image: "images/IMG.jpg"
 description : "توضیحات دقیقی برای این کارگاه در دسترس نیست"
 image: ""
+Linke: "https://cabea.i/course/course-2/"
+intro: "cabea.ir/course/course-2"
 category: "مهارت محور"
 teacher: "محمد طه نیک سیرت"
 duration : "ساعت ۱۶:۳۰"

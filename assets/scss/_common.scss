@@ -677,3 +677,14 @@ textarea.form-control{
 .whatsapp {
   background-color: #2ebf33;
 }
+
+[x-cloak] {
+  display: none !important;
+}
+
+.glass {
+    background: #00000010;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 1;
+}

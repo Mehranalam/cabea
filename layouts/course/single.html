@@ -16,6 +16,7 @@
       <div align="right" dir="rtl" class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
         <h3>{{ .Title }}</h3>
         <p style="color: red;"><i>{{.Params.Status}}</i></p>
+        <p><i class="ti-bookmark-alt"></i>  تاریخ برگزاری کارگاه : <b>{{ .Params.Weekly }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
       </div>
       <div align="right" class="col-xl-3 text-sm-left text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
         <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
@@ -88,18 +89,11 @@
 <!-- /section -->
 
 <!-- related course -->
-<!--
-
-                {{ range .Params.Contact }} 
-                {{ end }}
-                .link | safeURL
-
-              <i class=" .icon "></i>
 <section class="section pt-0">
-  <div class="container">
+  <div class="container" align="right">
     <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">{{ i18n "related_course" }}</h2>
+      <div dir="rtl" class="col-12">
+        <h2 class="section-title">دیگر کارگاه ها</h2>
       </div>
     </div>
     <div class="row">
@@ -112,7 +106,6 @@
     </div>
   </div>
 </section>
--->
 <!-- /related course -->
 
 {{ end }}

@@ -101,6 +101,39 @@
 {{ end }}
 <!-- /about us -->
 
+<!-- events -->
+{{ if $data.homepage.event.enable }}
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row" dir="rtl">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">کارگاه های تخصصی</h2>
+          <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{`course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- event -->
+      {{ range first 3 (where site.RegularPages "Type" "course")}}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        {{ .Render "course" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{`course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <!-- courses -->
 {{ if $data.homepage.course.enable }}
 <section class="section-sm bg-gray">
@@ -171,7 +204,7 @@
     <div class="row" dir="rtl">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
+          <h2 class="mb-0 text-nowrap mr-3">کنفرانس و سمینار ها</h2>
           <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
             <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
