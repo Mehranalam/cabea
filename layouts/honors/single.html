@@ -1,0 +1,89 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container" dir="rtl">
+    <div class="row">
+      <div align="right" class="col-12 mb-4">
+        <!-- course thumb -->
+        <img style="height: 500px;width: 100%;object-fit: scale-down;" src="{{ .Params.image | relURL }}"
+          class="img-fluid w-100" alt="{{.Title}}">
+      </div>
+    </div>
+    <!-- course info -->
+    <div align="right" dir="rtl" class="row align-items-right mb-5">
+      <div align="right" dir="rtl" class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h3>{{ .Title }}</h3>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 9px;" class="text-right">
+                <h6 class="mb-0">پلتفرم انتشار پادکست: </h6>
+                <p class="mb-0">تلگرام</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <div style="margin-right: 9px;" class="text-right">
+                <h6 class="mb-0">تاریخ انتشار:</h6>
+                <p class="mb-0">{{ .Params.Weekly }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4 content" align="right">
+        {{ .Content }}
+
+        <p>تاریخ انتشار اطلاعیه : <b>{{ .Params.Weekly }}</b> - لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
+
+      </div>
+      <!-- teacher -->
+      <div id="section-intro"  class="container_s sectionsy">
+        <div id="intro-container" class="info_s">
+          <h3>شنیدن این قسمت:</h3>
+          <p>فعلا تمام پادکست های منتشر شده توسط انجمن و پژوهشگاه در بستر پلتفرم تلگرام می‌باشند پس برای دانلود و شنیدن این قسمت از رادیو BME + وارد کانال انجمن بشید.
+          </p>
+          <div class="buttons_s" align="center">
+            <a href="{{ .Params.url_dw | relURL }}" class="button_s local">
+              <img style="margin-left: 6px;" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24"/> <span>دانلود از تلگرام</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row" align="right">
+      <div class="col-12" align="right">
+        <h2 class="section-title">دیگر محصولات نشریه</h2>
+      </div>
+    </div>
+    <div class="row" align="right">
+      {{ $related := (where site.RegularPages "Type" "journal") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "journal"}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /related course -->
+
+{{ end }}
