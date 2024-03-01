@@ -2,9 +2,8 @@
 
 <img src="EN-README.png"/>
 
-#### **https://cabea.ir**
+**https://cabea.ir**
 
-**Developer: [Mehran Alam Beigi](https://github.com/mehranalam)** .
 
 What is Medical-Engineering-Association Core?
 ---------------------
