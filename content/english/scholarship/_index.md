@@ -42,7 +42,7 @@ speaker:
 اگر مشکلی در فرایند این کار داشتی اصلا جای نگرانی نیست حتما با ایمیل پشتیبانی فنی در تماس باش:
 
 
-<p style="color: white;"><a style="color: white; background-color: blue; border-radius: 5px; padding: 15px;" href="mailto:mehraxxn@gmail.com">mehraxxn@gmail.com</a></b>
+<p style="color: white;"><a style="color: white; background-color: blue; border-radius: 5px; padding: 5px;" href="mailto:mehraxxn@gmail.com">mehraxxn@gmail.com</a></b>
 
 
 ### قوانین
