@@ -321,27 +321,16 @@
 </section>
 {{ end }}
 
-<!-- cta -->
-{{ if $data.homepage.cta.enable }}
-{{ with $data.homepage.cta }}
-<section style="background-color: white; padding: 5px;" class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-right">
-        <h2 class="section-title">مشارکت</h2>
-        <p class="mb-0">سورس کد این وب‌سایت در دسترس عموم و جامعه فنی دارد، درصورت نیاز میتوانید منبع را برسی کنید مفهموم مشارکت های نرم افزاری زیباست و ماهم به تفکر جمعی احترام میزاریم</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <br>
-        <a href="https://github.com/mehranalam/Medical-Engineering-Association" target="_blank">مشاهده پروژه</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
+<div style="border-radius: 15px;" class="card border-0 rounded-9 shadow" align="right">
+  <div class="card-img position-relative" align="right">
   </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /cta -->
+  <div class="card-body" dir="rtl">
+    <!-- location -->
+    <h4 class="card-title">مشارکت</h4>
+    <p>سورس کد این وب‌سایت در دسترس عموم و جامعه فنی قرار دارد، درصورت نیاز میتوانید منبع و روند توسعه آن را بررسی کنید و مراحل پیشرفت را ببینید،۰0 مفهموم مشارکت های نرم افزاری زیباست و ماهم به تفکر جمعی احترام میزاریم</p>
+    <p>تاریخ آغاز توسعه پروژه : <b>آبان ۱۴۰۱</b> <br>نسخه: نسخه آزمایشی</p>
+    <a class="btn btn-primary btn-sm" href="https://cabea.ir/scholarship/">صفحه مشارکت</a>
+  </div>
+</div>
 
 {{ end }}
