@@ -324,15 +324,16 @@
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
-<section class="section bg-primary">
+<section style="background-color: white;" class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-right">
         <h2 class="section-title text-white">مشارکت</h2>
-        <h6 class="text-white font-secondary mb-0">سورس کد این وب‌سایت در دسترس عموم و جامعه فنی دارد، درصورت نیاز میتوانید منبع را برسی کنید حتما دادن استار رو فراموش نکنید</h6>
+        <p class="text-white font-secondary mb-0">سورس کد این وب‌سایت در دسترس عموم و جامعه فنی دارد، درصورت نیاز میتوانید منبع را برسی کنید مفهموم مشارکت های نرم افزاری زیباست و ماهم به تفکر جمعی احترام میزاریم</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="https://github.com/mehranalam/Medical-Engineering-Association" target="_blank" class="btn btn-light">دادن ستاره به پروژه</a>
+        <br>
+        <a href="https://github.com/mehranalam/Medical-Engineering-Association" target="_blank">مشاهده پروژه</a>
         {{ end }}
         {{ end }}
       </div>
