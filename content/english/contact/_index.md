@@ -12,9 +12,13 @@ description : "ارتباط ما انجمن  - صفحه ارتباط با انج
 
 **حساب پشتیبانی انجمن در تلگرام: [@Karshenas_BME](https://t.me/Karshenas_BME)**
 
-**ایمیل مشارکت محتوایی: [BME-TMU@hotmail.com](mailto:BME-TMU@hotmail.com)**
+ارتباط ایمیلی:
+- **ایمیل مشارکت محتوایی: [BME-TMU@hotmail.com](mailto:BME-TMU@hotmail.com)**
 
-ایمیل رسمی انجمن: [info@cabea.ir](mailto:info@cabea.ir)
+- **ایمیل رسمی انجمن: [info@cabea.ir](mailto:info@cabea.ir)**
+
+- **ایمیل پشتیبانی فنی: [Mehraxxn@gmail.com](mailto:mehraxxn@gmail.com)**
+
 
 **اینستاگرام انجمن: [@bme_tehranmarkaz](https://instagram.com/bme_tehranmarkaz)**
 
