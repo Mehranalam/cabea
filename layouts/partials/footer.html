@@ -80,14 +80,14 @@
   <div class="copyright py-4 bg-footer">
     <div class="container">
       <div class="row">
-        <div style="margin-top: 10px; margin-right: 5px;" class="col-md-5 text-md-left text-center">
+        <div style="margin-top: 10px; margin-right: 5px;" class="col-md-5 text-md-left text-left">
           <ul class="list-inline">
             {{ range site.Params.social }}
             <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
             {{ end }}
           </ul>
         </div>
-        <div class="col-md-7 text-md-right text-center">
+        <div class="col-md-7 text-md-right text-right">
           <p class="mb-3 mb-md-0">این وبسایت آکادمی توسط <a style="color: red; font-weight: bold;" href="http://diara-team.ir" target="_blank">تیم دیارا</a> توسعه یافته و <br> حقوق آن برای انجمن مهندسی پزشکی دانشگاه آزاد واحد تهران مرکزی محفوظ است</p>
         </div><!--{{ site.Params.copyright | markdownify }}!-->
       </div>
