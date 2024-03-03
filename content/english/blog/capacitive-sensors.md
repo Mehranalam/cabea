@@ -6,7 +6,7 @@ bg_image: "images/IMG.jpg"
 Linke: "https://cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-market/"
 intro: "cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-market"
 description : "سنسور های خازنی یا حسگر های مجاورتی خازنی ، نوعی سنسور هستند که برای تغیرات در خازن یا ظرفیت الکتریکی استفاده میشود . آنها از خاصیت الکتریکی خازن و تغییر ظرفیت بر اساس تغییر در میدان الکتیکی اطراف صفحه فعال سنسور استفاده می کنند"
-image: "images/blog/IMG_7267.JPG"
+image: "images/Screenshot_20240303_090623_OneDrive.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/successful-strategies-earn-money-medical-engineering-job-market.md"
 author: "امیررضا جلینی"
 categories: ["مقاله پژوهشی"]
