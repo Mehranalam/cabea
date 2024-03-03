@@ -44,6 +44,8 @@ Application of Biomaterials in:
 
 🖥 برای کسب اطلاعات بیشتر میتوانید به سایت کنگره مراجعه فرمائید.
 
-● [icpb2024.kums.ac.ir](mailto:icpb2024.kums.ac.ir)
+<div align="left">
+● icpb2024.kums.ac.ir
 
-● [icpb2024@gmail.com](mailto:icpb2024@gmail.com)
+● icpb2024@gmail.com
+</div>
