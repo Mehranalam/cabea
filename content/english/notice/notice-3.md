@@ -22,7 +22,7 @@ type: "notice"
 📌 محورهای برگزاری کنگره: 
 
 <div align="left">
-<pre>Cutting-edge Biomaterials Design 
+<pre width="100%">Cutting-edge Biomaterials Design 
 Application of Biomaterials in:
  
 • Biomaterials discovery for Drug delivery and personalized medicine
