@@ -31,6 +31,7 @@ Application of Biomaterials in:
 •  Lab/body/organ on a Chip 
 • Bench To Market</p>
 </div>
+
 --------------------------
 
 ⚠️ مهلت ارسال چکیده از طریق سایت کنگره:
@@ -45,7 +46,6 @@ Application of Biomaterials in:
 🖥 برای کسب اطلاعات بیشتر میتوانید به سایت کنگره مراجعه فرمائید.
 
 <div align="left">
-● icpb2024.kums.ac.ir
-
-● icpb2024@gmail.com
+<p>● icpb2024.kums.ac.ir</p>
+<p>● icpb2024@gmail.com</p>
 </div>
