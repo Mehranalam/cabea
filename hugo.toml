@@ -176,7 +176,7 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
   name = "عضویت در انجمن"
-  url =  "https://docs.google.com/forms/d/e/1FAIpQLSdycg2dqSGpX38ASX-HSn6_r_vCvynWYm0csa4ls0UjyFoZIA/viewform"
+  url =  "form/"
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"

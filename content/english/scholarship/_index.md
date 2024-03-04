@@ -39,11 +39,6 @@ speaker:
 
 سپس پروژه را فورک کنید، وارد پوشه محتوا شوید و طبق الگو شروع به نوشتن کنید، بعد از اتمام نوشتار فایل پست خود را داخل پوشه محتوا و دسته بندی‌ای که نوشتید قرار بدید و برای مخزن اصلی یک پول ریکوئست بفرستید، آموزش نحوه کار با گیتهاب و ارسال پول ریکوئست رو داخل این [لینک](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) میتونید متوجه بشید.
 
-اگر مشکلی در فرایند این کار داشتی اصلا جای نگرانی نیست حتما با ایمیل پشتیبانی فنی در تماس باش:
-
-
-<p style="color: white;"><a style="color: white; background-color: blue; border-radius: 5px; padding: 5px;" href="mailto:mehraxxn@gmail.com">mehraxxn@gmail.com</a></b>
-
 
 ### قوانین
 
