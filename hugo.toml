@@ -180,8 +180,13 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
-  name = "نشریه"
-  url = "journal/"
+  name = "پادکست‌ها"
+  url = "podcast/"
+
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
+  name = "مجلات و ماه‌نامه"
+  url = "magazine/"
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
