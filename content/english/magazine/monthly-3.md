@@ -3,16 +3,17 @@ title: "نشریه شماره ۳ - انجمن"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/magazine/monthly-4/"
-intro: "cabea.ir/magazine/Monthly-4"
+Linke: "https://cabea.ir/magazine/monthly-3/"
+intro: "cabea.ir/magazine/monthly-3"
 description : "نشریه علمی مهندسی پزشکی دانشگاه آزاد تهران مرکز شماره ۳"
-weekly: "مهر ۱۴۰۰"
+weekly: "آذر ۱۴۰۰"
 url_dw: "https://t.me/tehranmarkaz_bme/3226"
 image: "images/IMG_20240305_213104_884.jpg"
 type: "magazine"
 ---
 
 **📜موضوعات:**
+
 - مهارت های لازم جهت ورود به بازار کار مهندسی پزشکی 
 - دغدغه های دانشجویان مهندسی پزشکی
 - بیمارستان BME+
