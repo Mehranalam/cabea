@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
           <h3 class="text-white mb-4">{{ i18n "subscribe_newsletter" }}‌ . <span style="color: orange;">بزودی</span></h3>
-          <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank">
+          <form action="javascript:newsletter(this)" method="post" name="mc-embedded-subscribe-form" target="_blank">
             <div class="input-wrapper">
               <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="{{ i18n "enter_email" }}">
               <button type="submit" name="subscribe" class="btn btn-primary">{{ i18n "join" }}</button>
