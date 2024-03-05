@@ -76,10 +76,10 @@
       </div>
     </div>
     <div class="row" align="right">
-      {{ $related := (where site.RegularPages "Type" "journal") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ $related := (where site.RegularPages "Type" "magazine) | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "journal"}}
+        {{ .Render "magazine"}}
       </div>
       {{ end }}
     </div>
