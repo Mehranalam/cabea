@@ -8,7 +8,7 @@ intro: "cabea.ir/magazine/Monthly-4"
 description : "این نشریه دانشجویی با حمایت و پشتیبانی معاونت پژوهشی، سازمان علمی دانشجویی مهندسی برق ایران، باشگاه پژوهشگران جوان و نخبگان دانشگاه آزاد اسلامی واحد تهران مرکز منتشر می شود"
 weekly: "مهر ۱۴۰۰"
 url_dw: "https://t.me/tehranmarkaz_bme/3739"
-image: "images/IMG_20240305_131712_536.jpg"
+image: "images/IMG_20240305_213104_884.jpg"
 type: "magazine"
 ---
 
