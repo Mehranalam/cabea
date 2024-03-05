@@ -4,7 +4,7 @@ date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
 Linke: "https://cabea.ir/magazine/monthly-4/"
-intro: "cabea.ir/magazine/Monthly-4"
+intro: "cabea.ir/magazine/monthly-4"
 description : "این نشریه دانشجویی با حمایت و پشتیبانی معاونت پژوهشی، سازمان علمی دانشجویی مهندسی برق ایران، باشگاه پژوهشگران جوان و نخبگان دانشگاه آزاد اسلامی واحد تهران مرکز منتشر می شود"
 weekly: "مهر ۱۴۰۰"
 url_dw: "https://t.me/tehranmarkaz_bme/3739"
