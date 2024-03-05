@@ -4,15 +4,60 @@
 <section class="section">
   <div class="container" align="right">
     <!-- course list -->
-    <div class="row justify-content-center">
-      <!-- course item -->
-      {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "journal" }}
-      </div>
-      {{ end }}
+      <div style="padding: 10px;" class="row justify-content-center">
+        <!-- journal -->
+        <div style="margin-bottom: 40px;">
+          <div class="col-12" dir="rtl">
+            <div class="d-flex align-items-center section-title justify-content-between">
+              <h2 class="mb-0 text-nowrap mr-3">ماهنامه و مجلات نشریه</h2>
+              <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
+              <div>
+                <a href="{{`magazine` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center" dir="rtl">
+            <!-- blog post -->
+            {{ range first 3 (where site.RegularPages "Type" "magazine")}}
+            <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0" align="right">
+              {{ .Render "magazine" }}
+            </article>
+            {{ end }}
+          </div>
+          <!-- mobile see all button -->
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="{{`magazine` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="col-12" dir="rtl">
+            <div class="d-flex align-items-center section-title justify-content-between">
+              <h2 class="mb-0 text-nowrap mr-3">رادیو BME +</h2>
+              <div style="margin-left: 15px; margin-right: 15px;" class="border-top w-100 border-primary d-none d-sm-block"></div>
+              <div>
+                <a href="{{`podcast` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center" dir="rtl">
+            <!-- blog post -->
+            {{ range first 3 (where site.RegularPages "Type" "journal")}}
+            <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0" align="right">
+              {{ .Render "journal" }}
+            </article>
+            {{ end }}
+          </div>
+          <!-- mobile see all button -->
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="{{`podcast` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+            </div>
+          </div>
+        </div>
+      <!-- /course list -->
     </div>
-    <!-- /course list -->
   </div>
 </section>
 <!-- /courses -->

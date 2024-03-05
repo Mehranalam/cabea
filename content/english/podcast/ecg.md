@@ -3,8 +3,8 @@ title: "ECG"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/ecg/"
-intro: "cabea.ir/journal/ECG"
+Linke: "https://cabea.ir/podcast/ecg/"
+intro: "cabea.ir/podcast/ECG"
 description : "⭕️ یازدهمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد"
 weekly: "اسفند ۱۴۰۲"
 category: "محمد سالار قلی پور، مبینا مقیمی و کیمیا سروری افشار"

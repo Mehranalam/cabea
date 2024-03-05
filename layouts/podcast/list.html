@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<!-- journey -->
+<section class="section">
+  <div class="container" align="right">
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "journal" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+  </div>
+</section>
+<!-- /courses -->
+
+{{ end }}

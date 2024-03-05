@@ -3,8 +3,8 @@ title: "ویژه برنامه یلدا"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/special-yalda-night-podcast/"
-intro: "cabea.ir/journal/journal/special-yalda-night-podcast"
+Linke: "https://cabea.ir/podcast/special-yalda-night-podcast/"
+intro: "cabea.ir/podcast/special-yalda-night-podcast"
 description : "سومین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد."
 weekly: "مهرماه ۱۴۰۰"
 category: "محمد سالار قلی پور, کیمیا سروری افشار و نگار فتحی آشتیانی"

@@ -3,14 +3,14 @@ title: "یونیت های دندان پزشکی"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/tooth-unit/"
-intro: "cabea.ir/journal/tooth-unit"
+Linke: "https://cabea.ir/podcast/tooth-unit/"
+intro: "cabea.ir/podcast/tooth-unit"
 description : "⭕️ نهمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد"
 weekly: "دی ۱۴۰۲"
 category: "محمد سالار قلی پور، کیمیا سروری افشار و نگار فتحی آشتیانی"
 url_dw: "https://t.me/tehranmarkaz_bme/4701"
 image: "images/IMG_20240229_085311_474.jpg"
-type: "journal"
+type: "magazine"
 ---
 
 

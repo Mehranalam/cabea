@@ -3,8 +3,8 @@ title: "عید نوروز ۱۴۰۱"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/norouz/"
-intro: "cabea.ir/journal/norouz"
+Linke: "https://cabea.ir/podcast/norouz/"
+intro: "cabea.ir/podcast/norouz"
 description : "⭕️ هفتمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد"
 weekly: "فروردین ۱۴۰۱"
 category: "آیسان خدایاری، نگین خسروی جهان، مبینا گودرزی و حسام حسن زاده"

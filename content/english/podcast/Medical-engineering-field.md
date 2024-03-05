@@ -3,8 +3,8 @@ title: "رشته مهندسی پزشکی"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/medical-engineering-field/"
-intro: "cabea.ir/journal/journal/medical-engineering-field"
+Linke: "https://cabea.ir/podcast/medical-engineering-field/"
+intro: "cabea.ir/podcast/medical-engineering-field"
 description : "⭕️ دومین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد"
 weekly: "مهرماه ۱۴۰۰"
 category: "سارا حسنی، آیسان خدایاری و نگین خسروی"

@@ -3,8 +3,8 @@ title: "نرم افزار های مهندسی پزشکی"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
-Linke: "https://cabea.ir/journal/Medical-engineering-software/"
-intro: "cabea.ir/journal/Medical-engineering-software"
+Linke: "https://cabea.ir/podcast/Medical-engineering-software/"
+intro: "cabea.ir/podcast/Medical-engineering-software"
 description : "⭕️ هشتمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد"
 weekly: "آبان ۱۴۰۲"
 category: "مبینا مقیمی، کیمیا سروری افشار، محمد سالار قلی پور و معین یعقوبی"
