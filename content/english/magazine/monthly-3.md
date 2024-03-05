@@ -8,7 +8,7 @@ intro: "cabea.ir/magazine/Monthly-4"
 description : "نشریه علمی مهندسی پزشکی دانشگاه آزاد تهران مرکز شماره ۳"
 weekly: "مهر ۱۴۰۰"
 url_dw: "https://t.me/tehranmarkaz_bme/3226"
-image: "images/IMG_20240305_132048_931.jpg"
+image: "images/IMG_20240305_213104_884.jpg"
 type: "magazine"
 ---
 
