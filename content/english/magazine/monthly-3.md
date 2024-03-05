@@ -1,11 +1,11 @@
 ---
-title: "نشریه شماره ۴ - انجمن"
+title: "نشریه شماره ۳ - انجمن"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/IMG.jpg"
 Linke: "https://cabea.ir/magazine/monthly-4/"
 intro: "cabea.ir/magazine/Monthly-4"
-description : "نشریه علمی مهندسی پزشکی دانشگاه آزاد تهران مرکز شماره ۴"
+description : "نشریه علمی مهندسی پزشکی دانشگاه آزاد تهران مرکز شماره ۳"
 weekly: "مهر ۱۴۰۰"
 url_dw: "https://t.me/tehranmarkaz_bme/3226"
 image: "images/IMG_20240305_132048_931.jpg"
