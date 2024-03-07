@@ -1,0 +1,12 @@
+<figure>
+    {{ if .Params.image }}
+    <img width="40%" class="rounded-circle mb-4 img-fluid" src="{{.Params.image | relURL }}">
+    {{else if .Params.Email}}
+    <img class="rounded-circle img-fluid mb-4" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+    {{ end }}
+    <figcaption>
+        <h4 class="font-weight-bold"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    </figcaption>
+    <br>
+    <hr>
+</figure>

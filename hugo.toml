@@ -5,7 +5,7 @@ timeZone = "Asia/Tehran"
 # post pagination
 paginate = 6 
 summaryLength = 10 
-googleAnalytics = "UA-123456-78"
+googleAnalytics = "G-CHEBM9VFBO"
 disqusShortname = "mehraner"
 disableLanguages = [] 
 hasCJKLanguage = false
@@ -197,6 +197,11 @@ hasChildren = true
   parent = "صفحات تکنیکال"
   name = "پژوهش ها و مقالات"
   url = "research/"
+
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
+  name = "نویسندگان"
+  url = "author/"
   
 [[Languages.en.menu.main]]
 name = "وبلاگ انجمن"

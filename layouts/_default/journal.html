@@ -1,9 +1,8 @@
 <div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
   <img style="object-fit: scale-down;" class="card-img-top rounded-9" src="{{ .Params.image | relURL }}" alt="">
   <div class="card-body" dir="rtl" align="right">
-    <ul class="list-inline mb-2" align="right">
-      <li class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: {{ .Params.Category }}</li>
-    </ul>
+    <p class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: <b>{{ .Params.Category }}</b></p>
+    
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
     <p>تاریخ انتشار پادکست : <b>{{ .Params.Weekly }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>

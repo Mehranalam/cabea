@@ -12,6 +12,8 @@
   <!-- theme meta -->
   <meta name="theme-name" content="educenter-hugo" />
   
+  {{ template "_internal/google_analytics.html" . }}
+  
   {{ hugo.Generator }}
   {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
   {{ if .IsTranslated }}

@@ -10,19 +10,16 @@
             <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
           </div>
           <div class="col-12" align="right">
-            <ul class="list-inline" align="right">
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}
-                  :</span><a
-                  href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
+            <p class="list-inline-item"><i class="ti-user"></i> تنظیم شده توسط:  <b><a style=" text-decoration: underline;"
+              href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></b></p>
+                
+            <p class="list-inline-item"><span class="font-weight-bold mr-2">{{ i18n "date" }}
+                :</span>{{ .Params.Dates }}</p>
 
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}
-                  :</span>{{ .Params.Dates }}</li>
-
-              <li style="margin: 10px;" class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "category" }}
-                  :</span>{{ range $index, $elements:= .Params.Categories }}<a
-                  href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
-                  {{ . | title }}</a> {{ end}}</li>
-            </ul>
+            <p class="list-inline-item"><span class="font-weight-bold mr-2">{{ i18n "category" }}
+                :</span>{{ range $index, $elements:= .Params.Categories }}<a style=" text-decoration: underline;"
+                href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
+                {{ . | title }}</a> {{ end}}</p>
           </div>
           <!-- border -->
           <div class="col-12 my-4">
