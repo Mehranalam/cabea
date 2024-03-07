@@ -1,6 +1,5 @@
 ---
-speaker:
-  # speaker loop
+contributors:
   - name : "مهران علم بیگی"
     image : "https://avatars.githubusercontent.com/u/77109284?v=4"
     designation : "توسعه دهنده اصلی - انجمن"
@@ -9,3 +8,4 @@ speaker:
     image : ""
     designation : "سرپرست محتوایی - انجمن"
 ---
+
