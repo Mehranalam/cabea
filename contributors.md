@@ -5,7 +5,6 @@ contributors:
     designation : "توسعه دهنده اصلی - انجمن"
   
   - name : "امیر رضا عبدی"
-    image : ""
-    designation : "سرپرست محتوایی - انجمن"
+    image : "https://avatars.githubusercontent.com/u/159689992?v=4"
+    designation : "مشارکت محتوایی"
 ---
-
