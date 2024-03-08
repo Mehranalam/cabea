@@ -379,7 +379,7 @@ textarea.form-control{
   }
 
   table {
-    text-align: left;
+    text-align: right;
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
@@ -400,7 +400,7 @@ textarea.form-control{
       background: $light;
 
       td {
-        text-align: left !important;
+        text-align: right !important;
       }
     }
   }
