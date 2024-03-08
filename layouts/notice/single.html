@@ -3,8 +3,8 @@
 <!-- notice details -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
+    <div class="row" align="right">
+      <div class="col-12" align="right">
         <div class="content" dir="rtl">
           {{ .Content }}
           {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
