@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>اطلاعیه‌ها on انجمن مهندسی پزشکی -  تهران مرکزی</title>
+    <link>//localhost:1313/notice/</link>
+    <description>Recent content in اطلاعیه‌ها on انجمن مهندسی پزشکی -  تهران مرکزی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
+    <atom:link href="//localhost:1313/notice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>برگزاری اولین کنگره بین المللی زیست دارویی</title>
+      <link>//localhost:1313/notice/notice-3/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-3/</guid>
+      <description>دانشگاه علوم‌ پزشکی کرمانشاه برگزار می کند اولین کنگره بین المللی زیست مواد دارویی فراخوان ارسال چکیده مرحله دوم کنگره آغاز شد محورهای برگزاری کنگره:</description>
+    </item>
+    <item>
+      <title>بستر ارتباطی جدید - وب‌سایت انجمن راه اندازی شد.</title>
+      <link>//localhost:1313/notice/notice-2/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-2/</guid>
+      <description>پلتفرم انجمن مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی از این پس انجمن مهندسی پزشکی دانشگاه آزاد واحد تهران مرکز دارای یک پلتفرم مستقل برای ارتباط با دانشجو و همچنین راحتی دانشجویان عزیز برای دریافت منظم اطلاعات دانشگاهی است.</description>
+    </item>
+    <item>
+      <title>رونمایی از بزرگترین پروژکتوم نورون‌ها</title>
+      <link>//localhost:1313/notice/notice-4/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-4/</guid>
+      <description>رونمایی از بزرگترین پروژکتوم نورون‌ها محققان با رونمایی از بزرگترین پایگاه داده پروژکتوم نورون‌های تک‌سلولی، گامی بزرگ در جهت درک بهتر مغز انسان برداشته‌اند.</description>
+    </item>
+    <item>
+      <title>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز</title>
+      <link>//localhost:1313/notice/notice-1/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-1/</guid>
+      <description>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی در سال 1397 تشکیل شد و دارای بیش از 2000 عضو فعال می باشد .</description>
+    </item>
+  </channel>
+</rss>

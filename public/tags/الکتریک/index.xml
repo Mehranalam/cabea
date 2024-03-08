@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>الکتریک on انجمن مهندسی پزشکی -  تهران مرکزی</title>
+    <link>//localhost:1313/tags/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%DB%8C%DA%A9/</link>
+    <description>Recent content in الکتریک on انجمن مهندسی پزشکی -  تهران مرکزی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%DB%8C%DA%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>سنسور های خازنی</title>
+      <link>//localhost:1313/blog/capacitive-sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/capacitive-sensors/</guid>
+      <description>سنسور های خازنی چیست؟ سنسور های خازنی یا حسگر های مجاورتی خازنی ، نوعی سنسور هستند که برای تغیرات در خازن یا ظرفیت الکتریکی استفاده میشود .</description>
+    </item>
+  </channel>
+</rss>

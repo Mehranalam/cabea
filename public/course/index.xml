@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>دوره های ما on انجمن مهندسی پزشکی -  تهران مرکزی</title>
+    <link>//localhost:1313/course/</link>
+    <description>Recent content in دوره های ما on انجمن مهندسی پزشکی -  تهران مرکزی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
+    <atom:link href="//localhost:1313/course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>کارگاه پژوهش و تکنولوژی در مهندسی پزشکی</title>
+      <link>//localhost:1313/course/course-2/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-2/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+    <item>
+      <title>کارگاه تخصصی عملی فرایند تولید تعمیرات و نگهداری دستگاه اکسیژن ساز</title>
+      <link>//localhost:1313/course/course-5/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-5/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+    <item>
+      <title>کارگاه تخصصی فناوری ساخت سه بعدی</title>
+      <link>//localhost:1313/course/course-3/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-3/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+    <item>
+      <title>کارگاه روند تولید ثبت محصول به صورت دانش بنیان</title>
+      <link>//localhost:1313/course/course-6/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-6/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+    <item>
+      <title>کارگاه ورود به بازار کار و تجارت مهندسی پزشکی</title>
+      <link>//localhost:1313/course/course-1/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-1/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+    <item>
+      <title>کارگاه ویژه تعمیرات تخصصی دستگاه ااتو کالو دندانپزشکی بر پایه کنترل عفونت و اصول استاندار</title>
+      <link>//localhost:1313/course/course-4/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/course/course-4/</guid>
+      <description>درباره دوره توضیحات دقیقی برای این کارگاه در دسترس نیست </description>
+    </item>
+  </channel>
+</rss>

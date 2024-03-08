@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>مشارکت داوطلبانه دانشجویان on انجمن مهندسی پزشکی -  تهران مرکزی</title>
+    <link>//localhost:1313/scholarship/</link>
+    <description>Recent content in مشارکت داوطلبانه دانشجویان on انجمن مهندسی پزشکی -  تهران مرکزی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/scholarship/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
