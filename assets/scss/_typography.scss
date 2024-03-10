@@ -1,5 +1,9 @@
 /*  typography */
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+}
 
 body {
   line-height: 1.2;
@@ -19,7 +23,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: $secondary-font;
+  font-family: 'Vazirmatn';
   font-weight: 700;
   line-height: 1.2;
 }
