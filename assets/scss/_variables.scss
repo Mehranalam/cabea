@@ -11,6 +11,11 @@ $white: #ffffff;
 $light: #f8f9fe;
 $gray: #f8f8f8;
 
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+}
+
 //gray: #f8f8f8, light: #f8f9fe Font Variables
 $primary-font: 'Vazirmatn';
 $secondary-font: 'Vazirmatn';
