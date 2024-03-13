@@ -8,6 +8,8 @@ body {
   color: $text-color;
   font-family: $primary-font;
   line-height: 1.2;
+  width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 p, .paragraph {
@@ -20,7 +22,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: 'Lalezar;
+  font-family: 'Lalezar';
   font-weight: 700;
   line-height: 1.2;
 }
