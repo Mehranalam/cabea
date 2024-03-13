@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
+@font-face {
+  font-family: "IRANYekan";
+  font-weight: normal;
+  src: url("https://github.com/Diara-Token/Diara.ir/raw/master/assets/fonts/IRANYekan/woff/IRANYekanWebRegular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "IRANYekany";
+  font-weight: bold;
+  src: url("https://github.com/Diara-Token/Diara.ir/raw/master/assets/fonts/IRANYekan/woff/IRANYekanWebExtraBold.woff") format('woff');
+}
 
 body {
   line-height: 1.2;
@@ -21,7 +32,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: 'Lalezar';
+  font-family: 'IRANYekany';
   font-weight: 700;
   line-height: 1.2;
 }
