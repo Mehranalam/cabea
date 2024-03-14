@@ -1,6 +1,13 @@
 /*  typography */
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@font-face {
+font-family: 'Lalezar',
+    src: url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap') format('embedded-opentype'), /* IE6 to IE8  */
+         url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap') format('woff'),  /* Newer browsers */
+         url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap') format('truetype'), /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+         url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap') format('svg'); /*IE og iOS earlier than version 5*/
+}
 
 body {
   -webkit-font-smoothing: antialiased;
