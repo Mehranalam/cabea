@@ -7,13 +7,11 @@
 
 What is Medical-Engineering-Association Core?
 ---------------------
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5e98be6-f31f-4be4-ab4a-497f3549b5cb/deploy-status)](https://app.netlify.com/sites/medical-engineering-association/deploys) [![Deploy Hugo site to Pages](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml/badge.svg)](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml)
+[![Deploy Hugo site to Pages](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml/badge.svg)](https://github.com/Mehranalam/Medical-Engineering-Association/actions/workflows/hugo.yml)
 
 From now on, the Medical Engineering Association of Azad University, Tehran branch, has an independent platform to communicate with students, as well as the convenience of dear students to regularly receive academic information. 
 
 The website is in the early stages of development. As a result, we ask you, dear servers, if you have any ideas - suggestions, as well as criticisms on the functioning of the website, please contact us using the contact page with the forum or email so that we can develop this platform as best as possible. 
-
-- Production environment: https://medical-engineering-association.netlify.app/
 
 Also, if you are a developer and a technical person, all of this source The codes of this website are freely available to the public, you can apply appropriate changes by referring to Github. All change requests are reviewed.
 
