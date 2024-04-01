@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
 
 @font-face {
-   font-family: 'IRANYekan';
-   src: url('static/fonts/IRANYekanWebRegular.woff') format('woff');  /* Newer browsers */
-   font-weight: normal;
-   font-style: normal;
+       font-family: 'MyWebFont';
+       src: url('fonts/IRANYekanWebBlack.woff2') format('woff2'),
+       src: url('fonts/IRANYekanWebBold%20(1).woff') format('woff'),
+       url('fonts/IRANYekanWebBlack.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+      
+      font-family: 'MyWebFont';
 }
 
 body {
@@ -28,7 +33,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: $secondary-font;
+  font-family: 'MyWebFont';
   font-weight: 700;
   line-height: 1.2;
 }
