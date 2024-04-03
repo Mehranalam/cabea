@@ -29,6 +29,15 @@
     <loc>//localhost:1313/podcast/medical-imaging/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/notice/notice-6/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/notice/notice-8/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/notice/notice-7/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/course/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
@@ -69,6 +78,9 @@
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/magazine/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/notice/notice-5/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/podcast/medical-engineering-software/</loc>
@@ -149,7 +161,7 @@
   </url><url>
     <loc>//localhost:1313/teacher/tahmine/</loc>
   </url><url>
-    <loc>//localhost:1313/author/%D8%AA%DB%8C%D9%85-%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7---%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</loc>
+    <loc>//localhost:1313/author/%D8%AA%DB%8C%D9%85-%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>

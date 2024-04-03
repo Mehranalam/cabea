@@ -51,6 +51,27 @@
       <description>درباره این شماره پادکست ⭕️ چهارمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد</description>
     </item>
     <item>
+      <title>دریافت سیلابس تحصیلی - چارت ورودی ۱۴۰۰ به بعد بیوالکتریک</title>
+      <link>//localhost:1313/notice/notice-6/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-6/</guid>
+      <description>چارت ترمیک ورودی ۱۴۰۰ به بعد - گرایش بیوالکتریک از طریق دکمه زیر اقدام به دریافت چارت بکنید، پیشروی با چارت تحصیلی را جدی بگیرید تا در فارغ التحصیلی به مشکلی برنخورید.</description>
+    </item>
+    <item>
+      <title>دریافت سیلابس تحصیلی - چارت ورودی ۱۴۰۰ به بعد بیومتریال</title>
+      <link>//localhost:1313/notice/notice-8/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-8/</guid>
+      <description>چارت ترمیک ورودی ۱۴۰۰ به بعد - گرایش بیومتریال از طریق دکمه زیر اقدام به دریافت چارت بکنید، پیشروی با چارت تحصیلی را جدی بگیرید تا در فارغ التحصیلی به مشکلی برنخورید.</description>
+    </item>
+    <item>
+      <title>دریافت سیلابس تحصیلی - چارت ورودی ۱۴۰۰ به بعد بیومکانیک</title>
+      <link>//localhost:1313/notice/notice-7/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-7/</guid>
+      <description>چارت ترمیک ورودی ۱۴۰۰ به بعد - گرایش بیومکانیک از طریق دکمه زیر اقدام به دریافت چارت بکنید، پیشروی با چارت تحصیلی را جدی بگیرید تا در فارغ التحصیلی به مشکلی برنخورید.</description>
+    </item>
+    <item>
       <title>رشته مهندسی پزشکی</title>
       <link>//localhost:1313/podcast/medical-engineering-field/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
@@ -133,6 +154,13 @@
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
       <guid>//localhost:1313/notice/notice-1/</guid>
       <description>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی در سال 1397 تشکیل شد و دارای بیش از 2000 عضو فعال می باشد .</description>
+    </item>
+    <item>
+      <title>نخستین سمینار پیشرفته‌ی زیست‌شناسی محاسباتی، بیوانفورماتیک و سلامت (HBC 2024)</title>
+      <link>//localhost:1313/notice/notice-5/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-5/</guid>
+      <description>نخستین سمینار پیشرفته‌ی زیست‌شناسی محاسباتی، بیوانفورماتیک و سلامت (HBC 2024) ● از دانشگاه Harvard: دکتر علیرضا حقیقی و دکتر عطا کیاپور</description>
     </item>
     <item>
       <title>نرم افزار های مهندسی پزشکی</title>
@@ -247,6 +275,13 @@
       <description>در حال حاضر، رشته مهندسی پزشکی به عنوان یکی از رشته‌های پرطرفدار و پررونق در دنیای صنعت و فناوری شناخته می‌شود.</description>
     </item>
     <item>
+      <title>امیر رضا جلینی</title>
+      <link>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1-%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1-%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</guid>
+      <description>دانشجوی مهندسی پزشکی</description>
+    </item>
+    <item>
       <title>انجمن</title>
       <link>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -266,13 +301,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/teacher/tahmine/</guid>
       <description>درباره استاد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</description>
-    </item>
-    <item>
-      <title>تیم دیارا - واحد پژوهش</title>
-      <link>//localhost:1313/author/%D8%AA%DB%8C%D9%85-%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/author/%D8%AA%DB%8C%D9%85-%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</guid>
-      <description>Diara-team.ir&#xA;: بنر دعوت</description>
     </item>
     <item>
       <title>ساسان صعودی</title>
