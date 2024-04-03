@@ -1,7 +1,7 @@
 ---
 title: "بیست و پنجمین نمایشگاه بین المللی ایران هلث"
 date: 2019-07-06T15:27:17+06:00
-public: "اردیبهشت ۱۴۰۳"
+public: "فروردین ۱۴۰۳"
 draft: false
 Linke: "https://cabea.ir/notice/notice-9/"
 intro: "cabea.ir/notice/notice-9"
