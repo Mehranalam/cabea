@@ -144,9 +144,9 @@ math: true
   \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
   $$
 
-- Inline math:
-
-  This is an inline polynomial: $5x^2 + 2y -7$.
+$$
+\sum_{45}^{2} + 34 \bigcap_{6}^{9} - \binom{67}{89}
+$$
 
 ### جمع‌ بندی:
 
