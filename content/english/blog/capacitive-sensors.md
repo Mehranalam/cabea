@@ -139,6 +139,14 @@ type: "post"
 
 -----------------------
 
+ $$
+  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+  $$
+
+- Inline math:
+
+  This is an inline polynomial: $5x^2 + 2y -7$.
+
 ### جمع‌ بندی:
 
 - اساس کار سنسورهای خازنی بر مبنای تغییر ظرفیت خازن است .
