@@ -26,13 +26,13 @@
             <div class="border-bottom"></div>
           </div>
           <!-- blog contect -->
-          <div id="section-intro" id="section-intro" class="row sectionsy col-12 mb-5" dir="rtl" align="right">
+          <div id="section-intro" class="row sectionsy col-12 mb-5" dir="rtl" align="right">
             <div id="intro-container" align="right" dir="rtl">
               {{ .Content }}
-            </div>
 
-            <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
-          </div>
+              <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
+            </div>
+           </div>
           <!-- comments -->
           {{ if site.DisqusShortname }}
           <div class="col-12">
