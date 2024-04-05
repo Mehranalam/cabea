@@ -10,7 +10,6 @@
             <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
           </div>
           <div class="col-12" align="right">
-            <div style="display: flex; flex-direction:row;">
               <p class="list-inline-item"><i class="ti-user"></i> تنظیم
                 شده توسط: <b><a style=" text-decoration: underline;"
                     href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title
@@ -23,7 +22,6 @@
                   :</span>{{ range $index, $elements:= .Params.Categories }}<a style=" text-decoration: underline;"
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
                   {{ . | title }}</a> {{ end}}</p>
-            </div>
           </div>
           <!-- border -->
           <div class="col-12 my-4">
@@ -37,7 +35,7 @@
             </aside>
             <p><img
               src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
-              alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید - <a
+              alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
                 style="text-decoration: underline; color: red;" href="{{.Params.Edit}}">تغییر این محتوا در
                 گیتهاب</a></b></p>
                 
