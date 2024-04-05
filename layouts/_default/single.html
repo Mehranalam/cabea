@@ -33,16 +33,15 @@
               <h3>فهرست مطالب:</h3>
               {{ .TableOfContents }}
             </aside>
+            {{ .Content }}
+            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
+              <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
+            </p>
             <p><img
               src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
               alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
                 style="text-decoration: underline; color: red;" href="{{.Params.Edit}}">تغییر این محتوا در
                 گیتهاب</a></b></p>
-                
-            {{ .Content }}
-            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
-              <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
-            </p>
           </div>
           <!-- comments -->
           {{ if site.DisqusShortname }}
