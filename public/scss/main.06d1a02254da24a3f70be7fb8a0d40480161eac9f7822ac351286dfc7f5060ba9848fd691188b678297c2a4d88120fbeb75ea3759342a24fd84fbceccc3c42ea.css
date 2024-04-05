@@ -248,18 +248,7 @@ a h4:hover {
   right: 4.5rem; }
 
 .TableOfContents {
-  margin: 10px;
-  margin-bottom: 25px; }
-
-.TableOfContents a {
-  color: #0072c6;
-  text-decoration: underline; }
-
-.TableOfContents ul {
-  list-style: nones; }
-
-.TableOfContents ul li {
-  margin: 7px; }
+  margin: 10px; }
 
 .border-primary {
   border-color: #d1d1f5 !important; }

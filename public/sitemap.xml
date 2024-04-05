@@ -23,6 +23,9 @@
     <loc>//localhost:1313/notice/notice-2/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/notice/notice-9/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/podcast/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
@@ -145,6 +148,8 @@
   </url><url>
     <loc>//localhost:1313/tags/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%DB%8C%DA%A9/</loc>
   </url><url>
+    <loc>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1-%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</loc>
+  </url><url>
     <loc>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</loc>
   </url><url>
     <loc>//localhost:1313/tags/%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%DA%A9%D8%A7%D8%B1/</loc>
@@ -160,8 +165,6 @@
     <loc>//localhost:1313/honors/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/tahmine/</loc>
-  </url><url>
-    <loc>//localhost:1313/author/%D8%AA%DB%8C%D9%85-%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>

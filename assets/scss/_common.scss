@@ -135,6 +135,24 @@ a h4{
   right: 4.5rem;
 }
 
+.TableOfContents {
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.TableOfContents a {
+  color: #0072c6;
+  text-decoration: underline;
+}
+
+.TableOfContents ul {
+  list-style: nones;
+}
+
+.TableOfContents ul li {
+  margin: 7px;
+}
+
 .border-primary {
   border-color: $border-color !important;
 }

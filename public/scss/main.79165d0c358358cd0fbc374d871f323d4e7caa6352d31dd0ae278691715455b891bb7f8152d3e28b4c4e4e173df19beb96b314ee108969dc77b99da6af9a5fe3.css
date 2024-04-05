@@ -248,12 +248,10 @@ a h4:hover {
   right: 4.5rem; }
 
 .TableOfContents {
-  margin: 10px;
-  margin-bottom: 25px; }
+  margin: 10px; }
 
 .TableOfContents a {
-  color: #0072c6;
-  text-decoration: underline; }
+  color: #0072c6; }
 
 .TableOfContents ul {
   list-style: nones; }
