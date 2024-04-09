@@ -8,8 +8,13 @@ intro: "cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-m
 description : "در حال حاضر، رشته مهندسی پزشکی به عنوان یکی از رشته‌های پرطرفدار و پررونق در دنیای صنعت و فناوری شناخته می‌شود. با پیشرفت روزافزون در زمینه تکنولوژی پزشکی، فرصت‌های شغلی در این حوزه نیز به طور چشمگیری افزایش یافته است. اما برای کسب موفقیت و درآمد قابل توجه در این بازار کار رقابتی، نیاز به استراتژی‌های خاص و کارآمد است."
 image: "images/blog/IMG_7267.JPG"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/successful-strategies-earn-money-medical-engineering-job-market.md"
-author: "انجمن"
+authors: 
+  - name: "انجمن"
+
 categories: ["بازار کار"]
+pretitle: "مقاله غیر-علمی"
+ref: "این مقاله توسط تیم تولید محتوا تولید شده"
+long: "فاقد مدت زمان دقیقی است"
 tags: ["کسب درآمد", "سرمایه", "بازار کار"]
 type: "post"
 ---

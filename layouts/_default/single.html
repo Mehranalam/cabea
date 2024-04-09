@@ -4,11 +4,25 @@
 <section class="section-sm">
   <div class="container" align="right">
     <div class="row" dir="rtl">
+      {{ partial "blog-sidebar.html" . }}
       <div dir="rtl" class="col-lg-8 order-2 order-lg-1">
         <div class="row">
+          <div style="margin-right: 25px;">
+            <p>{{ .Params.Pretitle }}</p>
+            <h2>{{ .Params.Title }}</h2>
+            <p>
+              <i class="ti-user"></i>
+              {{ range .Params.Authors }}
+              <a style=" text-decoration: underline;" href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
+                {{ .name | title }}</a>   
+
+              {{end}}
+            </p>
+          </div>
           <div class="col-12 mb-4">
             <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
           </div>
+          <!--
           <div class="col-12" align="right">
               <p class="list-inline-item"><i class="ti-user"></i> تنظیم
                 شده توسط: <b><a style=" text-decoration: underline;"
@@ -23,6 +37,8 @@
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
                   {{ . | title }}</a> {{ end}}</p>
           </div>
+          -->
+          <button style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
           <!-- border -->
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
@@ -30,18 +46,22 @@
           <!-- blog contect -->
           <div style="margin: 6px; display: inline-block;" class="col-12 mb-5" dir="rtl" align="right">
             <aside class="TableOfContents">
-              <h3>فهرست مطالب:</h3>
+              <h3>فهرست مطالب</h3>
               {{ .TableOfContents }}
             </aside>
             {{ .Content }}
             <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
               <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
             </p>
-            <p><img
-              src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
-              alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
-                style="text-decoration: underline; color: red;" href="{{.Params.Edit}}">تغییر این محتوا در
-                گیتهاب</a></b></p>
+          </div>
+          <div>
+            <h4>شناسنامه مقاله :</h4>
+            <br>
+            <ul class="list-group">
+              <li class="list-group-item">منبع اصلی : <b><a href="{{ .Params.Ref }}">{{ .Params.Ref }}</a></b></li>
+              <li class="list-group-item">مترجمان و نویسنده ها : {{ range .Params.Authors }}<b>{{ .name }} </b>{{end}}</li>
+              <li class="list-group-item">مدت زمان ترجمه: <b>{{ .Params.Long }}</b></li>
+            </ul>
           </div>
           <!-- comments -->
           {{ if site.DisqusShortname }}
@@ -51,7 +71,6 @@
           {{ end }}
         </div>
       </div>
-      {{ partial "blog-sidebar.html" . }}
     </div>
   </div>
 </section>
