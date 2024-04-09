@@ -58,9 +58,9 @@
             <h4>شناسنامه مقاله :</h4>
             <br>
             <ul style="margin-left: 25px;" class="list-group">
-              <li class="list-group-item">منبع اصلی : <b><a href="{{ .Params.Ref }}">{{ .Params.Ref }}</a></b></li>
-              <li class="list-group-item">مترجمان و نویسنده ها : {{ range .Params.Authors }}<b>{{ .name }} </b>{{end}}</li>
-              <li class="list-group-item">مدت زمان ترجمه: <b>{{ .Params.Long }}</b></li>
+              <li class="list-group-item">منبع اصلی :<br><b><a href="{{ .Params.Ref }}">{{ .Params.Ref }}</a></b></li>
+              <li class="list-group-item">مترجمان و نویسنده ها :<br>{{ range .Params.Authors }}<b>{{ .name }} </b>{{end}}</li>
+              <li class="list-group-item">مدت زمان ترجمه:<br><b>{{ .Params.Long }}</b></li>
             </ul>
           </div>
           <!-- comments -->
