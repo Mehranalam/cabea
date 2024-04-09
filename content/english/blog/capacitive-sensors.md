@@ -14,6 +14,7 @@ authors:
 
 categories: ["مقاله پژوهشی"]
 pretitle: "مقاله پژوهشی"
+ref-title: "Nanoparticles: Properties, applications and toxicities"
 ref: "https://www.sciencedirect.com/science/article/pii/S1878535217300990"
 long: "۳ ماه"
 tags: [ "الکتریک","برق", "گرایش بیوالکتریک"]
