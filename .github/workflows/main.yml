@@ -13,13 +13,13 @@ jobs:
       - name: Build book
         run: |-
           npm install -g md-to-pdf
-          mkdir -p _output
           cd content/english/blog
+          mkdir _output
           echo; echo "Input Folder Listing"
           ls
           echo; echo "Generating PDF"
-          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "/theme/style.css" > ../_output/blue-paper.pdf
-          cd ../_output
+          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "/theme/style.css" > /_output/blue-paper.pdf
+          cd _output
           echo; echo "Output Folder Listing"
           ls
           cd ..
