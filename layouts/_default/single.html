@@ -7,6 +7,13 @@
       {{ partial "blog-sidebar.html" . }}
       <div dir="rtl" class="col-lg-8 order-2 order-lg-1">
         <div class="row">
+          <div class="alert alert-info" role="alert">
+            <p><img
+              src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
+              alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
+                style="text-decoration: underline; color: red;" href="{{.Params.Edit}}">تغییر این محتوا در
+                گیتهاب</a></b></p>
+          </div>
           <div style="margin-right: 25px;">
             <p>{{ .Params.Pretitle }}</p>
             <h2>{{ .Params.Title }}</h2>
