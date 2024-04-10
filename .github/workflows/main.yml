@@ -14,11 +14,10 @@ jobs:
         run: |-
           npm install -g md-to-pdf
           cd content/english/blog
-          mkdir _output
           echo; echo "Input Folder Listing"
           ls
           echo; echo "Generating PDF"
-          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "/theme/style.css" > /_output/blue-paper.pdf
+          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "/theme/style.css" > /_output/_paper-blu.pdf
           cd _output
           echo; echo "Output Folder Listing"
           ls
