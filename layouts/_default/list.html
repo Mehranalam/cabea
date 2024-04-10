@@ -15,9 +15,10 @@
               <div>
                 <div class="card-body">
                   <!-- post meta -->
+                  {{ range .Params.Authors }}
                   <p class="list-inline-item"><i class="ti-user"></i> تنظیم شده توسط:  <b><a style=" text-decoration: underline;"
-                    href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></b></p>
-                      
+                    href="{{ `author/` | relLangURL }}{{ .name | urlize }}">{{ .name | title }}</a></b></p>
+                  {{end}}
                   <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                   <p dir="rtl" class="card-text">{{ .Summary | truncate 100 }}</p>
                   <p><i class="ti-calendar"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
