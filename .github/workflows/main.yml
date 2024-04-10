@@ -1,27 +1,25 @@
-name: "Copyright Action"
-description: "Inserts copyright notice to configured files in repository and creates a pull request"
-author: "Vinny Babu Manjaly"
-branding:
-  icon: "edit"
-  color: "gray-dark"
-inputs:
-  # Required
-  CopyrightString:
-    description: String to be added as Copyright notice(multiline copyrights are possible)
-    requried: true
+name: Upload Document as Artifact
 
-  FileType:
-    description: Type of files(extension) for which copyright notice has to be added in the given file path
-    requried: true
+on: [push]
 
-  # Optional
-  Path:
-    description: Path in which copyright notice has to be added to files
-    requried: false
+env:
+  GITHUB_TOKEN: ${{ github.token }}
 
-  IgnorePath:
-    description: Path ignored without adding copyright notice
-    requried: false
-runs:
-  using: "docker"
-  image: "Dockerfile"
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: Publish Document
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Publish PDF Document
+        uses: shrink/actions-document-publish@v1
+        id: publish-document
+        with:
+          sources: 'content/english/blog/**.md'
+      - name: Upload Document
+        uses: actions/upload-artifact@v2
+        id: upload-document
+        with:
+          name: 'document.pdf'
+          path: ${{ steps.publish-document.outputs.pdf }}
