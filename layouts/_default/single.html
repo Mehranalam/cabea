@@ -7,23 +7,28 @@
       {{ partial "blog-sidebar.html" . }}
       <div dir="rtl" class="col-lg-8 order-2 order-lg-1">
         <div style="margin: 15px;" class="alert alert-info" role="alert">
-            <p><img
+          <p><img
               src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
               alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
                 style="text-decoration: underline; color: red;" href="{{.Params.Edit}}">تغییر این محتوا در
                 گیتهاب</a></b></p>
         </div>
-        <div class="row">
+        <br>
+        <hr>
+        <div id="print_bbm" class="row">
           <div style="margin-right: 25px;">
-            <p>{{ .Params.Pretitle }}</p>
+            <p><b>{{ .Params.Pretitle }}</b></p>
             <h2>{{ .Params.Title }}</h2>
             <p>
               <i class="ti-user"></i>
               {{ range .Params.Authors }}
-              <a style=" text-decoration: underline;" href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
-                {{ .name | title }}</a>   
-
+              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;" href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
+                {{ .name | title }}</a></b>
               {{end}}
+
+            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
+              <a style="text-decoration: underline;" href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
+            </p>
             </p>
           </div>
           <div class="col-12 mb-4">
@@ -45,7 +50,7 @@
                   {{ . | title }}</a> {{ end}}</p>
           </div>
           -->
-          <button style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
+          <button id="submit" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
           <!-- border -->
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
@@ -57,17 +62,20 @@
               {{ .TableOfContents }}
             </aside>
             {{ .Content }}
-            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
-              <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
-            </p>
           </div>
           <div class="col-12 mb-5">
             <h4>شناسنامه مقاله :</h4>
             <br>
             <ul style="margin-left: 25px;" class="list-group">
-              <li class="list-group-item">منبع اصلی :<br><b><a style="width: 40%;" href="{{ .Params.Ref }}">{{.Params.Reftitle}}</a></b></li>
-              <li class="list-group-item">مترجمان و نویسنده ها :<br>{{ range .Params.Authors }}<a href=""><b>{{ .name }}</b></a>{{end}}</li>
-              <li class="list-group-item">مدت زمان ترجمه:<br><b>{{ .Params.Long }}</b></li>
+              <li class="list-group-item">آدرس منبع اصلی :<b><a style="width: 40%; text-decoration: underline;"
+                    href="{{ .Params.Ref }}">{{.Params.Reftitle}}</a></b></li>
+              <li class="list-group-item">مترجمان و نویسنده ها :{{ range .Params.Authors }} | <a><b>{{ .name
+                    }}</b></a>{{end}}</li>
+              <li class="list-group-item">مدت زمان ترجمه:<b>{{ .Params.Long }}</b></li>
+              <li class="list-group-item">تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b></li>
+              <li class="list-group-item">لینک انتشار:
+                <a style="width: 40%; text-decoration: underline;" href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
+              </li>
             </ul>
           </div>
           <!-- comments -->

@@ -46,6 +46,9 @@
     integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -112,6 +115,25 @@ if (!doNotTrack) {
       font-family: 'Lalezar';
     }
   </style>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+  <script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+      '#editor': function (element, renderer) {
+        return true;
+      }
+    };
+    $('#submit').click(function () {
+      doc.fromHTML($('#print_bbm').html(), 15, 15, {
+        'width': 190,
+        'elementHandlers': specialElementHandlers
+      });
+      doc.save('sample-page.pdf');
+    });
+  </script>
 
   <script>
     function sendMail(form) {
@@ -322,24 +344,36 @@ if (!doNotTrack) {
 </aside>
 <!-- /sidebar -->
       <div dir="rtl" class="col-lg-8 order-2 order-lg-1">
-        <div class="row">
+        <div style="margin: 15px;" class="alert alert-info" role="alert">
+          <p><img
+              src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/github-mark/github-mark.svg"
+              alt="" width="24"> <b>درصورت اشکال در متن علمی و دستوری محتوا میتوانید این مقاله را تغییر دهید <br> <a
+                style="text-decoration: underline; color: red;" href="https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/capacitive-sensors.md">تغییر این محتوا در
+                گیتهاب</a></b></p>
+        </div>
+        <br>
+        <hr>
+        <div id="print_bbm" class="row">
           <div style="margin-right: 25px;">
-            <p>مقاله پژوهشی</p>
+            <p><b>مقاله پژوهشی</b></p>
             <h2>سنسور های خازنی</h2>
             <p>
               <i class="ti-user"></i>
               
-              <a style=" text-decoration: underline;" href="/author/%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4">
-                دیارا - واحد پژوهش</a>   
-
+              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;" href="/author/%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4">
+                دیارا - واحد پژوهش</a></b>
               
+
+            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>اسفند ۱۴۰۲</b> <br> لینک انتشار:
+              <a style="text-decoration: underline;" href="https://cabea.ir/blog/capacitive-sensors">cabea.ir/blog/capacitive-sensors</a>
+            </p>
             </p>
           </div>
           <div class="col-12 mb-4">
             <img src="/images/Screenshot_20240303_090623_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
           </div>
           
-          <button style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
+          <button id="submit" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
           
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
@@ -374,7 +408,7 @@ if (!doNotTrack) {
 </nav>
             </aside>
             <h2 id="سنسور-های-خازنی-چیست">سنسور های خازنی چیست؟</h2>
-<p>سنسور های خازنی یا حسگر های مجاورتی خازنی ، نوعی سنسور هستند که برای تغیرات در خازن یا ظرفیت الکتریکی استفاده میشود .</p>
+<p>سنسور های خازنی یا حسگر های مجاورتی خازنی ، نوعی سنسور هستند که برای تغیرات در خازن یا ظرفیت الکتریکی استفاده میشود.</p>
 <p>آنها از خاصیت الکتریکی خازن و تغییر ظرفیت بر اساس تغییر در میدان الکتیکی اطراف صفحه فعال سنسور استفاده می کنند .</p>
 <p>این سنسور ها معمولا برای اندازه گیری فاصله حرکت یا وجود اشیا استفاده می شود که میتوانند وجود یا عدم وجود هر جسم را بدون توجه به مواد آن تشخیص دهند .</p>
 <p>وقتی که یک شیء به نزدیکی یک سنسور خازنی می آید یا از آن دور می شود ، تغییرات آن باعث می شود که توسط سنسور اندازه گیری می شود و به سیگنال الکتریکی تبدیل میشود .</p>
@@ -491,17 +525,19 @@ $$</p>
 </ul>
 <hr>
 
-            <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>اسفند ۱۴۰۲</b> <br> لینک انتشار:
-              <a href="https://cabea.ir/blog/capacitive-sensors">cabea.ir/blog/capacitive-sensors</a>
-            </p>
           </div>
-          <div>
+          <div class="col-12 mb-5">
             <h4>شناسنامه مقاله :</h4>
             <br>
-            <ul class="list-group">
-              <li class="list-group-item">منبع اصلی : <b><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">https://www.sciencedirect.com/science/article/pii/S1878535217300990</a></b></li>
-              <li class="list-group-item">مترجمان و نویسنده ها : <b>دیارا - واحد پژوهش </b></li>
-              <li class="list-group-item">مدت زمان ترجمه: <b>۳ ماه</b></li>
+            <ul style="margin-left: 25px;" class="list-group">
+              <li class="list-group-item">آدرس منبع اصلی :<b><a style="width: 40%; text-decoration: underline;"
+                    href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">Nanoparticles: Properties, applications and toxicities</a></b></li>
+              <li class="list-group-item">مترجمان و نویسنده ها : | <a><b>دیارا - واحد پژوهش</b></a></li>
+              <li class="list-group-item">مدت زمان ترجمه:<b>۳ ماه</b></li>
+              <li class="list-group-item">تاریخ انتشار مقاله : <b>اسفند ۱۴۰۲</b></li>
+              <li class="list-group-item">لینک انتشار:
+                <a style="width: 40%; text-decoration: underline;" href="https://cabea.ir/blog/capacitive-sensors">cabea.ir/blog/capacitive-sensors</a>
+              </li>
             </ul>
           </div>
           

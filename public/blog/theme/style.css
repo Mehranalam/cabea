@@ -1,0 +1,4 @@
+/* change the font to Menlo */ 
+.news-export-doc .title-page, .news-export-doc .content {
+    font-family: 'Menlo';
+}
