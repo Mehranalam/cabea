@@ -39,7 +39,7 @@
 					<h2 class="section-title">{{ i18n "posted_by" }} {{ .Title }}</h2>
 				</div>
 			</div>
-			{{ range where site.RegularPages ".Title" (.Title | title) }}
+			{{ range where site.RegularPages "انجمن" (.Title | title) }}
 			<div class="col-lg-4 col-sm-6 mb-4">
 				{{ .Render "post" }}
 			</div>
