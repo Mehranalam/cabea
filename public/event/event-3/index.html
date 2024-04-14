@@ -46,6 +46,9 @@
     integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -112,6 +115,18 @@ if (!doNotTrack) {
       font-family: 'Lalezar';
     }
   </style>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+  <script>
+    printDivCSS = new String('<link href="myprintstyle.css" rel="stylesheet" type="text/css">')
+    function printDiv(divId) {
+      window.frames["print_frame"].document.body.innerHTML = printDivCSS + document.getElementById(divId).innerHTML;
+      window.frames["print_frame"].window.focus();
+      window.frames["print_frame"].window.print();
+    }
+  </script>
 
   <script>
     function sendMail(form) {
@@ -395,9 +410,9 @@ if (!doNotTrack) {
   <div class="card-body" dir="rtl">
     
     <p><i class="ti-location-pin text-primary mr-2"></i>دانشکده علوم پایه - مجتمع دانشگاهی نیایش</p>
-    <h4 class="card-title"><a href="//localhost:1313/event/event-6/">پردازش تصویر و کاربرد های آن</a></h4>
+    <h4 class="card-title"><a href="//localhost:1313/event/event-9/">اگزوزوم استراتژی نوین در زیست پزشکی</a></h4>
     <p>وضعیت: برگزار شده - منقضی</p>
-    <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>۱۴۰۱ بهار</b> <br> لینک انتشار: <a href="https://cabea.ir/event/event-6/">cabea.ir/event/event-6</a></p>
+    <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>۱۴۰۲ آذر</b> <br> لینک انتشار: <a href="https://cabea.ir/event/event-9/">cabea.ir/event/event-9</a></p>
   </div>
 </div>
       </div>
@@ -427,9 +442,9 @@ if (!doNotTrack) {
   <div class="card-body" dir="rtl">
     
     <p><i class="ti-location-pin text-primary mr-2"></i>دانشکده علوم پایه - مجتمع دانشگاهی نیایش</p>
-    <h4 class="card-title"><a href="//localhost:1313/event/event-5/">بررسی مسیر شغلی در بیومتریال</a></h4>
+    <h4 class="card-title"><a href="//localhost:1313/event/event-1/">معرفی گرایش های مهندسی پزشکی برای ورودی های 98</a></h4>
     <p>وضعیت: برگزار شده - منقضی</p>
-    <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>۱۴۰۱ بهار</b> <br> لینک انتشار: <a href="https://cabea.ir/event/event-5/">cabea.ir/event/event-5</a></p>
+    <p><i class="ti-bookmark-alt"></i>  تاریخ انتشار مقاله : <b>۱۴۰۰ بهار</b> <br> لینک انتشار: <a href="https://cabea.ir/event/event-1/">cabea.ir/event/event-1/</a></p>
   </div>
 </div>
       </div>

@@ -120,19 +120,12 @@ if (!doNotTrack) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
 
   <script>
-    var doc = new jsPDF();
-    var specialElementHandlers = {
-      '#editor': function (element, renderer) {
-        return true;
-      }
-    };
-    $('#submit').click(function () {
-      doc.fromHTML($('#print_bbm').html(), 15, 15, {
-        'width': 190,
-        'elementHandlers': specialElementHandlers
-      });
-      doc.save('sample-page.pdf');
-    });
+    printDivCSS = new String('<link href="myprintstyle.css" rel="stylesheet" type="text/css">')
+    function printDiv(divId) {
+      window.frames["print_frame"].document.body.innerHTML = printDivCSS + document.getElementById(divId).innerHTML;
+      window.frames["print_frame"].window.focus();
+      window.frames["print_frame"].window.print();
+    }
   </script>
 
   <script>
@@ -373,13 +366,13 @@ if (!doNotTrack) {
             <img src="/images/Screenshot_20240303_090623_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
           </div>
           
-          <button id="submit" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</button>
+          <a href="javascript:printDiv('ppop')" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</a>
           
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
           </div>
           
-          <div style="margin: 6px; display: inline-block;" class="col-12 mb-5" dir="rtl" align="right">
+          <div id="ppop" style="margin: 6px; display: inline-block;" class="col-12 mb-5" dir="rtl" align="right">
             <aside class="TableOfContents">
               <h3>فهرست مطالب</h3>
               <nav id="TableOfContents">

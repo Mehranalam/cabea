@@ -9,7 +9,8 @@
 						{{ if .Params.image }}
 						<img width="100" class="rounded-circle img-fluid mb-4" src="{{.Params.image | relURL }}">
 						{{else if .Params.Email}}
-						<img class="rounded-circle img-fluid mb-4" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+						<img class="rounded-circle img-fluid mb-4"
+							src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
 						{{ end }}
 						<figcaption>
 							<h4 class="font-weight-bold">
@@ -22,7 +23,8 @@
 					<hr>
 					<ul class="list-inline">
 						{{ range .Params.Social }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+						</li>
 						{{ end }}
 					</ul>
 				</div>
@@ -39,11 +41,13 @@
 					<h2 class="section-title">{{ i18n "posted_by" }} {{ .Title }}</h2>
 				</div>
 			</div>
-			{{ range where site.RegularPages "Params.authors" (.Title | title) }}
-			<div class="col-lg-4 col-sm-6 mb-4">
-				{{ .Render "post" }}
+			{{ range .Params.Oop }}
+			<div align="right" dir="rtl" class="col-lg-4 col-sm-6 mb-4">
+				<h4 dir="rtl"><a href="{{ .mehran }}" class="card-title mb-3 d-block">{{ .mehran }}</a></h4>
+				<p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .data }}</b><br></p>
 			</div>
 			{{ end }}
+
 		</div>
 	</div>
 </section>
