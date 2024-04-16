@@ -38,6 +38,7 @@
       "span",
       "strong",
       "style",
+      "sub",
       "textarea",
       "title",
       "ul"
@@ -56,6 +57,7 @@
       "bg-light",
       "bg-primary",
       "bg-white",
+      "blockquote-footer",
       "border-0",
       "border-bottom",
       "border-color",
@@ -236,6 +238,7 @@
       "rounded",
       "rounded-0",
       "rounded-2",
+      "rounded-20",
       "rounded-9",
       "rounded-circle",
       "row",

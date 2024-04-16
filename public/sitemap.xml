@@ -156,11 +156,15 @@
   </url><url>
     <loc>//localhost:1313/tags/%D8%A8%D8%B1%D9%82/</loc>
   </url><url>
+    <loc>//localhost:1313/research/pedram_tehrani/</loc>
+  </url><url>
     <loc>//localhost:1313/teacher/pedram_tehrani/</loc>
   </url><url>
     <loc>//localhost:1313/research/</loc>
   </url><url>
     <loc>//localhost:1313/honors/</loc>
+  </url><url>
+    <loc>//localhost:1313/research/tahmineh_ahmadi/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/tahmine/</loc>
   </url><url>
@@ -168,13 +172,21 @@
   </url><url>
     <loc>//localhost:1313/author/%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7---%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</loc>
   </url><url>
+    <loc>//localhost:1313/research/sasan_soudi/</loc>
+  </url><url>
     <loc>//localhost:1313/teacher/sasan-soody/</loc>
+  </url><url>
+    <loc>//localhost:1313/research/sattar-jedari-salami/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/satar-jadari-salami/</loc>
   </url><url>
     <loc>//localhost:1313/tags/%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87/</loc>
   </url><url>
+    <loc>//localhost:1313/research/saed-rahati-ghochani/</loc>
+  </url><url>
     <loc>//localhost:1313/teacher/saeed-rahati-guchani/</loc>
+  </url><url>
+    <loc>//localhost:1313/research/salman_mirzadeh/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/salman-mirzadeh/</loc>
   </url><url>
@@ -182,9 +194,15 @@
   </url><url>
     <loc>//localhost:1313/teacher/soheila-zamanlovi-benisi/</loc>
   </url><url>
+    <loc>//localhost:1313/research/seyed-mehdi-saeed/</loc>
+  </url><url>
     <loc>//localhost:1313/teacher/syed-mehdi-saeed/</loc>
   </url><url>
+    <loc>//localhost:1313/research/sayedeh-bentolhoda-ayati/</loc>
+  </url><url>
     <loc>//localhost:1313/teacher/seyyedah-bint-al-hadi-aiti/</loc>
+  </url><url>
+    <loc>//localhost:1313/research/shahrokh_shojaei/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/shahrukh%D9%80shujaei/</loc>
   </url><url>

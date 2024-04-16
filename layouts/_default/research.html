@@ -1,7 +1,15 @@
-<div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
-  <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+<div class="card rounded-20 shadow border-top-0 border-left-0 border-right-0">
   <div class="card-body">
+    <b><figcaption class="blockquote-footer">
+      {{.Params.Status}}
+    </figcaption></b>
+    <br>  
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p class="card-text">{{ .Summary | truncate 100 }}</p>
+    <p dir="ltr" class="card-text"><b>h-index Score : {{.Params.Oindex}}</b></p>
+    <h5>آخرین مقاله علمی:<br><a style="text-decoration: underline;" href="{{.Params.Lastarticle}}" target="_blank">{{.Params.Lastarticle}}</a></h5>
+    <p>عنوان مقاله:</p>
+    <div align="left">
+      <p dir="auto"><b>{{.Params.Description}}</b></p>
+    </div>
   </div>
 </div>

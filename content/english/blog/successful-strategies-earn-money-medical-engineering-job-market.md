@@ -10,6 +10,7 @@ image: "images/blog/IMG_7267.JPG"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/successful-strategies-earn-money-medical-engineering-job-market.md"
 authors:
   - name: "انجمن"
+    id: "1"
 
 categories: ["بازار کار"]
 pretitle: "مقاله غیر-علمی"

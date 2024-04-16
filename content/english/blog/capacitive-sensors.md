@@ -10,7 +10,8 @@ image: "images/Screenshot_20240303_090623_OneDrive.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/capacitive-sensors.md"
 authors:
   - name: "دیارا - واحد پژوهش"
-  
+    id: "1"
+
 categories: ["مقاله پژوهشی"]
 pretitle: "مقاله پژوهشی"
 reftitle: "Nanoparticles: Properties, applications and toxicities"

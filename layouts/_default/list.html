@@ -16,8 +16,14 @@
                 <div class="card-body">
                   <!-- post meta -->
                   
-                  <p class="list-inline-item"><i class="ti-user"></i> تنظیم شده توسط:  {{ range .Params.Authors }}<b><a style=" text-decoration: underline;"
-                  href="{{ `author/` | relLangURL }}{{ .name | urlize }}"> - {{ .name | title }} </a></b>{{end}}
+                  <p class="list-inline-item"><i class="ti-user"></i> تنظیم شده توسط:
+                    {{ range .Params.Authors }}
+                    <b>
+                    <a href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
+                       <span style=" text-decoration: underline;">{{ .name | title }}</span> <sub>{{.id}}</sub>
+                    </a>
+                  </b>
+                    {{end}}
                 </p>
                   <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                   <p dir="rtl" class="card-text">{{ .Summary | truncate 100 }}</p>
