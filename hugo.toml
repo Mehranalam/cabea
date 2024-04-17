@@ -204,7 +204,7 @@ hasChildren = true
   url = "author/"
   
 [[Languages.en.menu.main]]
-name = "وبلاگ انجمن"
+name = "مقالات انجمن"
 url = "blog/"
 weight = 4
 
