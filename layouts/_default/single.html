@@ -22,9 +22,13 @@
             <p>
               <i class="ti-user"></i>
               {{ range .Params.Authors }}
-              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;" href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
-                {{ .name | title }}</a></b>
+              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;"
+                  href="{{ `author/` | relLangURL }}{{ .name | urlize }}">
+                  {{ .name | title }}</a></b>
               {{end}}
+
+            <p style="display: inline-block;"><img style="border-radius: 20px;" alt="Hits"
+                src="https://hits.sh/{{.Params.Intro}}.svg?style=for-the-badge&color=9f9f9f&labelColor=0000"/> <span style="margin-right: -49px;">نفر از این صفحه بازدید کردند</span> </p>
 
             <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
               <a style="text-decoration: underline;" href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
@@ -50,7 +54,8 @@
                   {{ . | title }}</a> {{ end}}</p>
           </div>
           -->
-          <a href="javascript:printDiv('ppop')" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</a>
+          <a href="javascript:printDiv('ppop')" style="margin-right: 25px;" type="button"
+            class="btn btn-primary btn-lg">دانلود PDF مقاله</a>
           <!-- border -->
           <div class="col-12 my-4">
             <div class="border-bottom"></div>

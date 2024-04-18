@@ -115,17 +115,10 @@ if (!doNotTrack) {
       font-family: 'Lalezar';
     }
   </style>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
-
-  <script>
-    printDivCSS = new String('<link href="myprintstyle.css" rel="stylesheet" type="text/css">')
-    function printDiv(divId) {
-      window.frames["print_frame"].document.body.innerHTML = printDivCSS + document.getElementById(divId).innerHTML;
-      window.frames["print_frame"].window.focus();
-      window.frames["print_frame"].window.print();
-    }
+  <script type="text/javascript">
+    window.onload = function () {
+      
+    };
   </script>
 
   <script>
@@ -230,7 +223,7 @@ if (!doNotTrack) {
             
             
             <li class="nav-item">
-              <a class="nav-link" href="//localhost:1313/blog/">وبلاگ انجمن</a>
+              <a class="nav-link" href="//localhost:1313/blog/">مقالات انجمن</a>
             </li>
             
             
@@ -353,9 +346,13 @@ if (!doNotTrack) {
             <p>
               <i class="ti-user"></i>
               
-              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;" href="/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86">
-                انجمن</a></b>
+              <b><a style="color:rgb(32, 94, 187); text-decoration: underline;"
+                  href="/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86">
+                  انجمن</a></b>
               
+
+            <p style="display: inline-block;"><img style="border-radius: 20px;" alt="Hits"
+                src="https://hits.sh/cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-market.svg?style=for-the-badge&color=9f9f9f&labelColor=0000"/> <span style="margin-right: -49px;">نفر از این صفحه بازدید کردند</span> </p>
 
             <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>بهمن ۱۴۰۲</b> <br> لینک انتشار:
               <a style="text-decoration: underline;" href="https://cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-market/">cabea.ir/blog/successful-strategies-earn-money-medical-engineering-job-market</a>
@@ -366,7 +363,8 @@ if (!doNotTrack) {
             <img src="/images/blog/IMG_7267.JPG" alt="blog-thumb" class="img-fluid w-100">
           </div>
           
-          <a href="javascript:printDiv('ppop')" style="margin-right: 25px;" type="button" class="btn btn-primary btn-lg">دانلود PDF مقاله</a>
+          <a href="javascript:printDiv('ppop')" style="margin-right: 25px;" type="button"
+            class="btn btn-primary btn-lg">دانلود PDF مقاله</a>
           
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
@@ -509,7 +507,7 @@ if (!doNotTrack) {
             
             
             
-            <li class="mb-3"><a class="text-color" href="//localhost:1313/blog/">وبلاگ انجمن</a></li>
+            <li class="mb-3"><a class="text-color" href="//localhost:1313/blog/">مقالات انجمن</a></li>
             
             
             
