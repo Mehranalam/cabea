@@ -27,7 +27,7 @@
                 </p>
                   <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                   <p dir="rtl" class="card-text">{{ .Summary | truncate 100 }}</p>
-                  <p><i class="ti-calendar"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار: <a href="{{ .Params.Linke }}">{{.Params.Intro}}</a></p>
+                  <p><i class="ti-calendar"></i>  تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار: <a href="https://{{ .Params.Intro }}">{{.Params.Intro}}</a></p>
                   <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
                 </div>
               </div>
