@@ -28,7 +28,7 @@
               {{end}}
 
             <p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b> <br> لینک انتشار:
-              <a style="text-decoration: underline;" href="https://{{ .Params.Intro }}">{{.Params.Intro}}</a>
+              <a style="text-decoration: underline;" href="{{ .Permalink }}">{{ .Permalink }}</a>
             </p>
             </p>
           </div>
@@ -76,7 +76,7 @@
               <li class="list-group-item">مدت زمان ترجمه:<b>{{ .Params.Long }}</b></li>
               <li class="list-group-item">تاریخ انتشار مقاله : <b>{{ .Params.Dates }}</b></li>
               <li class="list-group-item">لینک انتشار:
-                <a style="width: 40%; text-decoration: underline;" href="{{ .Params.Linke }}">{{.Params.Intro}}</a>
+                <a style="width: 40%; text-decoration: underline;" href="{{ .Permalink }}">{{ .Permalink }}</a>
               </li>
             </ul>
           </div>

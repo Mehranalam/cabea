@@ -3,7 +3,6 @@ title: "سنسور های خازنی"
 dates: "اسفند ۱۴۰۲"
 draft: false
 bg_image: "images/IMG.jpg"
-intro: "cabea.ir/blog/capacitive-sensors"
 description : "سنسور های خازنی یا حسگر های مجاورتی خازنی ، نوعی سنسور هستند که برای تغیرات در خازن یا ظرفیت الکتریکی استفاده میشود . آنها از خاصیت الکتریکی خازن و تغییر ظرفیت بر اساس تغییر در میدان الکتیکی اطراف صفحه فعال سنسور استفاده می کنند"
 image: "images/Screenshot_20240303_090623_OneDrive.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/capacitive-sensors.md"

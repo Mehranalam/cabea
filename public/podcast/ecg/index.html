@@ -115,17 +115,10 @@ if (!doNotTrack) {
       font-family: 'Lalezar';
     }
   </style>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
-
-  <script>
-    printDivCSS = new String('<link href="myprintstyle.css" rel="stylesheet" type="text/css">')
-    function printDiv(divId) {
-      window.frames["print_frame"].document.body.innerHTML = printDivCSS + document.getElementById(divId).innerHTML;
-      window.frames["print_frame"].window.focus();
-      window.frames["print_frame"].window.print();
-    }
+  <script type="text/javascript">
+    window.onload = function () {
+      
+    };
   </script>
 
   <script>
@@ -399,12 +392,27 @@ if (!doNotTrack) {
         <div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
   <img style="object-fit: scale-down;" class="card-img-top rounded-9" src="/images/IMG_20240229_085311_474.jpg" alt="">
   <div class="card-body" dir="rtl" align="right">
-    <p class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: <b>مبینا مقیمی، کیمیا سروری افشار، محمد سالار قلی پور و معین یعقوبی</b></p>
+    <p class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: <b>آیسان خدایاری و حسام حسن‌زاده</b></p>
     
-    <h4 class="card-title"><a href="//localhost:1313/podcast/medical-engineering-software/">نرم افزار های مهندسی پزشکی</a></h4>
-    <p class="card-text mb-4">درباره این شماره پادکست ⭕️ هشتمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد …</p>
-    <p>تاریخ انتشار پادکست : <b>آبان ۱۴۰۲</b> <br> لینک انتشار: <a href="https://cabea.ir/podcast/Medical-engineering-software/">cabea.ir/podcast/Medical-engineering-software</a></p>
-    <a href="//localhost:1313/podcast/medical-engineering-software/" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
+    <h4 class="card-title"><a href="//localhost:1313/podcast/sonography/">سونوگرافی</a></h4>
+    <p class="card-text mb-4">درباره این شماره پادکست ⭕️ پنجمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد …</p>
+    <p>تاریخ انتشار پادکست : <b>دی ۱۴۰۰</b> <br> لینک انتشار: <a href="https://cabea.ir/podcast/sonography/">cabea.ir/podcast/sonography</a></p>
+    <a href="//localhost:1313/podcast/sonography/" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
+  </div>
+</div>
+
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
+  <img style="object-fit: scale-down;" class="card-img-top rounded-9" src="/images/IMG_20240229_085311_474.jpg" alt="">
+  <div class="card-body" dir="rtl" align="right">
+    <p class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: <b>سارا حسنی، آیسان خدایاری و نگین خسروی</b></p>
+    
+    <h4 class="card-title"><a href="//localhost:1313/podcast/classification-of-medical-equipment/">کلاس بندی تجهیزات پزشکی</a></h4>
+    <p class="card-text mb-4">درباره این شماره پادکست ⭕️ سومین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد …</p>
+    <p>تاریخ انتشار پادکست : <b>مهرماه ۱۴۰۰</b> <br> لینک انتشار: <a href="https://cabea.ir/podcast/classification-of-medical-equipment/">cabea.ir/podcast/classification-of-medical-equipment</a></p>
+    <a href="//localhost:1313/podcast/classification-of-medical-equipment/" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
   </div>
 </div>
 
@@ -420,21 +428,6 @@ if (!doNotTrack) {
     <p class="card-text mb-4">درباره این شماره پادکست ⭕️ ششمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد …</p>
     <p>تاریخ انتشار پادکست : <b>بهمن ۱۴۰۱</b> <br> لینک انتشار: <a href="https://cabea.ir/podcast/opg/">cabea.ir/podcast/OPG</a></p>
     <a href="//localhost:1313/podcast/opg/" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
-  </div>
-</div>
-
-      </div>
-      
-      <div class="col-lg-4 col-sm-6 mb-5">
-        <div style="border-radius: 15px;" class="card p-0 border-primary rounded-9 shadow" align="right">
-  <img style="object-fit: scale-down;" class="card-img-top rounded-9" src="/images/IMG_20240229_085311_474.jpg" alt="">
-  <div class="card-body" dir="rtl" align="right">
-    <p class="list-inline-item"><i class="ti-bookmark-alt"></i> گویندگان: <b>محمد سالار قلی پور، کیمیا سروری افشار و نگار فتحی آشتیانی</b></p>
-    
-    <h4 class="card-title"><a href="//localhost:1313/podcast/tooth-unit/">یونیت های دندان پزشکی</a></h4>
-    <p class="card-text mb-4">درباره این شماره پادکست ⭕️ نهمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد …</p>
-    <p>تاریخ انتشار پادکست : <b>دی ۱۴۰۲</b> <br> لینک انتشار: <a href="https://cabea.ir/podcast/tooth-unit/">cabea.ir/podcast/tooth-unit</a></p>
-    <a href="//localhost:1313/podcast/tooth-unit/" class="btn btn-primary btn-sm">شنیدن این قسمت</a>
   </div>
 </div>
 

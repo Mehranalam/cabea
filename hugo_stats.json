@@ -168,7 +168,6 @@
       "logo-footer",
       "m-3",
       "main-heading",
-      "material-symbols-outlined",
       "mb-0",
       "mb-2",
       "mb-3",
@@ -295,8 +294,7 @@
       "top-hider",
       "vertical-align-middle",
       "w-100",
-      "w-90",
-      "website-counter"
+      "w-90"
     ],
     "ids": [
       "--درنهایت-ازت-خیلی-ممنونیم-که-دغدغهمندی-و-کمککننده",
