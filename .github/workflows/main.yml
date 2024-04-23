@@ -1,27 +1,3 @@
-name: convert
-
-on:
-  push:
-
-jobs:
-  converttopdf:
-    name: Build PDF
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Build book
-        run: |-
-          npm install -g md-to-pdf
-          cd content/english/blog
-          echo; echo "Input Folder Listing"
-          ls
-          sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
-          pandoc *.md -o output.pdf
-          ls
-          cd ..
-      
-      - uses: actions/upload-artifact@v1
-        with:
-          name: output
-          path: _output
+- name: Issue to Markdown
+  uses: eunjae-lee/issue-to-markdown@v1.2.2
+            
