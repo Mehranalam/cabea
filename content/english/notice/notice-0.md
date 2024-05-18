@@ -5,7 +5,7 @@ public: "اردیبهشت ۱۴۰۳"
 draft: false
 Linke: "https://cabea.ir/notice/notice-0/"
 intro: "cabea.ir/notice/notice-0"
-bg_image: "images/IMG_20240518_120124_905.jpg"
+bg_image: "images/IMG.jpg"
 description : "گر میخواید بدونید رشته ای که مشغول به تحصیل در اون هستین چیه و بازار کارش چطور هست این همایش رو از دست ندید"
 download_link : ""
 type: "notice"
