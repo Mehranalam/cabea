@@ -9,6 +9,8 @@ description : "ما همیشه از مشارکت استقبال میکنیم. چ
 ## مشارکت در توسعه محتوایی و حتی فنی پلتفرم مستقل انجمن
 <br>
 
+#### برای انتشار محتوا و مقاله هاتون با آیدی `@Mehruna` در تلگرام و ایمیل `Mehraxxn@gmail.com` در ارتباط باشید.
+
 **قبل از هرکاری [فایل قوانین](https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/Content-participation.md) مشارکت را خوانده و سپس اقدام به انجام کاری کنید**
 
 
