@@ -243,9 +243,9 @@ url = "notice/"
 name = "سمینار و رویداد"
 url = "event/"
 
-# [[Languages.en.menu.footer]]
-# name = "بورسیه تحصیلی"
-# url = "scholarship/"
+[[Languages.en.menu.footer]]
+name = "دیارا ❣️"
+url = "https://diara-token.github.io/Diara.ir/"
 
 [[Languages.en.menu.footer]]
 name = "پژوهش"
