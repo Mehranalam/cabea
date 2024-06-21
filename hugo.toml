@@ -160,6 +160,11 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
+  name = "دیارا💙"
+  url = "https://diara-token.github.io/Diara.ir/"
+  
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
   name = "اساتید"
   url = "teacher/"
 
