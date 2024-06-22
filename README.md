@@ -4,6 +4,14 @@
 
 **https://cabea.ir**
 
+## بخش های مهم:
+- پژوهش و مقالات : https://cabea.ir/research/
+- مقالات انجمن: https://cabea.ir/blog/
+- اساتید: https://cabea.ir/teacher/
+- سیستم مشارکت: https://cabea.ir/scholarship/
+- پادکست: https://cabea.ir/podcast/
+- نشریه [ ماهنامه‌ها ]: https://cabea.ir/magazine/
+
 
 What is Medical-Engineering-Association Core?
 ---------------------
