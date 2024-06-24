@@ -179,6 +179,6 @@ math: true
 
 <hr>
 
-درنهایت میتونید برای مطالعه کاتالوگ‌ محصول که ترجمه شده از این‌ لینک استفاده کنید: https://github.com/Mehranalam/Mehranalam/blob/main/AESCULAP.md
+درنهایت میتونید برای مطالعه کاتالوگ‌ محصول که ترجمه شده از این‌ لینک استفاده کنید: **[کاتالوگ ترجمه شده](https://github.com/Mehranalam/Mehranalam/blob/main/AESCULAP.md)**
 
-برای دسترسی به فایل اختصاصی شرکت ارائه دهنده میتونید این لینک رو بررسی کنید: https://github.com/Mehranalam/Mehranalam/blob/main/C46702%20Endoscopy_Units_Accessories_0123-1-17_low.pdf
+برای دسترسی به فایل اختصاصی شرکت ارائه دهنده میتونید این لینک رو بررسی کنید: **[فایل کاتالوگ اصلی](https://github.com/Mehranalam/Mehranalam/blob/main/C46702%20Endoscopy_Units_Accessories_0123-1-17_low.pdf)**
