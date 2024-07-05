@@ -53,6 +53,9 @@
     <loc>//localhost:1313/podcast/sonography/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/notice/notice-10/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/podcast/norouz/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
@@ -81,6 +84,9 @@
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/magazine/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/notice/notice-0/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/notice/notice-5/</loc>
@@ -148,6 +154,10 @@
   </url><url>
     <loc>//localhost:1313/tags/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%DB%8C%DA%A9/</loc>
   </url><url>
+    <loc>//localhost:1313/author/%D8%A7%D9%84%D9%86%D8%A7%D8%B2-%DA%A9%D8%B1%DB%8C%D9%85%DB%8C/</loc>
+  </url><url>
+    <loc>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</loc>
+  </url><url>
     <loc>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</loc>
   </url><url>
     <loc>//localhost:1313/tags/%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%DA%A9%D8%A7%D8%B1/</loc>
@@ -155,6 +165,8 @@
     <loc>//localhost:1313/categories/%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%DA%A9%D8%A7%D8%B1/</loc>
   </url><url>
     <loc>//localhost:1313/tags/%D8%A8%D8%B1%D9%82/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/biosensor/</loc>
   </url><url>
     <loc>//localhost:1313/research/pedram_tehrani/</loc>
   </url><url>
@@ -164,11 +176,15 @@
   </url><url>
     <loc>//localhost:1313/honors/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C/</loc>
+  </url><url>
     <loc>//localhost:1313/research/tahmineh_ahmadi/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/tahmine/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/endoscopy/</loc>
   </url><url>
     <loc>//localhost:1313/author/%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7---%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</loc>
   </url><url>
@@ -244,6 +260,8 @@
   </url><url>
     <loc>//localhost:1313/categories/%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/</loc>
   </url><url>
+    <loc>//localhost:1313/author/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%85%D8%A8%DB%8C%DA%AF%DB%8C/</loc>
+  </url><url>
     <loc>//localhost:1313/research/milad-jafari-nodoushan/</loc>
   </url><url>
     <loc>//localhost:1313/teacher/milad-jafari-nedoshan/</loc>
@@ -253,6 +271,8 @@
     <loc>//localhost:1313/teacher/nasreen-shhavi/</loc>
   </url><url>
     <loc>//localhost:1313/journal/</loc>
+  </url><url>
+    <loc>//localhost:1313/author/%D9%86%DA%AF%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%82%DB%8C/</loc>
   </url><url>
     <loc>//localhost:1313/author/</loc>
   </url>

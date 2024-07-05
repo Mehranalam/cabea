@@ -4,7 +4,7 @@
     <title>نشریه انجمن on انجمن مهندسی پزشکی -  تهران مرکزی</title>
     <link>//localhost:1313/journal/</link>
     <description>Recent content in نشریه انجمن on انجمن مهندسی پزشکی -  تهران مرکزی</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
   </channel>

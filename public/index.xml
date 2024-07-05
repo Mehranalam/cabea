@@ -4,7 +4,7 @@
     <title>انجمن مهندسی پزشکی -  تهران مرکزی</title>
     <link>//localhost:1313/</link>
     <description>Recent content on انجمن مهندسی پزشکی -  تهران مرکزی</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -100,6 +100,13 @@
       <description>درباره این شماره پادکست ⭕️ پنجمین شماره ی رادیو BME پلاس به همت انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکز با همکاری باشگاه پژوهشگران جوان و نخبگان منتشر شد</description>
     </item>
     <item>
+      <title>شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024)</title>
+      <link>//localhost:1313/notice/notice-10/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-10/</guid>
+      <description>شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024) شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024) از روز سه شنبه مورخ 25 لغایت جمعه 28 اردیبهشت ماه 1403 در تهران برگزار می‌گردد.</description>
+    </item>
+    <item>
       <title>عید نوروز ۱۴۰۱</title>
       <link>//localhost:1313/podcast/norouz/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
@@ -161,6 +168,13 @@
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
       <guid>//localhost:1313/notice/notice-1/</guid>
       <description>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی در سال 1397 تشکیل شد و دارای بیش از 2000 عضو فعال می باشد .</description>
+    </item>
+    <item>
+      <title>مراسم معرفی گرایش های مهندسی پزشکی</title>
+      <link>//localhost:1313/notice/notice-0/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-0/</guid>
+      <description>مراسم معرفی گرایش های مهندسی پزشکی و توضیحاتی درباره نحوه انتخاب گرایش در دانشگاه با حضور اساتید برجسته و بنام مهندسی پزشکی ساعت ۱۲:۰۰ تاریخ ۲۹ اردیبهشت ماه ۱۴۰۳ سالن همایش ساختمان شماره ۲ حضور دانشجویان ورودی ۱۴۰۱ در این مراسم به جهت آشنایی با گرایش و روند انتخاب گرایش الزامی است.</description>
     </item>
     <item>
       <title>نخستین سمینار پیشرفته‌ی زیست‌شناسی محاسباتی، بیوانفورماتیک و سلامت (HBC 2024)</title>
@@ -282,11 +296,32 @@
       <description>در حال حاضر، رشته مهندسی پزشکی به عنوان یکی از رشته‌های پرطرفدار و پررونق در دنیای صنعت و فناوری شناخته می‌شود.</description>
     </item>
     <item>
+      <title>الناز کریمی</title>
+      <link>//localhost:1313/author/%D8%A7%D9%84%D9%86%D8%A7%D8%B2-%DA%A9%D8%B1%DB%8C%D9%85%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D8%A7%D9%84%D9%86%D8%A7%D8%B2-%DA%A9%D8%B1%DB%8C%D9%85%DB%8C/</guid>
+      <description>cabea.ir/about</description>
+    </item>
+    <item>
+      <title>امیررضا جلینی</title>
+      <link>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</guid>
+      <description>cabea.ir/about</description>
+    </item>
+    <item>
       <title>انجمن</title>
       <link>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</guid>
       <description>cabea.ir/about</description>
+    </item>
+    <item>
+      <title>بیوسنسور</title>
+      <link>//localhost:1313/blog/biosensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/biosensor/</guid>
+      <description>بیوسنسور نامِ گروهی از حسگرها می باشد،و از دو کلمه بیو به معنی حسگر تشکیل شده است.</description>
     </item>
     <item>
       <title>پدرام طهرانی</title>
@@ -315,6 +350,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/teacher/tahmine/</guid>
       <description>درباره استاد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</description>
+    </item>
+    <item>
+      <title>دستگاه آندوسکوپی و مروری بر کاتالوگ محصول</title>
+      <link>//localhost:1313/blog/endoscopy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/endoscopy/</guid>
+      <description>مقدمه اندوسکوپی یک روش تشخیصی پزشکی کم‌تهاجمی است که از یک ابزار تخصصی به نام اندوسکوپ برای مشاهده سطوح داخلی اعضا یا بافت‌ها با جزئیات استفاده می‌کند.</description>
     </item>
     <item>
       <title>دیارا - واحد پژوهش</title>
@@ -534,6 +576,13 @@
       <description>درباره استاد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</description>
     </item>
     <item>
+      <title>مهران علم‌بیگی</title>
+      <link>//localhost:1313/author/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%85%D8%A8%DB%8C%DA%AF%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%85%D8%A8%DB%8C%DA%AF%DB%8C/</guid>
+      <description>Diara❣️ </description>
+    </item>
+    <item>
       <title>میلاد جعفری ندوشن</title>
       <link>//localhost:1313/research/milad-jafari-nodoushan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -560,6 +609,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/teacher/nasreen-shhavi/</guid>
       <description>درباره استاد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</description>
+    </item>
+    <item>
+      <title>نگار صادقی</title>
+      <link>//localhost:1313/author/%D9%86%DA%AF%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%82%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D9%86%DA%AF%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%82%DB%8C/</guid>
+      <description>cabea.ir/about</description>
     </item>
   </channel>
 </rss>

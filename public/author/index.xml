@@ -4,9 +4,23 @@
     <title>نویسندگان بلاگ on انجمن مهندسی پزشکی -  تهران مرکزی</title>
     <link>//localhost:1313/author/</link>
     <description>Recent content in نویسندگان بلاگ on انجمن مهندسی پزشکی -  تهران مرکزی</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>الناز کریمی</title>
+      <link>//localhost:1313/author/%D8%A7%D9%84%D9%86%D8%A7%D8%B2-%DA%A9%D8%B1%DB%8C%D9%85%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D8%A7%D9%84%D9%86%D8%A7%D8%B2-%DA%A9%D8%B1%DB%8C%D9%85%DB%8C/</guid>
+      <description>cabea.ir/about</description>
+    </item>
+    <item>
+      <title>امیررضا جلینی</title>
+      <link>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D8%A7%D9%85%DB%8C%D8%B1%D8%B1%D8%B6%D8%A7-%D8%AC%D9%84%DB%8C%D9%86%DB%8C/</guid>
+      <description>cabea.ir/about</description>
+    </item>
     <item>
       <title>انجمن</title>
       <link>//localhost:1313/author/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</link>
@@ -20,6 +34,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/author/%D8%AF%DB%8C%D8%A7%D8%B1%D8%A7---%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4/</guid>
       <description>Diara-team.ir</description>
+    </item>
+    <item>
+      <title>مهران علم‌بیگی</title>
+      <link>//localhost:1313/author/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%85%D8%A8%DB%8C%DA%AF%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%85%D8%A8%DB%8C%DA%AF%DB%8C/</guid>
+      <description>Diara❣️ </description>
+    </item>
+    <item>
+      <title>نگار صادقی</title>
+      <link>//localhost:1313/author/%D9%86%DA%AF%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%82%DB%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/author/%D9%86%DA%AF%D8%A7%D8%B1-%D8%B5%D8%A7%D8%AF%D9%82%DB%8C/</guid>
+      <description>cabea.ir/about</description>
     </item>
   </channel>
 </rss>

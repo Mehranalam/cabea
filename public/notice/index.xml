@@ -4,7 +4,7 @@
     <title>اطلاعیه‌ها on انجمن مهندسی پزشکی -  تهران مرکزی</title>
     <link>//localhost:1313/notice/</link>
     <description>Recent content in اطلاعیه‌ها on انجمن مهندسی پزشکی -  تهران مرکزی</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
     <atom:link href="//localhost:1313/notice/index.xml" rel="self" type="application/rss+xml" />
@@ -58,11 +58,25 @@
       <description>رونمایی از بزرگترین پروژکتوم نورون‌ها محققان با رونمایی از بزرگترین پایگاه داده پروژکتوم نورون‌های تک‌سلولی، گامی بزرگ در جهت درک بهتر مغز انسان برداشته‌اند.</description>
     </item>
     <item>
+      <title>شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024)</title>
+      <link>//localhost:1313/notice/notice-10/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-10/</guid>
+      <description>شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024) شصت و سومین کنگره بین‌المللی جامعه علمی دندانپزشکي ايران (اکسيدا 2024) از روز سه شنبه مورخ 25 لغایت جمعه 28 اردیبهشت ماه 1403 در تهران برگزار می‌گردد.</description>
+    </item>
+    <item>
       <title>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز</title>
       <link>//localhost:1313/notice/notice-1/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
       <guid>//localhost:1313/notice/notice-1/</guid>
       <description>گزارش کلی از عملکرد انجمن مهندسی پزشکی تهران مرکز انجمن علمی مهندسی پزشکی دانشگاه آزاد اسلامی واحد تهران مرکزی در سال 1397 تشکیل شد و دارای بیش از 2000 عضو فعال می باشد .</description>
+    </item>
+    <item>
+      <title>مراسم معرفی گرایش های مهندسی پزشکی</title>
+      <link>//localhost:1313/notice/notice-0/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <guid>//localhost:1313/notice/notice-0/</guid>
+      <description>مراسم معرفی گرایش های مهندسی پزشکی و توضیحاتی درباره نحوه انتخاب گرایش در دانشگاه با حضور اساتید برجسته و بنام مهندسی پزشکی ساعت ۱۲:۰۰ تاریخ ۲۹ اردیبهشت ماه ۱۴۰۳ سالن همایش ساختمان شماره ۲ حضور دانشجویان ورودی ۱۴۰۱ در این مراسم به جهت آشنایی با گرایش و روند انتخاب گرایش الزامی است.</description>
     </item>
     <item>
       <title>نخستین سمینار پیشرفته‌ی زیست‌شناسی محاسباتی، بیوانفورماتیک و سلامت (HBC 2024)</title>

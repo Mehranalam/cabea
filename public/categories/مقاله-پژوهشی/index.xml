@@ -4,9 +4,23 @@
     <title>مقاله پژوهشی on انجمن مهندسی پزشکی -  تهران مرکزی</title>
     <link>//localhost:1313/categories/%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/</link>
     <description>Recent content in مقاله پژوهشی on انجمن مهندسی پزشکی -  تهران مرکزی</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/categories/%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>بیوسنسور</title>
+      <link>//localhost:1313/blog/biosensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/biosensor/</guid>
+      <description>بیوسنسور نامِ گروهی از حسگرها می باشد،و از دو کلمه بیو به معنی حسگر تشکیل شده است.</description>
+    </item>
+    <item>
+      <title>دستگاه آندوسکوپی و مروری بر کاتالوگ محصول</title>
+      <link>//localhost:1313/blog/endoscopy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/endoscopy/</guid>
+      <description>مقدمه اندوسکوپی یک روش تشخیصی پزشکی کم‌تهاجمی است که از یک ابزار تخصصی به نام اندوسکوپ برای مشاهده سطوح داخلی اعضا یا بافت‌ها با جزئیات استفاده می‌کند.</description>
+    </item>
     <item>
       <title>سنسور های خازنی</title>
       <link>//localhost:1313/blog/capacitive-sensors/</link>
