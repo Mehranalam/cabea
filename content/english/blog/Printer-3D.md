@@ -4,7 +4,7 @@ dates: "تیر ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
 description : "بیوسنسور ها نامِ گروهی از حسگرها می باشد،و از دو کلمه بیو به معنی حسگر تشکیل شده است. که طراحی  (bio)‌ به معنی زیست و سنسور (sensor) آنها بگونه ای میباشد تا بتوانند تنها با یک مادهٔ خاص واکنش نشان دهند"
-image: "images/Screenshot_20240612_191307_OneDrive.jpg"
+image: "images/Screenshot_20240710_194217_OneDrive.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/Printer-3D.md"
 authors:
   - name: "نگار صادقی"
@@ -208,6 +208,8 @@ math: true
 
 میشود. 
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240710_194221_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
+
 ## پرینترهای سه بعدی FDM:
 
 FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تحول این روش به گونه ای بود که 
@@ -239,6 +241,8 @@ FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تح�
 
 در دندان پزشکی و پزشکی هستند.
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240710_194224_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
+
 ## پرینترهای سه بعدی DLP :
 
 تکنولوژی DLP یکی از قدیمی ترین تکنولوژیهای نمونه سازی سریع است. در این 
@@ -262,6 +266,8 @@ FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تح�
 ۱- دقت بسیار باال در ساخت )حداکثر ۵ میکرومتر( 
 
 ۲- سرعت باالی تولید نمونه اولیه
+
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240710_194226_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
 
 ## پرینترهای سه بعدی SLS:
 
@@ -291,6 +297,7 @@ FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تح�
 
 نظر ادامه دارد.
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240710_194228_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
 
 ## DMLS و SLM پرینترهای سه بعدی: 
 
