@@ -85,4 +85,11 @@ Blend :شکل موج اين حالت شبيه برش است با اين تفاو
 
 <img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240711_084025_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
 
- نکته: در جراحي براي استفاده از مودهاي مختلف بايد به اين نکته نيز توجه کرد که از سرقلم مناسب همان مورد استفاده کنيم . 
+نکته: در جراحي براي استفاده از مودهاي مختلف بايد به اين نکته نيز توجه کرد که از سرقلم مناسب همان مورد استفاده کنيم.
+
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/static/images/Screenshot_20240711_084751_OneDrive.jpg" alt="blog-thumb" class="img-fluid w-100">
+
+Coag :اين حالت داراي شکل موج سينوسي ميراشونده است که در شکل ۹ نشان داده شده است.
+
+> [!TIP]
+> این مقاله درحال تکمیل است.
