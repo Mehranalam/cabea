@@ -229,6 +229,7 @@ FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تح�
 
 ### منابع: 
 
+<div dir="ltr" align="left">
 1- http://farnet.ir/1393/05/69364/everything-you-need-to￾know-about-3d-printers/
 
 2- https://zharfa3d.com/3d-printer-application-in-medicine/
@@ -246,3 +247,4 @@ FDMمحبوب ترین روشی پرینت سه بعدی است. سیر و تح�
 8- http://paydartajhiz.com/
 
 9- https://3dfast.ir /
+</div>
