@@ -4,7 +4,7 @@ dates: "مرداد ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
 description : "اف ام آر آی (fMRI) مخفف ام آر آی فانکشنال یا ام آر آی عملکردی (Functional magnetic resonance imaging)، نوعی فناوری پیشرفته تصویربرداری غیرتهاجمی از مغز است که فعالیت مغز را با اندازه‌گیری تغییرات در جریان خون تشخیص می‌دهد."
-image: ""
+image: "https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/luxfraqb.png"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/F-MRI.md"
 authors:
   - name: "الناز کریمی"
@@ -59,6 +59,8 @@ math: true
 به‌همین‌دلیل در طول اسکن fMRI، ممکن است از شما خواسته شود که کاری مانند بلند کردن بازو یا فکر کردن به یک کلمه خاص را انجام دهید. این کارها مغز شما را فعال می‌کنند تا ام آر آی عملکردی بتواند فعالیت بخش‌های مختلف مغز شما را اندازه‌گیری کند. درحالی‌که در طی ام آر آی معمولی مغز لازم است بی‌حرکت در زیر دستگاه اسکنر دراز بکشید.
 
 مشخص شده است که ام آر آی فانکشنال به طور غیرمستقیم فعالیت الکتریکی مغز را با تشخیص تغییرات در سطح اکسیژن خون اندازه‌گیری می‌کند. زیرا هنگامی‌که نورون‌ها فعال‌تر می‌شوند، به اکسیژن بیشتری از گلبول‌های قرمز خون نیاز دارند. این میزان از فعالیت در تصاویر fMRI با کد رنگی مشخص می‌شود.  
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/u2ojpsei.png" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 در زمان انجام MRI، ابتدا مولکول‌های هیدروژن بدن با میدان‌های مغناطیسی ایجادشده توسط دستگاه همسو می‌شوند. سپس امواج رادیویی آزادشده به‌عنوان انرژی توسط هسته‌های هیدروژن جذب می‌شوند. با توقف تولید امواج رادیویی، هسته‌ها به حالت تراز خود بازمی‌گردند و سیگنال‌های انرژی کوچکی منتشر می‌کنند. این سیگنال‌ها توسط کامپیوتر به تصاویر تبدیل می‌شوند.
 
@@ -68,6 +70,8 @@ fMRI شواهدی از رفتار مغز براساس تغییرات در فعا
 
 **از نظر محققان، تفاوت MRI و fMRI از نظر تکنولوژی و وضوح بالاتر تصاویر اف ام آر را نمی‌توان انکار کرد.**
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/hajqnfeq.png" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 ----
 
