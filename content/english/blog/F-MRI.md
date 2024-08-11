@@ -1,5 +1,5 @@
 ---
-title: "fMRI (Functional magnetic resonance imaging)"
+title: "تصویربرداری رزونانس مغناطیسی عملکردی"
 dates: "مرداد ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
