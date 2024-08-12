@@ -158,8 +158,9 @@ math: true
 
 
 <img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240812_093100_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
-<br>
 
+<br>
+<br>
 
 
 ## پیزوسرجری
