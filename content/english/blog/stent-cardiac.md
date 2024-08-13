@@ -1,3 +1,26 @@
+---
+title: "آنالیز رگ مصنوعی (استنت قلبی)"
+dates: "مرداد ۱۴۰۳"
+draft: false
+bg_image: "images/IMG.jpg"
+description : "این دستگاه‌های کوچک اما حیاتی می‌توانند شریان را در ناحیه‌ای که باریک می‌شوید باز نگه دارند. پزشکان در این روش به نام استنت قلب ، یا به عنوان یک روش اورژانسی برای درمان حمله قلبی ، یا به روشی برنامه ریزی شده برای گشاد کردن سرخرگی که با تجمع پلاک های چربی باریک می شود، استفاده می شوند"
+image: "https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240813_153547_Word.jpg"
+edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/stent-cardiac.md"
+authors:
+  - name: "امیررضا جلینی"
+    id: "1"
+
+categories: ["مقاله پژوهشی"]
+pretitle: "مقاله پژوهشی"
+reftitle: "تولید شده توسط تیم‌تولید محتوای سایت انجمن"
+pdfurl: ""
+ref: ""
+long: "۷ روز"
+tags: ["گرایش بیومکانیک"]
+type: "post"
+math: true
+---
+
 ### استنت قلب چیست؟
 
 این دستگاه‌های کوچک اما حیاتی می‌توانند شریان را در ناحیه‌ای که باریک می‌شوید باز نگه دارند. پزشکان در این روش به نام استنت قلب ، یا به عنوان یک روش اورژانسی برای درمان حمله قلبی ، یا به روشی برنامه ریزی شده برای گشاد کردن سرخرگی که با تجمع پلاک های چربی باریک می شود، استفاده می شوند.
