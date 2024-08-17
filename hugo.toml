@@ -241,6 +241,10 @@ name = "اساتید"
 url = "teacher/"
 
 [[Languages.en.menu.footer]]
+name = "انتخاب گرایش"
+url = "https://cabea.ir/orientationform/"
+
+[[Languages.en.menu.footer]]
 name = "اطلاعیه"
 url = "notice/"
 
