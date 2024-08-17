@@ -195,6 +195,11 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
+  name = "انتخاب گرایش"
+  url = "https://cabea.ir/orientationform/"
+
+  [[Languages.en.menu.main]]
+  parent = "صفحات تکنیکال"
   name = "تالار افتخارات"
   url = "honors/"
 
