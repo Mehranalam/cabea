@@ -30,11 +30,18 @@ math: true
 
 قبل از بررسی دقیق تر داربست ها بهتره نسبت به ECM اطلاعاتی رو بفهمیم، به نقلی از ویکی‌پدیا توجه کنید:
 
-##### extracellular matrix (ECM)
 
 <div align="left">
-In biology, the extracellular matrix (ECM), also called intercellular matrix (ICM), is a network consisting of extracellular macromolecules and minerals, such as collagen, enzymes, glycoproteins and hydroxyapatite that provide structural and biochemical support to surrounding cells. 
-Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiation are common functions of the ECM. The animal extracellular matrix includes the interstitial matrix and the basement membrane. Interstitial matrix is present between various animal cells (i.e., in the intercellular spaces). Gels of polysaccharides and fibrous proteins fill the interstitial space and act as a compression buffer against the stress placed on the ECM. 
+<h5>extracellular matrix (ECM)</h5>
+
+In biology, the extracellular matrix (ECM), also called intercellular matrix (ICM), is a network consisting of extracellular macromolecules and minerals, such as collagen, enzymes, glycoproteins and hydroxyapatite that provide structural and biochemical support to surrounding cells.
+
+Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiation are common functions of the ECM. 
+
+The animal extracellular matrix includes the interstitial matrix and the basement membrane. Interstitial matrix is present between various animal cells (i.e., in the intercellular spaces). 
+
+Gels of polysaccharides and fibrous proteins fill the interstitial space and act as a compression buffer against the stress placed on the ECM.
+
 </div>
 
 - گوگل ترنسلیت:
@@ -43,9 +50,9 @@ Because multicellularity evolved independently in different multicellular lineag
 
 از آنجا که چند سلولی به طور مستقل در دودمان های مختلف چند سلولی تکامل یافته است، ترکیب ECM بین ساختارهای چند سلولی متفاوت است. با این حال، چسبندگی سلول، ارتباط سلول به سلول و تمایز از عملکردهای رایج ECM هستند. ماتریکس خارج سلولی حیوانی شامل ماتریکس بینابینی و غشای پایه است. ماتریکس بینابینی بین سلولهای حیوانی مختلف (یعنی در فضاهای بین سلولی) وجود دارد. ژل های پلی ساکارید و پروتئین های فیبری فضای بینابینی را پر می کنند و به عنوان یک بافر فشرده سازی در برابر استرس وارد شده بر ECM عمل می کنند.
 
-- https://en.wikipedia.org/wiki/Extracellular_matrix
+- [ویکی پدیا](https://en.wikipedia.org/wiki/Extracellular_matrix)
 
-به نوعی داربست ها با ایجاد محیطی که از ECM الهام گرفته شده، فضایی رو برای رشد و تکثیر سلول فراهم میکنن و فرایند بهبود زخم رو تقویت و حمایت میکنن، تمام دستاورد های بشر دارای منشا طبیعیست و Scoffold ها هم از این قائده مستثنا نیستن، برای درک بهتر هدف وجود داربست ها بهتره نسبت به ساختار ماتریکسی خارج سلولی درک خوبی داشته باشیم.
+**به نوعی داربست ها با ایجاد محیطی که از ECM الهام گرفته شده، فضایی رو برای رشد و تکثیر سلول فراهم میکنن و فرایند بهبود زخم رو تقویت و حمایت میکنن، تمام دستاورد های بشر دارای منشا طبیعیست و Scoffold ها هم از این قائده مستثنا نیستن، برای درک بهتر هدف وجود داربست ها بهتره نسبت به ساختار ماتریکسی خارج سلولی درک خوبی داشته باشیم.**
 
 #### انواع اسکافولدها
 اسکافولدها را می‌توان بر اساس جنس و روش تولید آنها به چندین دسته تقسیم کرد. برخی از این دسته‌بندی‌ها عبارتند از:
