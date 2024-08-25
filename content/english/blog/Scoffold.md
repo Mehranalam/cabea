@@ -3,7 +3,7 @@ title: "داربست‌ها در بیومتریال: مفاهیم، کاربرد
 dates: "شهریور ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
-description : "پلاسما حالت چهارم ماده و به عنوان گاز شبه خنثی یونیزه شده که متشکل از فوتون ها، ذرات خنثی، ذرات ناپایدار، یون ها، رادیکال ها و الکترون ها است شناخته می شود. شبه "
+description : "اسکافولدها ساختارهای سه‌بعدی و متخلخلی هستند که به عنوان داربست برای سلول‌ها در فرآیند بازسازی بافت‌ها استفاده می‌شوند. این ساختارها نه تنها پشتیبانی فیزیکی برای سلول‌ها فراهم می‌کنند، بلکه بافت‌ها را به سمت رشد و تکامل صحیح هدایت می‌کنند"
 image: "images/Screenshot_20240723_211854_OneDrive.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/Plasma-Therapy.md"
 authors:
