@@ -4,8 +4,8 @@ dates: "شهریور ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
 description : "اسکافولدها ساختارهای سه‌بعدی و متخلخلی هستند که به عنوان داربست برای سلول‌ها در فرآیند بازسازی بافت‌ها استفاده می‌شوند. این ساختارها نه تنها پشتیبانی فیزیکی برای سلول‌ها فراهم می‌کنند، بلکه بافت‌ها را به سمت رشد و تکامل صحیح هدایت می‌کنند"
-image: "images/Screenshot_20240723_211854_OneDrive.jpg"
-edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/Plasma-Therapy.md"
+image: "https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/gels-09-00100-g003.jpg"
+edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/scaffold.md"
 authors:
   - name: "مهران علم‌بیگی"
     id: "1"
@@ -33,13 +33,15 @@ math: true
 ##### extracellular matrix (ECM)
 
 In biology, the extracellular matrix (ECM), also called intercellular matrix (ICM), is a network consisting of extracellular macromolecules and minerals, such as collagen, enzymes, glycoproteins and hydroxyapatite that provide structural and biochemical support to surrounding cells. 
-Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiation are common functions of the ECM.[6] The animal extracellular matrix includes the interstitial matrix and the basement membrane. Interstitial matrix is present between various animal cells (i.e., in the intercellular spaces). Gels of polysaccharides and fibrous proteins fill the interstitial space and act as a compression buffer against the stress placed on the ECM. 
+Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiation are common functions of the ECM. The animal extracellular matrix includes the interstitial matrix and the basement membrane. Interstitial matrix is present between various animal cells (i.e., in the intercellular spaces). Gels of polysaccharides and fibrous proteins fill the interstitial space and act as a compression buffer against the stress placed on the ECM. 
 
-Basement membranes are sheet-like depositions of ECM on which various epithelial cells rest. Each type of connective tissue in animals has a type of ECM: collagen fibers and bone mineral comprise the ECM of bone tissue; reticular fibers and ground substance comprise the ECM of loose connective tissue; and blood plasma is the ECM of blood. The plant ECM includes cell wall components, like cellulose, in addition to more complex signaling molecules. Some single-celled organisms adopt multicellular biofilms in which the cells are embedded in an ECM composed primarily of extracellular polymeric substances (EPS)
+- گوگل ترنسلیت:
+  
+در زیست شناسی، ماتریکس خارج سلولی (ECM) که ماتریکس بین سلولی (ICM) نیز نامیده می شود، شبکه ای متشکل از ماکرومولکول ها و مواد معدنی خارج سلولی مانند کلاژن، آنزیم ها، گلیکوپروتئین ها و هیدروکسی آپاتیت است که پشتیبانی ساختاری و بیوشیمیایی را برای سلول های اطراف فراهم می کند. از آنجا که چند سلولی به طور مستقل در دودمان های مختلف چند سلولی تکامل یافته است، ترکیب ECM بین ساختارهای چند سلولی متفاوت است. با این حال، چسبندگی سلول، ارتباط سلول به سلول و تمایز از عملکردهای رایج ECM هستند. ماتریکس خارج سلولی حیوانی شامل ماتریکس بینابینی و غشای پایه است. ماتریکس بینابینی بین سلولهای حیوانی مختلف (یعنی در فضاهای بین سلولی) وجود دارد. ژل های پلی ساکارید و پروتئین های فیبری فضای بینابینی را پر می کنند و به عنوان یک بافر فشرده سازی در برابر استرس وارد شده بر ECM عمل می کنند.
 
 - https://en.wikipedia.org/wiki/Extracellular_matrix
 
-> به نوعی داربست ها با ایجاد محیطی که از ECM الهام گرفته شده، فضایی رو برای رشد و تکثیر سلول فراهم میکنن، تمام دستاورد های بشر دارای منشا طبیعیست و Scofold ها هم از این قائده مستثنا نیستن، برای درک بهتر هدف وجود داربست ها بهتره نسبت به ساختار ماتریکسی خارج سلولی درک خوبی داشته باشیم.
+> به نوعی داربست ها با ایجاد محیطی که از ECM الهام گرفته شده، فضایی رو برای رشد و تکثیر سلول فراهم میکنن و فرایند بهبود زخم رو تقویت و حمایت میکنن، تمام دستاورد های بشر دارای منشا طبیعیست و Scoffold ها هم از این قائده مستثنا نیستن، برای درک بهتر هدف وجود داربست ها بهتره نسبت به ساختار ماتریکسی خارج سلولی درک خوبی داشته باشیم.
 
 #### انواع اسکافولدها
 اسکافولدها را می‌توان بر اساس جنس و روش تولید آنها به چندین دسته تقسیم کرد. برخی از این دسته‌بندی‌ها عبارتند از:
