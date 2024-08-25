@@ -1,5 +1,5 @@
 ---
-title: "پلاسما تراپی"
+title: "داربست‌ها در بیومتریال: مفاهیم، کاربردها و بررسی ساختار"
 dates: "شهریور ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
@@ -27,6 +27,19 @@ math: true
 
 #### تعریف اسکافولد
 اسکافولدها ساختارهای سه‌بعدی و متخلخلی هستند که به عنوان داربست برای سلول‌ها در فرآیند بازسازی بافت‌ها استفاده می‌شوند. این ساختارها نه تنها پشتیبانی فیزیکی برای سلول‌ها فراهم می‌کنند، بلکه بافت‌ها را به سمت رشد و تکامل صحیح هدایت می‌کنند. علاوه بر این، اسکافولدها باید ویژگی‌های زیست‌تخریب‌پذیری، زیست‌سازگاری و توانایی القای زیستی داشته باشند تا به طور مؤثر در بدن عمل کنند.
+
+قبل از بررسی دقیق تر داربست ها بهتره نسبت به ECM اطلاعاتی رو بفهمیم، به نقلی از ویکی‌پدیا توجه کنید:
+
+##### extracellular matrix (ECM)
+
+In biology, the extracellular matrix (ECM), also called intercellular matrix (ICM), is a network consisting of extracellular macromolecules and minerals, such as collagen, enzymes, glycoproteins and hydroxyapatite that provide structural and biochemical support to surrounding cells. 
+Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiation are common functions of the ECM.[6] The animal extracellular matrix includes the interstitial matrix and the basement membrane. Interstitial matrix is present between various animal cells (i.e., in the intercellular spaces). Gels of polysaccharides and fibrous proteins fill the interstitial space and act as a compression buffer against the stress placed on the ECM. 
+
+Basement membranes are sheet-like depositions of ECM on which various epithelial cells rest. Each type of connective tissue in animals has a type of ECM: collagen fibers and bone mineral comprise the ECM of bone tissue; reticular fibers and ground substance comprise the ECM of loose connective tissue; and blood plasma is the ECM of blood. The plant ECM includes cell wall components, like cellulose, in addition to more complex signaling molecules. Some single-celled organisms adopt multicellular biofilms in which the cells are embedded in an ECM composed primarily of extracellular polymeric substances (EPS)
+
+- https://en.wikipedia.org/wiki/Extracellular_matrix
+
+> به نوعی داربست ها با ایجاد محیطی که از ECM الهام گرفته شده، فضایی رو برای رشد و تکثیر سلول فراهم میکنن، تمام دستاورد های بشر دارای منشا طبیعیست و Scofold ها هم از این قائده مستثنا نیستن، برای درک بهتر هدف وجود داربست ها بهتره نسبت به ساختار ماتریکسی خارج سلولی درک خوبی داشته باشیم.
 
 #### انواع اسکافولدها
 اسکافولدها را می‌توان بر اساس جنس و روش تولید آنها به چندین دسته تقسیم کرد. برخی از این دسته‌بندی‌ها عبارتند از:
