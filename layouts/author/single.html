@@ -39,11 +39,14 @@
 			<div class="col-lg-12">
 				<div class="title text-center"> <!--6788-->
 					<h2 class="section-title">{{ i18n "posted_by" }} {{ .Title }}</h2>
+					<br>
+					<hr>
 				</div>
 			</div>
 			{{ range .Params.Oop }}
 			<div align="right" dir="rtl" class="col-lg-4 col-sm-6 mb-4">
 				<h4 dir="rtl"><a href="{{ .mehran }}" class="card-title mb-3 d-block">{{ .title }}</a></h4>
+				<p>{{ .des }}</p>
 				<p><i class="ti-bookmark-alt"></i> تاریخ انتشار مقاله : <b>{{ .data }}</b><br></p>
 			</div>
 			{{ end }}
