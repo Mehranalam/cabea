@@ -4,7 +4,7 @@ dates: "شهریور ۱۴۰۳"
 draft: false
 bg_image: "images/IMG.jpg"
 description : "از آنجایی که پوست، بزرگ ترین ارگان از نظر سایز و مسافت به شمار می آید ،همواره یکی از بزرگ ترین دغدغه های مهندسین پزشکی تولید زخم پوش های نوین و کارآمد، به منظور کمک به بیماران و سرعت بخشیدن به فرآیند درمان آن ها می باشد."
-image: "https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/luxfraqb.png"
+image: "https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221743_Word.jpg"
 edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/F-MRI.md"
 authors:
   - name: "عسل سلیمانی"
@@ -59,6 +59,9 @@ math: true
 - 3)تکثیری
 - 4)تغییرشکل
 
+
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221737_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
  
 #### مرحله دوم (مرحله ی التهابی) :
 
@@ -149,7 +152,8 @@ math: true
 
 
 
-
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221726_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 ##### زخم پوش فیلمی نیمه نفوذپذیر : 
 
@@ -160,6 +164,8 @@ math: true
 
 زخم پوش های فومی از دولایه ی پلی یورتان آب گریز با یک سطح آب دوست تشکیل شده اند.لایه آب گریز از نشتی و نفوذ باکتری هاجلوگیری می کند اما اجازه عبور گازها را می دهد.بسته به نوع زخم ،فوم ها توانایی جذب مقادیر مختلف تراوشات را دارند. زخم پوش های فومی برای زخم های پا ، زخم هایی با ترشح ملایم و زخم هایی درحال دانه ای شدن مناسب اند.معمولا به دلیل جذب بالا و نفوذناپذیری شان نیازی به زخم پوش ثانویه ندارند اما یک عیب بزرگ آنها نیاز داشتن به تعویض مکرر آنها است .
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221721_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 ##### زخم پوش هیدروژلی :
 
@@ -168,14 +174,22 @@ math: true
 پانسمان های هیدروژل یکی از پرکاربردترین پانسمان های زخم هستند. این پانسمان ها که تقریباً ۹۰ درصد از آب تشکیل شده اند، می توانند با مرطوب نگه داشتن زخم زمان بهبودی آن را تسریع کنند.
 
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221719_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
+
 ##### زخم پوش هیدروکلوئیدی :
 
 زخم پوش هاي نرم وراحتي هستند كه از يک شبکه ی تولید مانند ژل کربوکسی متیل سلولز ،پکتین و ژلاتین تشکیل شده اند و به یک فوم یا فیلم پلی یورتان به عنوان حمایت کننده متصل هستند . این نوع زخم پوش ها درمیان زخم پوش های تعاملی ، بیشترین کاربرد را دارند . این نوع زخم پوش برای زخم هایی که ترشحات کم دارند استفاده میشود مانند زخم های فشاری ، سوختگی جزئی و زخم های ناشی از ضربه. هنگامی که بازخم برخورد می کنند،  ژل ها را تشکیل می دهند و باعث مرطوب شدن محیط زخم شده که با جذب و نگهداری ترشحات در حفاظت از بافت دانه ای کمک می کند . به دلیل عدم ایجاد درد هنگام تعویض انتخاب خوبی برای کودکان می باشد .
 
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221715_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
  
 ##### زخم پوش ضدمیکروبی :
 
 زخم پوش های ضدمیکروبی ، جزء پرکاربرد ترین زخم پوش ها می باشند زیرا هم زمان می توانند خواص آنتی باکتریال ویا آنتی بیوفیلمی را داشته باشند. عوامل ضدمیکروبی  در ساختار این زخم پوش معمولا از آنتی بیوتیک هایی مانند تتراسایکلین، سیپروفلاکسین، سفالکسین ، جنتامایسین و سولفادیازین ، نانو ذرات نقره هستند و گاهی عوامل طبیعی مانند عسل ، روغن های ضروری و کیتوسان استفاده می شوند.
+
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221708_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 
 ##### زخم پوش آلژینات :	
@@ -183,6 +197,9 @@ math: true
 زخم پوش های آلژینات برای محافظت از زخم هایی که زهکشی زیادی دارند، سوختگی ها، زخم های وریدی و زخم های فشاری استفاده می شوند. این پانسمان ها مایع اضافی را جذب کرده و ژلی ایجاد می کنند که به ترمیم سریع تر زخم یا سوختگی کمک می کند. به علاوه، آن ها بعد از استفاده قابل تجزیه هستند.
 
 این زخم پوش ها به دلیل مقدار مایعی که جذب می کنند باید هر دو روز یک بار یا گاهی اوقات سریع تر عوض شوند. اما تعویض بیش از حد آن ها می تواند باعث خشکی زخم شده یا منجر به نفوذ باکتری ها به داخل آن شود. بنابراین فقط باید برای زخم های خیس که زهکشی زیادی دارند استفاده شوند. زیرا در غیر این صورت با خشک کردن سریع زخم می توانند مانع بهبودی آن شوند.
+
+<img src="https://raw.githubusercontent.com/Mehranalam/Medical-Engineering-Association/main/content/english/blog/static/Screenshot_20240829_221513_Word.jpg" alt="blog-thumb" class="img-fluid w-100">
+<br>
 
 امروزه با روی کار آمدن زخم پوش های نوین ، زخم پوش های منفعل جایگاه گذشته ی خود را از دست داده اند زیرا ما به دنبال زخم پوش هایی هستیم که به فرآیند بهبود زخم ،سرعت ببخشند و زخم پوش های رایجی که در گذشته استفاده می شد این صفات را نداشتند ،با این وجود هنوز زخم پوش هایی که بتوانند به طور کامل زخم های مزمن مانند زخم های پای وریدی، زخم های دیابتی و فشاری را درمان کنند نداریم.به همین خاطر کادر درمان نیازمند مهندسین پزشکی هستند که بتوانند با تولیدات جدید آنها ،به بیماران خود کمک کنند و از آنها در جهت درمان آسان تر و مطمئن تر استفاده کنند.
 
