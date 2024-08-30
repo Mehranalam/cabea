@@ -106,8 +106,8 @@ map_marker = "images/marker.png" # marker size 37*55 px
 
 # cookies
 [params.cookies]
-enable = true
-expire_days = 2
+enable = false
+expire_days = 10
 
 # [[params.social]]
 # title = "facebook"
