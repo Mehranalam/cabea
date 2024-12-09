@@ -5,7 +5,7 @@ draft: false
 bg_image: "images/IMG.jpg"
 description : "داده‌ها در دنیای امروز مثل طلا هستند، و در پزشکی این طلا به معنای واقعی کلمه زندگی‌بخش است. تحلیل داده‌های پزشکی، هنر استخراج اطلاعات از کوه‌های عظیم داده‌هایی است که روزانه در بیمارستان‌ها، کلینیک‌ها و مراکز تحقیقاتی تولید می‌شوند. در این مقاله، با زبانی ساده و درعین‌حال دقیق، به شما توضیح می‌دهیم که تحلیل داده چیست، چطور کار می‌کند، و چگونه در پزشکی معجزه می‌کند."
 image: "https://raw.githubusercontent.com/Mehranalam/cabea/refs/heads/main/content/english/blog/health_data_analysis-01_1.png"
-edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/data_analysis.md"
+edit: "https://github.com/Mehranalam/Medical-Engineering-Association/blob/main/content/english/blog/medical_data_analysis.md"
 authors:
   - name: "مهران علم‌بیگی"
     id: "1"
