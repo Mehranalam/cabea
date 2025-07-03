@@ -1,4 +1,4 @@
-baseURL = "cabea.ir/"
+baseURL = "https://cabea.liara.run/"
 title = "انجمن مهندسی پزشکی -  تهران مرکزی"
 theme = "Mehraner-hugo"
 timeZone = "Asia/Tehran"
