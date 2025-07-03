@@ -1,89 +1,119 @@
-baseURL = "https://cabea.ir/"
-title = "انجمن مهندسی پزشکی - تهران مرکزی"
+baseURL = "cabea.ir/"
+title = "انجمن مهندسی پزشکی -  تهران مرکزی"
 theme = "Mehraner-hugo"
-languageCode = "fa-ir"
-defaultContentLanguage = "en"
 timeZone = "Asia/Tehran"
-paginate = 6
-summaryLength = 10
+# post pagination
+paginate = 6 
+summaryLength = 10 
 googleAnalytics = "G-CHEBM9VFBO"
-disqusShortname = ""
+disqusShortname = "" # mehraner
+disableLanguages = [] 
 hasCJKLanguage = false
-enableRobotsTXT = true
-minify = true
 
-# Hugo build options
 [build]
 noJSConfigInAssets = false
-useResourceCacheWhen = "fallback"
-
+useResourceCacheWhen = 'fallback'
 [build.buildStats]
 enable = true
-
 [[build.cachebusters]]
-source = "assets/.*\\.(js|ts|jsx|tsx)"
-target = "(js|scripts|javascript)"
-
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
 [[build.cachebusters]]
-source = "assets/.*\\.(css|sass|scss)$"
-target = "(css|styles|scss|sass)"
-
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
 [[build.cachebusters]]
-source = "assets/.*\\.(.*)$"
-target = "$1"
+source = 'assets/.*\.(.*)$'
+target = '$1'
+
 
 [outputs]
 home = ["HTML", "RSS"]
 
 [imaging]
-quality = 85
+quality = 90
 resampleFilter = "lanczos"
 
 [caches]
-  [caches.images]
-  dir = ":resourceDir/_gen"
-  maxAge = "720h"
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
 
-  [caches.assets]
-  dir = ":resourceDir/_gen"
-  maxAge = "720h"
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
 
 [markup]
-  [markup.goldmark.renderer]
-  unsafe = true
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
 
 [params]
 logo = "images/bme.png"
-description = "وب‌سایت انجمن مهندسی پزشکی دانشگاه آزاد تهران مرکزی برای ارتباط با دانشجویان و اطلاع‌رسانی فعالیت‌های علمی و دانشگاهی توسعه یافته است."
-author = "Mehran Alam Beigi"
-address = "تهران، پونک شمالی، بلوار امام حسن، دانشکده فنی مهندسی آزاد اسلامی - نیایش"
+# Meta data
+description = "از این پس انجمن مهندسی پزشکی دانشگاه آزاد واحد تهران مرکز دارای یک پلتفرم مستقل برای ارتباط با دانشجو و همچنین راحتی دانشجویان عزیز برای دریافت منظم اطلاعات دانشگاهی است. وب‌سایت در مراحل ابتدایی توسعه قرار دارد. درنتیجه از شما سروران عزیز تقاضا میکنیم ایده - پیشنهاد و همچنین نقدی بر کارکرد وب‌سایت دارید با استفاده از صفحه ارتباط با انجمن و یا ایمیل درارتباط باشید تا بتونیم هرچه بهتر این بستر را توسعه بدیم همچنین اگر یک توسعه دهنده و فرد فنی هستید تمام این سورس کد های این وب‌سایت آزادانه در دسترس عموم قرار دارد با مراجعه به گیتهاب میتونید تغییرات مناسب را اعمال کنید. تمام درخواست های تغییر بررسی میشوند."
+author = "Mehran ALam Beigi"
+address = "تهران, پونک شمالی بلوار امام حسن دانشکده فنی مهندسی آزاد اسلامی - نیایش"
 mobile = "+989211756034"
 email = "info@cabea.ir"
 contact_form_action = "#"
 google_analitycs_id = ""
 top_header = true
 
-  [params.preloader]
-  enable = true
-  preloader = "images/preloader.gif"
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
-  [params.subscription]
-  enable = true
-  mailchimp_form_action = ""
-  mailchimp_form_name = ""
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = ""
+mailchimp_form_name = ""
 
-  [params.map]
-  enable = false
-  gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-  map_latitude = "35.762046"
-  map_longitude = "51.339170"
-  map_marker = "images/marker.png"
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "35.762046"
+map_longitude = "51.339170"
+map_marker = "images/marker.png" # marker size 37*55 px
 
-  [params.cookies]
-  enable = false
-  expire_days = 10
+# cookies
+[params.cookies]
+enable = false
+expire_days = 10
 
-# Social links
+# [[params.social]]
+# title = "facebook"
+# icon = "ti-facebook"
+# link = "#"
+
 [[params.social]]
 title = "telegram"
 icon = "ti-telegram"
@@ -91,7 +121,7 @@ link = "#"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram"
+icon = "ti-instagram" 
 link = "https://instagram.com/bme_tehranmarkaz"
 
 [[params.social]]
@@ -104,68 +134,35 @@ title = "linkedin"
 icon = "ti-linkedin"
 link = "https://linkedin.com/in/mehranalam"
 
-# CSS plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
 
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
 
-[[params.plugins.css]]
-link = "plugins/animate/animate.css"
 
-[[params.plugins.css]]
-link = "plugins/venobox/venobox.css"
-
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
-[[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-
-[[params.plugins.js]]
-link = "plugins/venobox/venobox.min.js"
-
-[[params.plugins.js]]
-link = "plugins/filterizr/jquery.filterizr.min.js"
-
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
-
-# Multilingual - English is content root
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 
-  [Languages.en.params]
-  home = "خانه"
-  copyright = "This website was developed by [Mehran Alam Beigi](https://linkedin.com/in/mehranalam) and its source is available as open source."
+[Languages.en.params]
+home = "خانه"
+# copyright
+copyright = "This website was developed by [Mehran Alam Beigi](https://linkedin.com/in/mehranalam) and its source is available as open source."
 
-# Main Menu
 [[Languages.en.menu.main]]
 name = "پژوهش ها و مقالات"
 url = "research/"
 weight = 2
 
 [[Languages.en.menu.main]]
+weight = 3
 name = "صفحات تکنیکال"
 hasChildren = true
-weight = 3
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
   name = "دیارا💙"
   url = "https://diara-token.github.io/Diara.ir/"
-
+  
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
   name = "اساتید"
@@ -184,7 +181,7 @@ weight = 3
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
   name = "عضویت در انجمن"
-  url = "form/"
+  url =  "form/"
 
   [[Languages.en.menu.main]]
   parent = "صفحات تکنیکال"
@@ -215,7 +212,7 @@ weight = 3
   parent = "صفحات تکنیکال"
   name = "نویسندگان"
   url = "author/"
-
+  
 [[Languages.en.menu.main]]
 name = "مقالات انجمن"
 url = "blog/"
@@ -227,16 +224,18 @@ url = "contact/"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "مشارکت"
-url = "scholarship/"
-weight = 6
+  name = "مشارکت"
+  url = "scholarship/"
+  weight = 6
 
+# main menu
 [[Languages.en.menu.main]]
-name = "درباره ما"
-url = "about/"
-weight = 7
+  name = "درباره ما"
+  url = "about/"
+  weight = 7
 
-# Footer Menu
+# footer menu
+
 [[Languages.en.menu.footer]]
 name = "اساتید"
 url = "teacher/"

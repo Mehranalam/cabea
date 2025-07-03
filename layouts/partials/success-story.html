@@ -1,7 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
 {{ with $data.homepage.success_story }}
-<section class="section bg-cover" data-background="https://raw.githubusercontent.com/Mehranalam/cabea/refs/heads/main/static/images/backgrounds/page-title.jpg">
+<section class="section bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="row" dir="rtl">
       <div id="section-intro" class="sectionsy col-lg-6 col-sm-8" align="right">
