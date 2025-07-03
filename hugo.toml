@@ -3,12 +3,14 @@ title = "انجمن مهندسی پزشکی -  تهران مرکزی"
 theme = "Mehraner-hugo"
 timeZone = "Asia/Tehran"
 # post pagination
-paginate = 6 
 summaryLength = 10 
 googleAnalytics = "G-CHEBM9VFBO"
 disableLanguages = [] 
 hasCJKLanguage = false
 
+[pagination]
+pagerSize = 6
+  
 [build]
 noJSConfigInAssets = false
 useResourceCacheWhen = 'fallback'
