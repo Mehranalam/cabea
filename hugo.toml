@@ -6,7 +6,6 @@ timeZone = "Asia/Tehran"
 paginate = 6 
 summaryLength = 10 
 googleAnalytics = "G-CHEBM9VFBO"
-disqusShortname = "mehraner" # mehraner
 disableLanguages = [] 
 hasCJKLanguage = false
 
